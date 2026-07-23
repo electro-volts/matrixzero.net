@@ -3,8 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <style>
-			body
-			{
+			body {
 				font-family: 'Courier New', monospace;
 			}
             a:link {
@@ -12,6 +11,15 @@
             }
             a:visited {
                 color: #b4ff00; /* link vizitat */
+            }
+            table {
+                border-collapse: collapse;
+            }
+            table, th, td {
+                border: 1px none #b4ff00;
+            }
+            th, td {
+                padding: 6px 6px; /* sus-jos și stânga-dreapta */
             }
 		</style>
     </head>
@@ -22,15 +30,22 @@
             săptămânale cu privire la un articol ales din numărul Dilema din acea săptămână.<br>
             Tabel cu toate numerele (datele sunt afișate în formatul DD/MM/YYYY):
         </p>
-        <table background-color="#0b1a12">
+        <table style="background-color:#0b1a12">
             <tr>
-                <td>AUGUST:</td>
-                <td>9/08/26</td>
-                <td>2/08/26</td>
+                <td style="text-align: right">AUGUST:</td>
+                <td><center>30/08/26</center></td>
+                <td><center>23/08/26</center></td>
+                <td><center>16/08/26</center></td>
+                <td><center>9/08/26</center></td>
+                <td><center>2/08/26</center></td>
             </tr>
             <tr>
-                <td>IULIE:</td>
-                <td>26/07/26</td>
+                <td style="text-align: right">IULIE:</td>
+                <td><center>N/A</center></td>
+                <td><center>26/07/26</center></td>
+                <td><center>19/07/26</center></td>
+                <td><center>12/07/26</center></td>
+                <td><center>3/08/26</center></td>
             </tr>
         </table></font>
     </body>
