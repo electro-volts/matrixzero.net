@@ -1,0 +1,1 @@
+readme cred că
