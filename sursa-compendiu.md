@@ -1,3 +1,5 @@
+# ALGEBRĂ
+
 **NUMERE REALE**
 $\mathbb{N}=\{0,\,1,\,2,\,3,\,...\}$: mulțimea nr. *naturale*
 $\mathbb{Z}=\mathbb{N}\cup\{-1,\,-2,\,-3,\,...\}=\{...,\,-3,\,-2,\,-1,\,0,\,1,\,2,\,3,\,...\}$: mulțimea nr. *întregi*
@@ -117,3 +119,18 @@ $\geq$ Un enunț care depinde de una sau mai multe variabile și doar prin înlo
 | $P(5):$ |            "A"            | **\|\|** | $Q(3,6):$ |               "A"               |
 $\geq$ *Propoziția universală* "$(\forall x)\,P(x)$" este adevărată atunci când $\forall x_0\in M,\,P(x_0)$ este adevărată, unde "$\forall$" se numește *cuantificator universal*. Dacă găsim o singură valoare $\alpha\in M$ astfel încât $P(\alpha)$ este falsă, atunci propoziția universală este falsă și $\alpha$ se numește *contraexemplu*. Exemplu: $\begin{aligned}[t]P(x)&:\,(x^2>0)\,x\in\mathbb{R}\\(\forall x)\,&P(x):\,\forall x\in\mathbb{R},\,x^2>0\,\,\,\text{"F"}\\&P(0):\,0^2>0\,\,\,\text{"F"}\end{aligned}$
 $\geq$ *Propoziția existențială* "$(\exists x)\,P(x)$" este adevărată dacă există cel puțin o valoare $x_0\in M$ astfel încât $P(x_0)$ este adevărată. Propoziția existențială este falsă dacă $\forall x_0\in M$ $P(x_0)$ este falsă, unde  "$\exists$ " se numește *cuantificator existențial*. Exemplu: $\begin{aligned}[t](\exists x)\,\text{"}x^2>0\text{"}\,x\in\mathbb{R}\,\,\,\text{"A"}\\ P(1):\,1^2>0\,\,\,\text{"A"}\end{aligned}$
+
+
+# GEOMETRIE
+
+**VECTORI ÎN PLAN**
+$\geq$ Prin *segmentul* $(AB)$ înțelegem mulțimea punctelor dreptei $AB$ situate între punctele $A$ și $B$  (puncte ce sunt numite și *capete* sau *extremități*).
+$\geq$ Prin *segmentul orientat* $AB$, notat $\overline{AB}$ înțelegem segmentul $(AB)$ împreună cu o ordine bine determinată a capetelor sale, adică $A$ este *originea* și $B$ este *vârful*. Acestea fiind spuse, $\overline{AB}\neq\overline{BA}.$
+$\geq$ *Lungimea* segmentului orientat $\overline{AB}$ este lungimea segmentului $(AB)$. Aceasta se notează $|\overline{AB}|$. Spunem că două segmente orientate $\overline{AB}$ și $\overline{CD}$ au aceeași lungime dacă $AB=CD$.
+$\geq$ *Direcția* segmentului orientat $\overline{AB}$ este formată din dreapta $AB$ și toate dreptele $d\parallel AB$. ***Observație:*** segmentele orientate $\overline{AB}$ și $\overline{CD}$ au aceeași direcție dacă $AB\parallel CD$ sau $A,B,C,D$ coliniare.
+$\geq$ Fie $\overline{AB}$ și $\overline{CD}$ două segmente orientate cu aceeași direcție. Spunem că segmentele orientate au același *sens* dacă punctele $B$ și $D$ se află de aceeași parte a dreptei $AC$ sau dacă semidreptele $(AB$ și $(CD$ se includ una pe cealaltă. 
+$\geq$ Spunem că segmentele orientate $\overline{AB}$ și $\overline{CD}$ sunt *echipolente* dacă au aceeași lungime, direcție șl sens. Relația de echipolență se notează astfel: $\overline{AB}\sim\overline{CD}$. $\overline{AB}\sim\overline{CD}\leftrightarrow \begin{cases}AB=CD\\ AB\parallel CD\text{ sau }A-B-C-D\\ A\rightarrow B,\,C\rightarrow D\text{ același sens}\end{cases}$
+$\geq$ Propietăți:
+$\overline{AB}\sim\overline{AB}$ (reflexitivitate)
+$\overline{AB}\sim\overline{CD}\leftrightarrow\overline{CD}\sim\overline{AB}$ (simetrie)
+$\left.\begin{aligned}\overline{AB}\sim\overline{CD}\\ \overline{CD}\sim\overline{EF}\end{aligned}\right\} \implies\overline{AB}\sim\overline{EF}\text{ (tranzitivitate)}$
