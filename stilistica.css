@@ -20,3 +20,10 @@ table, th, td {
 th, td {
     padding: 6px 6px; /* sus-jos și stânga-dreapta */
 }
+#recent-commits .commit-message {
+    display: block;
+    margin-bottom:8px;
+}
+.commit-item {
+    padding: 12px 0;
+}
