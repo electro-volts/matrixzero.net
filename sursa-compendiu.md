@@ -106,3 +106,14 @@ $\geq$ O formulă prop. care este adevărată indiferent de valorile de adevăr 
 | :-: | :------: | :-------------: |
 | $1$ |   $0$    |       $1$       |
 | $0$ |   $1$    |       $1$       |
+$\geq$ Un enunț care depinde de una sau mai multe variabile și doar prin înlocuirea variabilelor cu diverse valori devin propoziții logice se numește *predicat*. În funcție de câte variabile apar avem:
+1) *predicat unar*: depinde de o singură variabilă: "$P(x)$", $x\in M$ 
+2) predicat *binar*:  depinde de două variabile: "$P(x,y)$", $x\in M$
+3) predicat *ternar*: depinde de trei variabile: "$P(x,y,z)$", $x\in M$
+
+| $P(x):$ | "$x>3$", $x\in\mathbb{R}$ | **\|\|** |  $Q(x):$  | "$x\mid y$", $x,y\in\mathbb{N}$ |
+| :-----: | :-----------------------: | :------: | :-------: | :-----------------------------: |
+| $P(3):$ |            "F"            | **\|\|** | $Q(2,3):$ |               "F"               |
+| $P(5):$ |            "A"            | **\|\|** | $Q(3,6):$ |               "A"               |
+$\geq$ *Propoziția universală* "$(\forall x)\,P(x)$" este adevărată atunci când $\forall x_0\in M,\,P(x_0)$ este adevărată, unde "$\forall$" se numește *cuantificator universal*. Dacă găsim o singură valoare $\alpha\in M$ astfel încât $P(\alpha)$ este falsă, atunci propoziția universală este falsă și $\alpha$ se numește *contraexemplu*. Exemplu: $\begin{aligned}[t]P(x)&:\,(x^2>0)\,x\in\mathbb{R}\\(\forall x)\,&P(x):\,\forall x\in\mathbb{R},\,x^2>0\,\,\,\text{"F"}\\&P(0):\,0^2>0\,\,\,\text{"F"}\end{aligned}$
+$\geq$ *Propoziția existențială* "$(\exists x)\,P(x)$" este adevărată dacă există cel puțin o valoare $x_0\in M$ astfel încât $P(x_0)$ este adevărată. Propoziția existențială este falsă dacă $\forall x_0\in M$ $P(x_0)$ este falsă, unde  "$\exists$ " se numește *cuantificator existențial*. Exemplu: $\begin{aligned}[t](\exists x)\,\text{"}x^2>0\text{"}\,x\in\mathbb{R}\,\,\,\text{"A"}\\ P(1):\,1^2>0\,\,\,\text{"A"}\end{aligned}$
