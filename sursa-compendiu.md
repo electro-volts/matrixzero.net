@@ -134,3 +134,5 @@ $\geq$ Propietăți:
 $\overline{AB}\sim\overline{AB}$ (reflexitivitate)
 $\overline{AB}\sim\overline{CD}\leftrightarrow\overline{CD}\sim\overline{AB}$ (simetrie)
 $\left.\begin{aligned}\overline{AB}\sim\overline{CD}\\ \overline{CD}\sim\overline{EF}\end{aligned}\right\} \implies\overline{AB}\sim\overline{EF}\text{ (tranzitivitate)}$
+$\geq$ Deoarece relația de echipolență este reflexivă, simetrică și tranzitivă, echipolența este și o relație de echivalență, ceea ce o determină să împartă mulțimea tuturor segmentelor orientate în *clase de echivalență*. ***Observație:*** pentru un segment orientat dat există o infinitate de segmente orientate echipolente cu el.
+$\geq$ Mulțimea tuturor segmentelor orientate echipolente cu un segment orientat dat se numește *vector*. Vectorul este o clasă de echivalență. Oricare segment orientat este considerat *reprezentant* al vectorului: $\begin{aligned}[t]&\overline{AB}\text{ segment orientat}\\ &\overrightarrow{AB}\text{ vector (liber)}\\ &\overrightarrow{AB}=\{\overline{AB},\,\overline{CD},\,\overline{EF},\,...\}\end{aligned}$
