@@ -126,8 +126,21 @@ $\geq$ Fie $P(n)$ o propoziție care depinde de $n\in\mathbb{N},\,n\geq m$. Acea
 2) presupunem că $P(k)$ este $\text{"A"},\,k\in\mathbb{N},\,k\geq m$, oarecare și demonstrăm $P(k+1)$ este $\text{"A"}$
 Dacă qambele etape au loc atunci $P(n)\text{ "A"}\,\,\forall n\geq m$.
 $\geq$ Se definesc următoarele notații: $$\frac{1}{1\cdot 4}+\frac{1}{4\cdot 7}+...+\frac{1}{(3n-2)(3n+1)}=\sum_{k=1}^{n} \frac{1}{(3k-2)(3k+1)}\,\,\,\text{ și }\,\,\,1^2\cdot 2^2\cdot 3^2\cdot...\cdot n^2=\prod_{k=1}^n k^2,$$
-unde operatorul $\Sigma$ indică "sumă pentru $k$ de la $1$ la $n$" și operatorul $\Pi$ indică "produs pentru $k$ de la $1$ la $n$". 
+unde operatorul $\Sigma$ indică "sumă pentru $k$ de la $1$ la $n$" și operatorul $\Pi$ indică "produs pentru $k$ de la $1$ la $n$".
 
+**ȘIRURI DE NUMERE REALE**
+$\geq$ O *funcție* este notată $f:A\rightarrow B;\,\forall x\in A\,\,\exists f(x)\in B\text{ unic}$, unde $A$ se numește *domeniu de definiție*, $B$ *codomeniu* sau *mulțimea imaginilor* și $f(x)$ *imaginea lui $x$ prin funcția $f$*.
+$\geq$ O funcție $f:\mathbb{N}_k\rightarrow\mathbb{R}$ se numește *șir de numere reale*, unde $\mathbb{N}_k=\{n\in\mathbb{N}\,|\,n\geq k,\,k\geq\mathbb{N}\}$. $\forall n\in\mathbb{N},\,n\geq k\rightarrow f(n)\in\mathbb{R}\text{ unic}$, unde $f(n)=a_n\in\mathbb{R}$ se numește *termenul de rang $n$ al șirului*. ***Observație:*** orice șir are o infinitate de termeni. Un șir poate fi definit prin unul dintre următoarele trei moduri:
+1) prin *enumerare*
+2) cu ajutorul unei *formule* sau a mai multor formule, unde formula reprezintă o legătură dintre rang și valoare: $b_n=\frac{2n-1}{2n+1},\forall n\in\mathbb{N}^*$ (de exemplu).
+3) printr-o *relație de recurență*, unde relația de recurență reprezintă o legătură între doi sau mai mulți termeni consecutivi ai șirului: $f_n=f_{n-1}+f_{n-2},\,\forall n\geq 2$ (de exemplu).
+
+$\geq$ Spunem că șirul $(a_n)_{n\geq 1}$ este:
+1) *strict crescător* dacă $a_n<a_{n+1}\,\forall n\in\mathbb{N}^*$
+2) *crescător* dacă $a_n\leq a_{n+1},\,\forall n\in\mathbb{N}^*$
+3) *strict descrescător* dacă $a_n>a_{n+1},\,\forall n\in\mathbb{N}^*$
+4) *descrescător* dacă $a_n\geq a_{n+1}\,\forall n\in\mathbb{N}^*$
+$\geq$ Un șir $(a_n)_{n\geq 1}$ se numește *mărginit* dacă $\exists a,b\in\mathbb{R},\,a<b$ astfel încât $a\leq a_n\leq b,\,\forall n\in\mathbb{N}^*$, unde $a$ se numește *margine inferioară* și $b$ *margine superioară*.
 
 
 # GEOMETRIE
