@@ -141,6 +141,12 @@ $\geq$ Spunem că șirul $(a_n)_{n\geq 1}$ este:
 3) *strict descrescător* dacă $a_n>a_{n+1},\,\forall n\in\mathbb{N}^*$
 4) *descrescător* dacă $a_n\geq a_{n+1}\,\forall n\in\mathbb{N}^*$
 $\geq$ Un șir $(a_n)_{n\geq 1}$ se numește *mărginit* dacă $\exists a,b\in\mathbb{R},\,a<b$ astfel încât $a\leq a_n\leq b,\,\forall n\in\mathbb{N}^*$, unde $a$ se numește *margine inferioară* și $b$ *margine superioară*.
+$\geq$ Un șir în care fiecare termen începând cu al doilea se obține din cel anterior prin adunarea aceluiași număr real numit *rație* se numește *progresie aritmetică*: $a_n=a_{n-1}+r,\,\forall n\geq 2$. Formula pentru termenul de rang $n$ al unei progresii aritmetice în funcție de rația $r$ și primul termen $a_1$ este următoarea: $a_n=a_1+(n-1)r$. ***Observație:*** o progresie aritmetică este unic determinată de primul său termen și de rație.
+$\geq$ Spunem că numerelee reale $x_1,x_2,...,x_n$ sunt în progresie aritmetică dacă sunt termeni consecutivi ai unei progresii aritmetice: $\div\,x_1,x_2,...,x_n$.
+$\geq$ Un șir $(a_n)_{n\geq 1}$ este progresie aritmetică dacă și numai dacă fiecare termen începând cu al doilea este media aritmetică a termenilor vecini lui:
+$\geq$ Notăm suma primilor $n$ termeni ai unei progresii aritmetice astfel: $S_n=a_1+a_2+...+a_n,\,n\in\mathbb{N}^*$ Suma aceasta se calculează folosind următoare formulă:$$a_n=\frac{a_{n-1}+a_{n+1}}{2},\,\forall n\geq 2;\,\,\,\,S_n=\frac{(a_1+a_n)n}{2}$$
+***Observație:*** în orice progresie aritmetică suma termenilor extremi este constantă: $a_1+a_n=a_2+a_{n-1}=...=a_k+a_{n+1-k}$.
+
 
 
 # GEOMETRIE
