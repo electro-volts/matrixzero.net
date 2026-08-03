@@ -113,7 +113,7 @@ $\geq$ Un enunț care depinde de una sau mai multe variabile și doar prin înlo
 2) predicat *binar*:  depinde de două variabile: "$P(x,y)$", $x\in M$
 3) predicat *ternar*: depinde de trei variabile: "$P(x,y,z)$", $x\in M$
 
-| $P(x):$ | "$x>3$", $x\in\mathbb{R}$ | **\|\|** |  $Q(x):$  | "$x\mid y$", $x,y\in\mathbb{N}$ |
+| $P(x):$ | "$x>3$", $x\in\mathbb{R}$ | **\|\|** | $Q(x,y):$ | "$x\mid y$", $x,y\in\mathbb{N}$ |
 | :-----: | :-----------------------: | :------: | :-------: | :-----------------------------: |
 | $P(3):$ |            "F"            | **\|\|** | $Q(2,3):$ |               "F"               |
 | $P(5):$ |            "A"            | **\|\|** | $Q(3,6):$ |               "A"               |
@@ -146,6 +146,13 @@ $\geq$ Spunem că numerelee reale $x_1,x_2,...,x_n$ sunt în progresie aritmetic
 $\geq$ Un șir $(a_n)_{n\geq 1}$ este progresie aritmetică dacă și numai dacă fiecare termen începând cu al doilea este media aritmetică a termenilor vecini lui:
 $\geq$ Notăm suma primilor $n$ termeni ai unei progresii aritmetice astfel: $S_n=a_1+a_2+...+a_n,\,n\in\mathbb{N}^*$ Suma aceasta se calculează folosind următoare formulă:$$a_n=\frac{a_{n-1}+a_{n+1}}{2},\,\forall n\geq 2;\,\,\,\,S_n=\frac{(a_1+a_n)n}{2}$$
 ***Observație:*** în orice progresie aritmetică suma termenilor extremi este constantă: $a_1+a_n=a_2+a_{n-1}=...=a_k+a_{n+1-k}$.
+$\geq$ Un șir în care primul termen este nenul și fiecare termen începând cu al doilea se obține din cel anterior prin înmulțire cu același număr real nenul se numește *progresie geometrică*: $(b_n)_{n\geq 1}\text{ prog. geometrică}\Longleftrightarrow b_n=b_{n-1}\cdot q,\,\forall n\geq 2,\,n\in\mathbb{N}$. Numărul real $q$ cu care înmulțim se numește *rația* progresiei. ***Observație:*** $(b_n)_{n\geq 1}\text{ prog. geometrică}\Longleftrightarrow b_n=\sqrt{b_{n-1}\cdot b_{n+1}},\,b_n>0\,\text{ sau }\,b_n^2=b_{n-1}\cdot b_{n+1},\,b_n\in\mathbb{R}$.
+$\geq$ Un șir cu termeni pozitivi este progresie geometrică dacă și numai dacă fiecare termen începând cu al doilea este media geometrică a vecinilor săi.
+$\geq$ Spunem că numerele reale $x_1,x_2,...,x_n$ se află în progresie geometrică dacă sunt termeni consecutivi ai progresiei (nu neapărat primii): $\text{∺ }x_1,x_2,...,x_n$.
+$\geq$ Suma primilor $n$ termeni ai unei progresii geometrice poate fi calculată folosind următoarea formulă:$$S_n=b_1\cdot\frac{q^n-1}{q-1},\,q\neq1\,\text{ sau }\,S_n=b_1\cdot n,\,q=1$$
+
+
+
 
 
 
