@@ -3,7 +3,7 @@
 **NUMERE REALE**
 $\mathbb{N}=\{0,\,1,\,2,\,3,\,...\}$: mulțimea nr. *naturale*
 $\mathbb{Z}=\mathbb{N}\cup\{-1,\,-2,\,-3,\,...\}=\{...,\,-3,\,-2,\,-1,\,0,\,1,\,2,\,3,\,...\}$: mulțimea nr. *întregi*
-$\mathbb{Q}=\{\frac ab|\,a,\,b\in\mathbb{Z},\,b\neq0\}$: mulțimea nr. *raționale*
+$\mathbb{Q}=\{\frac ab\,|\,\,a,\,b\in\mathbb{Z},\,b\neq0\}$: mulțimea nr. *raționale*
 $\mathbb{R}\,\backslash\,\mathbb{Q}$: mulțimea nr. *reale*
 $\geq$ Orice număr rațional se scrie sub formă de fracție zecimală finită sau infinită periodică, cu perioada diferită de 0 sau 9.
 
@@ -151,10 +151,16 @@ $\geq$ Un șir cu termeni pozitivi este progresie geometrică dacă și numai da
 $\geq$ Spunem că numerele reale $x_1,x_2,...,x_n$ se află în progresie geometrică dacă sunt termeni consecutivi ai progresiei (nu neapărat primii): $\text{∺ }x_1,x_2,...,x_n$.
 $\geq$ Suma primilor $n$ termeni ai unei progresii geometrice poate fi calculată folosind următoarea formulă:$$S_n=b_1\cdot\frac{q^n-1}{q-1},\,q\neq1\,\text{ sau }\,S_n=b_1\cdot n,\,q=1$$
 
+**PROPRIETĂȚILE GENERALE ALE FUNCȚIILOR**
+$\geq$ Amintim notația și definiția unei funcții: $f:A\rightarrow B\implies\forall x\in A\,\,\exists f(x)\in B$, unde $A$ se numește domeniu de definiție și $B$ codomeniu sau *domeniu de valori*. *Graficul* funcției $f$ reprezintă mulțimea $G_f=\{(x,(f(x))\,|\,x\in A\}$. Dacă punctul $(x,y)\in G_f$, atunci $f(x)=y$. Numărul de funcții $f:A\rightarrow B$ este $(\text{card B})^{\text{card A}}$.
+$\geq$ Funcția $g:A\rightarrow\mathbb{R},\,g(x)=f(x)\,\,\forall x\in A$ se numește *restricție* a funcției $f$ și se notează $f|_A$. Funcția $f$ se numește *prelungire* a funcției $g$.
+$\geq$ Fie *funcția numerică* $f:D\rightarrow\mathbb{R},\,D\subset\mathbb{R}$ și $A\subseteq D$: dacă $A\subset D,\,f(A)=\{f(x)\,|\,x\in A\}$ se numește *imaginea* mulțimii $A$ prin $f$; dacă $A=D,\,Im\,f=\{f(x)\,|\,x\in D\}$ se numește *imaginea* funcției $f$.
+$\geq$ Spunem că o funcție $f:D\rightarrow\mathbb{R}$ este *mărginită* dacă $Im\,f\subset[a,b],\,a,b\in\mathbb{R}$. ***Observație:*** o funcție trebuie să aibă ambele margini pentru a fi mărginită.
 
-
-
-
+**FUNCȚIA DE GRADUL I**
+$\geq$ Funcția $f:\mathbb{R}\rightarrow\mathbb{R},\,f(x)=ax+b$, unde $a,b\in\mathbb{R}$ se numește *funcție  afină*. Dacă $a\neq 0$, atunci funcția $f$ se numește *funcție de gradul I*. Dacă $a=0$, atunci $f:\mathbb{R}\rightarrow\mathbb{R},\,f(x)=b\in\mathbb{R}$ se numește *funcție constantă*. ***Observație:*** graficul funcției afine (constantă sau de gradul I) este o dreaptă.
+$\geq$ O mulțime $D\subseteq\mathbb{R}$ se numește *simetrică față de origine* dacă $\forall x\in D\implies -x\in D$.
+$\geq$ Fie $D\subseteq\mathbb{R}$ o mulțime simetrică față de origine. Spunem că o funcție $f:D\rightarrow\mathbb{R}$ este funcție *pară* dacă $f(x)=f(-x),\,\forall x\in D$ sau funcție *impară* dacă $f(-x)=-f(x),\forall x\in D$.  
 
 # GEOMETRIE
 
@@ -174,7 +180,7 @@ $\geq$ Mulțimea tuturor segmentelor orientate echipolente cu un segment orienta
 $\geq$ Prin *modulul* sau *lungimea* vectorului $\overrightarrow{AB}$ înțelegem $|\overrightarrow{AB}|=AB=BA$.
 $\geq$ Prin *direcția* vectorului $\overrightarrow{AB}$ înțelegem dreapta $AB$ și $(\forall)d\parallel AB$.
 $\geq$ *Sensul* vectorului $\overrightarrow{AB}$ este de la $A$ la $B$, unde $A$ se numește *origine* și $B$ *vârf*. 
-$\overrightarrow u=\overrightarrow v\Longleftrightarrow\begin{cases}\text{-au același modul: }|\overrightarrow u|=|\overrightarrow v|\\ \text{-au aceeași direcție}\\ \text{-au același sens}\end{cases}$
+$\overrightarrow u=\overrightarrow v\Longleftrightarrow\begin{cases}\text{-au același modul: }|\overrightarrow u|=|\overrightarrow v|\\ \text{-au aceeași direcție}\\ \text{-au același sens}\end{cases}$ 
 $\overrightarrow{AB}=\overrightarrow{CD}\Longleftrightarrow\begin{cases}AB=CD\\ AB\parallel CD\text{ sau }A,B,C,D\text{ coliniare}\\ B,D\text{ de aceeași parte al lui }AC\end{cases}$
 ***Observație:*** dacă $A,B,C,D$ nu sunt toate coliniare: $\overrightarrow{AB}=\overrightarrow{CD}\Longleftrightarrow ABDC\text{ paralelogram}$.
 ***Observație:*** dacă $A=B$, atunci $\overrightarrow{AB}=\overrightarrow{AA}=\overrightarrow 0$ (vector *nul*). Vectorul nul are următoarele proprietăți: direcția este orice dreaptă (nu este bine definită) și originea este egală cu vârful. 
