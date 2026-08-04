@@ -140,6 +140,7 @@ $\geq$ Spunem că șirul $(a_n)_{n\geq 1}$ este:
 2) *crescător* dacă $a_n\leq a_{n+1},\,\forall n\in\mathbb{N}^*$
 3) *strict descrescător* dacă $a_n>a_{n+1},\,\forall n\in\mathbb{N}^*$
 4) *descrescător* dacă $a_n\geq a_{n+1}\,\forall n\in\mathbb{N}^*$
+
 $\geq$ Un șir $(a_n)_{n\geq 1}$ se numește *mărginit* dacă $\exists a,b\in\mathbb{R},\,a<b$ astfel încât $a\leq a_n\leq b,\,\forall n\in\mathbb{N}^*$, unde $a$ se numește *margine inferioară* și $b$ *margine superioară*.
 $\geq$ Un șir în care fiecare termen începând cu al doilea se obține din cel anterior prin adunarea aceluiași număr real numit *rație* se numește *progresie aritmetică*: $a_n=a_{n-1}+r,\,\forall n\geq 2$. Formula pentru termenul de rang $n$ al unei progresii aritmetice în funcție de rația $r$ și primul termen $a_1$ este următoarea: $a_n=a_1+(n-1)r$. ***Observație:*** o progresie aritmetică este unic determinată de primul său termen și de rație.
 $\geq$ Spunem că numerelee reale $x_1,x_2,...,x_n$ sunt în progresie aritmetică dacă sunt termeni consecutivi ai unei progresii aritmetice: $\div\,x_1,x_2,...,x_n$.
@@ -161,6 +162,41 @@ $\geq$ Spunem că o funcție $f:D\rightarrow\mathbb{R}$ este *mărginită* dacă
 $\geq$ Funcția $f:\mathbb{R}\rightarrow\mathbb{R},\,f(x)=ax+b$, unde $a,b\in\mathbb{R}$ se numește *funcție  afină*. Dacă $a\neq 0$, atunci funcția $f$ se numește *funcție de gradul I*. Dacă $a=0$, atunci $f:\mathbb{R}\rightarrow\mathbb{R},\,f(x)=b\in\mathbb{R}$ se numește *funcție constantă*. ***Observație:*** graficul funcției afine (constantă sau de gradul I) este o dreaptă.
 $\geq$ O mulțime $D\subseteq\mathbb{R}$ se numește *simetrică față de origine* dacă $\forall x\in D\implies -x\in D$.
 $\geq$ Fie $D\subseteq\mathbb{R}$ o mulțime simetrică față de origine. Spunem că o funcție $f:D\rightarrow\mathbb{R}$ este funcție *pară* dacă $f(x)=f(-x),\,\forall x\in D$ sau funcție *impară* dacă $f(-x)=-f(x),\forall x\in D$.  
+$\geq$ Două puncte $A$ și $B$ sunt simetrice față de un punct $M$ dacă are loc relația $MA\equiv MB,\,M\in(AB)$. Două puncte $A$ și $B$ sunt simetrice față de o dreaptă $d$ dacă $AB\perp d,\,AB\cap d=\{M\}$ și $MA\equiv MB$.
+$\geq$ Spunem că graficul funcției $f$ este *simetric* față de dreapta de ecuație $x=a$ dacă $f(a-x)=f(a+x),\,\forall x\in D$, unde dreapta $x=a$ se numește *axă de simetrie*. ***Observație:*** $f:D\rightarrow\mathbb{R}\text{ funcție pară}\Longleftrightarrow\begin{aligned}[t]&f(-x)=f(x),\,\forall x\in D\\ &f(0-x)=f(0+x),\,x\in D\\ &\text{dreapta x=0 (axa Oy) axă de simetrie.}\end{aligned}$
+$\geq$ Spunem că graficul funcției $f$ este simetric față de punctul $P(a,b)$ dacă $f(a-x)+f(a+x)=2b,\,\forall x\in D$. Punctul $P$ se numește *centru de simetrie*. ***Observație:*** $f:D\rightarrow\mathbb{R}\text{ funcție impară}\Longleftrightarrow\begin{aligned}[t]&f(-x)=-f(x),\,\forall x\in D\\ &f(-x)+f(x)=0\\ &\frac{f(0-x)+f(0+x)}{2}=0\\ &O(0,0)\text{ centru de simetrie.}\end{aligned}$
+$\geq$ Fie $f:D\rightarrow\mathbb{R},\,D\subset\mathbb{R}$ (funcție numerică). Spunem că funcția $f$ este:
+1) *strict crescătoare* pe $D$ dacă $\forall x_1,x_2\in D,\,x_1<x_2\implies f(x_1)<f(x_2)$
+2) *strict descrescătoare* pe $D$ dacă $\forall x_1,x_2\in D,\,x_1<x_2\implies f(x_1)>f(x_2)$
+3) *strict monotonă* pe $D$ dacă este strict crescătoare sau strict descrescătoare
+4) *crescătoare* $(\nearrow)$ pe $D$ dacă $\forall x_1,x_2\in D,\,x_1<x_2\implies f(x_1)\leq f(x_2)$
+5) *descrescătoare* $(\searrow)$ pe $D$ dacă $\forall x_1,x_2\in D,\,x_1<x_2\implies f(x_1)\geq f(x_2)$
+6) *monotonă* pe $D$ dacă este crescătoare sau descrescătoare
+
+$\geq$ $\text{Fie }x_1,x_2\in\mathbb{R},\,x_1<x_2$
+$f(x_1)-f(x_2)=x_1^2-x_2^2=(x_1-x_2)(x_1+x_2)$
+$\text{dacă }x_1,x_2\in[0,+\infty)\implies\begin{aligned}[t]&f(x_1)-f(x_2)<0\\ &f(x_1)<f(x_2)\\ &f\text{ strict }\nearrow\text{ pe }[0,+\infty)\end{aligned}$
+$\text{dacă }x_1,x_2\in(-\infty,0)\implies\begin{aligned}[t]&f(x_1)-f(x_2)>0\\ &f(x_1)>f(x_2)\\ &f\text{ strict }\searrow\text{ pe }(-\infty,0),\end{aligned}$ 
+unde $[0,+\infty)$ și $(-\infty,0]$ se numesc *intervale de monotonie*.
+$\geq$ Se definesc următoarele funcții: $\max(a,b)\left\{\begin{aligned} &a,\,a\geq b \\ &b,\,a<b \end{aligned}\right.$ , și $\min(a,b)\left\{\begin{aligned}a,\,a\leq b\\ b,\,a>b\end{aligned}\right.$.
+$\geq$ Dacă o funcție este monotonă pe o mulțime atunci ea are aceeași monotonie pe orice submulțime a mulțimii date: $\begin{aligned}&f:D\rightarrow\mathbb{R},\,D\subseteq\mathbb{R}\\ &\text{presupunem }f\text{ strict }\nearrow\text{ pe }D\Longleftrightarrow\forall x_1,x_2\in D,\,x_1<x_2\implies f(x_1)<f(x_2)\\ &A\subset D\,\,\,\text{fie }x_1,x_2\in A,\,x_1<x_2\implies x_1,x_2\in D\implies f(x_1)<f(x_2).\end{aligned}$ 
+Reciproca afirmației este, în general, ***falsă***.
+$\geq$ Dacă funcția $f:\mathbb{R}\rightarrow\mathbb{R},\,f(x)=\begin{cases} f_1(x),x\leq a \\ f_2(x),\,x>a\end{cases}$ este strict $\nearrow$ pe $(-\infty,a]$ și pe $(a,+\infty)$ trebuie să aibă loc și relația $f_1(a)\leq f_2(a)$ astfel încât $f$ să fie strict $\nearrow$ pe $\mathbb{R}$. Analog, dacă $f$ este strict $\searrow$ pe $(-\infty,a]$ și pe $(a,+\infty)$ trebuie să aibă loc și relația $f_1(a)\geq f_2(a)$ astfel încât $f$ să fie strict $\searrow$ pe $\mathbb{R}$.
+$\geq$ Fie $f:D\rightarrow\mathbb{R},\,D\subset\mathbb{R}$. Spunem că $f$ este periodică dacă $\exists T\in\mathbb{R},\,T\neq 0$ cu proprietatea $f(x+T)=f(x),\,\forall x\in D$. Numărul real $T\neq 0$ se numește *perioadă* a funcției $f$. ***Observație:*** dacă o funcție are o perioadă atunci ea are o infinitate de perioade: $f(x+kT)=f(x),\,\forall x\in D,\,\forall k\in\mathbb{Z}^*$.
+$\geq$ Dacă $T\neq 0$ este o perioadă a funcției $f$ atunci numerele $kT,\,k\in\mathbb{Z}^*$ sunt perioade ale funcției $f$, adică $f$ admite o infinitate de perioade. Dacă există, cea mai mică perioadă strict pozitivă se numește *perioadă principală*. 
+$\geq$ Fie funcțiile $f,g:D\rightarrow\mathbb{R},\,D\subset\mathbb{R}\text{ (numerice)}$. Se definesc următoarele *operații cu funcții*:
+1) adunarea: $f+g:D\rightarrow\mathbb{R},\,(f+g)(x)=f(x)+g(x),\,\forall x\in D$, unde $(f+g)(x)$ reprezintă *funcția sumă*
+2) produsul: $f\cdot g:D\rightarrow\mathbb{R},\,(f\cdot g)(x)=f(x)\cdot g(x),\,\forall x\in D$, unde $(f\cdot g)(x)$ reprezintă *funcția produs*
+3) împărțirea: $\frac fg:D_1\rightarrow\mathbb{R},\,(\frac fg)(x)=\frac{f(x)}{g(x)},\,\forall x\in D$, unde $(\frac fg)(x)$ reprezintă *funcția cât* și $D_1=\{x\in D\,|\,g(x)\neq 0\}$
+
+$\geq$ Dacă  $f:A\rightarrow B,\,g:B\rightarrow C$ prin *compunerea* funcțiilor $g$ și $f$ înțelegem funcția notată $g\circ f$ cu proprietățile: $\begin{aligned} &g\circ f:A\rightarrow C \\ &(g\circ f)(x)=g(f(x)),\,\forall x\in A.\end{aligned}$ ***Observație:*** $g\circ f$ are sens $\Longleftrightarrow$ domeniul de definiție al lui $g$ coincide cu codomeniul lui $f$.  În general, compunerea funcțiilor ***nu*** este comutativă. Compunerea funcțiilor este, în schimb, asociativă: $A\overset{f}\longrightarrow B\overset{g}\longrightarrow C\overset{h}\longrightarrow D\implies\begin{aligned} &h\circ(g\circ f):A\rightarrow D \\ &(h\circ g)\circ f:A\rightarrow D.\end{aligned}$
+Altfel spus, $(h\circ g)\circ f=h\circ(g\circ f)$.
+$\geq$ Funcția $1_A:A\rightarrow A,\,1_A(x)=x,\,\forall x\in A$ se numește *funcția identică* a mulțimii $A$: $\begin{aligned}&1_{\mathbb{N}}:\mathbb{N}\rightarrow\mathbb{N},\,1_{\mathbb{N}}(n)=n,\,\forall n\in\mathbb N \\ &A\overset{1_A}\longrightarrow A\overset{f}\longrightarrow B \\ &(f\circ 1_A)(x)=f(1_A(x))=f(x)\implies f\circ 1_A=f\,\,\text{ element neutru la dreapta} \\ &A\overset{f}\longrightarrow B\overset{1_B}\longrightarrow B \\ &(1_B\circ f)(x)=1_B(f(x))=f(x)\implies1_B\circ f=f\,\,\text{ element neutru la stânga}\end{aligned}$
+
+
+
+
+
 
 # GEOMETRIE
 
