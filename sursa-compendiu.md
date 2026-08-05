@@ -189,12 +189,19 @@ $\geq$ Fie funcțiile $f,g:D\rightarrow\mathbb{R},\,D\subset\mathbb{R}\text{ (nu
 2) produsul: $f\cdot g:D\rightarrow\mathbb{R},\,(f\cdot g)(x)=f(x)\cdot g(x),\,\forall x\in D$, unde $(f\cdot g)(x)$ reprezintă *funcția produs*
 3) împărțirea: $\frac fg:D_1\rightarrow\mathbb{R},\,(\frac fg)(x)=\frac{f(x)}{g(x)},\,\forall x\in D$, unde $(\frac fg)(x)$ reprezintă *funcția cât* și $D_1=\{x\in D\,|\,g(x)\neq 0\}$
 
-$\geq$ Dacă  $f:A\rightarrow B,\,g:B\rightarrow C$ prin *compunerea* funcțiilor $g$ și $f$ înțelegem funcția notată $g\circ f$ cu proprietățile: $\begin{aligned} &g\circ f:A\rightarrow C \\ &(g\circ f)(x)=g(f(x)),\,\forall x\in A.\end{aligned}$ ***Observație:*** $g\circ f$ are sens $\Longleftrightarrow$ domeniul de definiție al lui $g$ coincide cu codomeniul lui $f$.  În general, compunerea funcțiilor ***nu*** este comutativă. Compunerea funcțiilor este, în schimb, asociativă: $A\overset{f}\longrightarrow B\overset{g}\longrightarrow C\overset{h}\longrightarrow D\implies\begin{aligned} &h\circ(g\circ f):A\rightarrow D \\ &(h\circ g)\circ f:A\rightarrow D.\end{aligned}$
+$\geq$ Dacă  $f:A\rightarrow B,\,g:B\rightarrow C$ prin *compunerea* funcțiilor $g$ și $f$ înțelegem funcția notată $g\circ f$ cu proprietățile: $\begin{aligned} &g\circ f:A\rightarrow C \\ &(g\circ f)(x)=g(f(x)),\,\forall x\in A.\end{aligned}$ ***Observații:*** $g\circ f$ are sens $\Longleftrightarrow$ domeniul de definiție al lui $g$ coincide cu codomeniul lui $f$; suma a două funcții strict crescătoare/descrescătoare este o funcție strict crescătoare/descrescătoare; compunerea a două funcții de aceeași monotonie este o funcție strict crescătoare; compunerea a două funcții de monotonii diferite este o funcție strict descrescătoare. În general, compunerea funcțiilor ***nu*** este comutativă. Compunerea funcțiilor este, în schimb, asociativă: $A\overset{f}\longrightarrow B\overset{g}\longrightarrow C\overset{h}\longrightarrow D\implies\begin{aligned} &h\circ(g\circ f):A\rightarrow D \\ &(h\circ g)\circ f:A\rightarrow D.\end{aligned}$
 Altfel spus, $(h\circ g)\circ f=h\circ(g\circ f)$.
 $\geq$ Funcția $1_A:A\rightarrow A,\,1_A(x)=x,\,\forall x\in A$ se numește *funcția identică* a mulțimii $A$: $\begin{aligned}&1_{\mathbb{N}}:\mathbb{N}\rightarrow\mathbb{N},\,1_{\mathbb{N}}(n)=n,\,\forall n\in\mathbb N \\ &A\overset{1_A}\longrightarrow A\overset{f}\longrightarrow B \\ &(f\circ 1_A)(x)=f(1_A(x))=f(x)\implies f\circ 1_A=f\,\,\text{ element neutru la dreapta} \\ &A\overset{f}\longrightarrow B\overset{1_B}\longrightarrow B \\ &(1_B\circ f)(x)=1_B(f(x))=f(x)\implies1_B\circ f=f\,\,\text{ element neutru la stânga}\end{aligned}$
 
+**FUNCȚIA DE GRADUL II**
+$\geq$ O ecuație de forma $ax^2+bx+c=0\,\,(1)$ unde $a,b,c\in\mathbb{R},\,a\neq 0$ se numește *ecuație de gradul al doilea*. Numerele reale $a,b,c$ se numesc *coeficienți* ai ecuației, iar $x$ se numește *necunoscută*.
+$\geq$ Prin *soluție* a ecuației $(1)$ înțelegem un nr. real $\alpha$ cu proprietatea $a\alpha^2+b\alpha+c=0$.
+$\geq$ *Rezolvarea* ecuației de gradul II presupune aflarea *rădăcinilor* $x_1,x_2$ folosind formula $x_{1,2}=\frac{-b\pm\sqrt{\Delta}}{2a}$, unde $\Delta$ se numește *discriminant* și are formula $\Delta=b^2-4ac$. În funcție de semnul lui delta ($\Delta$), soluțiile oricărei ecuații aparțin unuia dintre următoarele trei cazuri:
+1) două soluții reale: $\Delta>0\implies x_1,x_2\in\mathbb{R},\,x_1\neq x_2$
+2) o soluție reală/două soluții reale identice: $\Delta=0\implies x_1,x_2\in\mathbb{R},\,x_1=x_2=-\frac b{2a}$
+3) nicio soluție reală: $\Delta<0\implies x_1,x_2\notin\mathbb{R}$
 
-
+$\geq$ Dacă $x_1,x_2$ sunt rădăcinile (soluțiile) ecuației $(1)$ atunci au loc următoarele relații (cunoscute și ca *relațiile lui Viete*): $S=x_1+x_2=-\frac ba,\,P=x_1\cdot x_2=\frac ca$. Dacă $x_1,x_2\in\mathbb{R}$ și $S=x_1+x_2,\,P=x_1x_2$ atunci ecuația $x^2-Sx+P=0$ are ca soluții reale pe $x_1$ și $x_2$. ***Observații:*** $x_1^2+x_2^2=S^2-2P,\,x_1^3+x_2^3=S(S^2-3P)$. 
 
 
 
