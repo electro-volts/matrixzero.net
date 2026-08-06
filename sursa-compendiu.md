@@ -202,6 +202,39 @@ $\geq$ *Rezolvarea* ecuației de gradul II presupune aflarea *rădăcinilor* $x_
 3) nicio soluție reală: $\Delta<0\implies x_1,x_2\notin\mathbb{R}$
 
 $\geq$ Dacă $x_1,x_2$ sunt rădăcinile (soluțiile) ecuației $(1)$ atunci au loc următoarele relații (cunoscute și ca *relațiile lui Viete*): $S=x_1+x_2=-\frac ba,\,P=x_1\cdot x_2=\frac ca$. Dacă $x_1,x_2\in\mathbb{R}$ și $S=x_1+x_2,\,P=x_1x_2$ atunci ecuația $x^2-Sx+P=0$ are ca soluții reale pe $x_1$ și $x_2$. ***Observații:*** $x_1^2+x_2^2=S^2-2P,\,x_1^3+x_2^3=S(S^2-3P)$. 
+$\geq$ O expresie de forma $ax^2+bx+c,\,a,b,c\in\mathbb{R},\,a\neq 0$ se numește *trinom de gradul al doilea*. Dacă $a,b,c\in\mathbb{R},\,a\neq 0$ și $x_1,x_2\in\mathbb{R}$ sunt rădăcinile ecuației $ax^2+bx+c=0$ atunci $ax^2+bx+c=a(x-x_1)(x-x_2)$.
+$\geq$ Funcția $f:\mathbb{R}\rightarrow\mathbb{R},\,f(x)=ax^2+bx+c,\,a,b,c\in\mathbb{R},\,a\neq 0$ se numește *funcție de gradul al doilea*. Ecuația $ax^2+bx+c=0$ s numește *ecuație asociată* funcției de gradul II. Orice funcție de gradul II admite o *formă canonică*:$$f(x)=a(x+\frac b{2a})^2+\frac{-\Delta}{4a}$$
+$\geq$ Fie $f:D\rightarrow\mathbb{R},\,D\subseteq\mathbb{R}$. Spunem că $x_0\in D$ este un punct de *minim (maxim)* al funcției $f$ dacă $f(x)\geq f(x_0),\,\forall x\in D\,\,\,(f(x)\leq f(x_0),\,\forall x\in D)$. Numărul $f(x_0)$ se numește *valoare minimă (maximă)* a funcției $f$.
+$\geq$ Fie $f:\mathbb{R}\rightarrow\mathbb{R},\,f(x)=ax^2+bx+c,\,a,b,c\in\mathbb{R},\,a\neq 0$:
+1) dacă $a>0$ atunci funcția $f$ are minim $x_{min}=-\frac b{2a}$ este punctul minim și $f(x)_{min}=-\frac \Delta{4a}$ este valoarea minimă a funcției
+2) dacă $a<0$ atunci funcția $f$ are maxim, $x_{max}=-\frac b{2a}$ este punctul de maxim și $f(x)_{max}=-\frac \Delta{4a}$ este valoarea maximă a funcției
+
+***Observații:*** $\begin{aligned}[t]&a>0\implies f(x)_{min}=-\frac \Delta{4a}\implies Im\,f=[-\frac \Delta{4a},+\infty) \\ &a<0\implies f(x)_{max}=-\frac \Delta{4a}\implies Im\,f=(-\infty,-\frac \Delta{4a}] \\ &x=-\frac b{2a}\text{ este axa de simetrie a }G_f\end{aligned}$
+$\geq$ Graficul funcției de gradul al doilea este o curbă numită *parabolă*. Punctul $V(-\frac b{2a},-\frac \Delta{4a})$ se numește *vârful* parabolei. Graficul se intersectează ***tot timpul*** cu axa $Oy$ în punctul de coordonate $(0,f(0))$, iar intersecția cu axa $Ox$ acceptă ***trei cazuri:***
+1) $\Delta<0:$ ecuația nu are soluții în $\mathbb{R}\implies G_f\cap Ox=\varnothing$
+2) $\Delta=0:$ $x_1=x_2=-\frac b{2a}\implies G_f\cap Ox=V(-\frac b{2a},0)$, axa $Ox$ este ***tangentă*** la parabolă
+3) $\Delta>0:$ $x_{1,2}=\frac{-b\pm\sqrt{\Delta}}{2a},\,x_1\neq x_2\implies G_f\cap Ox=\{A(x_1,0),\,B(x_2,0)\}$ 
+
+***Observație:*** calculăm imaginile unor valori ded o parte și de alta a vârfului pentru a desena parabola cât mai exact.
+$\geq$ Dacă $a>0$ atunci funcția $f$ este strict descrescătoare pe $(-\infty,-\frac b{2a}]$ și strict crescătoare pe $[-\frac b{2a},\,+\infty)$. Dacă $a<0$ atunci funcția $f$ este strict crescătoare pe $(-\infty,-\frac b{2a}]$ și strict descrescătoare pe $[-\frac b{2a},+\infty)$. ***Observație:*** $f$ (orice funcție de gradul II) nu este monotonă pe $\mathbb{R}$.
+$\geq$ *A stabili semnul funcției $f$* înseamnă a determina intervalele pe care funcția este positivă sau negativă. Intervalele acestea sunt dependente de semnul lui $\Delta$  și al lui $a$ după cum urmează:
+1) $\Delta<0$: $\begin{aligned}[t] &a>0\implies f(x)>0,\,\forall x\in\mathbb{R} \\ &a<0\implies f(x)<0,\,\forall x\in\mathbb{R} \end{aligned}$
+2) $\Delta=0$: $\begin{aligned}[t] &a>0\implies f(x)\geq 0,\,\forall x\in\mathbb{R} \\ &a<0\implies f(x)\leq 0,\,\forall x\in\mathbb{R} \end{aligned}$
+3) $\Delta>0$: $\begin{aligned}[t] &x\in(-\infty,x_1)\cup(x_2,+\infty) \\ &a>0\implies f(x)>0 \\ &a<0\implies f(x)<0\end{aligned}$
+
+$\geq$ Semnul unei funcții de gradul I urmează următoarele reguli: $\begin{aligned}[t] &x\in(-\infty,-\frac ba)\implies f(x)\text{ are semnul opus lui }a \\ &x\in(-\frac ba,+\infty)\implies f(x)\text{ are semnul lui }a \\ &x=-\frac ba\implies f(x)=0\end{aligned}$
+$\geq$ În funcție de semnul lui $S$ și $P$ menționate anterior în cadrul relațiilor lui Viete putem stabili câteva relații între rădăcinile $x_1$ și $x_2$ ale unei ecuații de gradul II:$\begin{aligned}[t] &S>0,\,P>0\implies x_1<0,\,x_2>0 \\ &S<0,\,P>0\implies x_1<0,\,x_2<0 \\ &S>0,\,P<0\implies x_1<0,\,x_2>0,\,|x_2|>|x_1| \\ &S<0,\,P<0\implies x_1<0,\,x_2>0,\,|x_1|>|x_2|\end{aligned}$
+
+**REZOLVAREA UNOR SISTEME DE DOUĂ ECUAȚII CU DOUĂ NECUNOSCUTE**
+**sisteme formate dintr-o ecuație de gradul I și una de gradul II:** din ecuația de gradul I exprimăm o necunoscută în funcție de cealaltă, înlocuim în a doua ecuație
+$\geq$ Prin *soluția unui sistem* înțelegem o pereche $(x_0,y_0)\in\mathbb{R}\times\mathbb{R}$ care verifică ambele ecuații ale sistemului. Soluțiile sistemului reprezintă intersecțiile dintre dreaptă și parabolă.
+**sisteme omogene:**
+$\geq$ O ecuație de forma $ax^2+bxy+cy^2=d,\,a,b,c,d\in\mathbb{R}$ se numește *ecuație omogenă* de gradul al doilea cu necunoscutele $x$ și $y$. Un sistem format din două eucații omogene se numește *sistem omogen*. Forma lui generală arată astfel: $(1)\begin{cases} ax^2+bxy+cy^2=d \\ mx^2+nxy+py^2=q\end{cases}$. Soluția sistemului $(1)$ este o pereche $(x_0,y_0)\in\mathbb{R}\times\mathbb{R}$. ***Observații:*** dacă $d=0$ sau $q=0$ atunci alegem acea ecuație și împărțim cu $y^2$ (sau descompunem în factori). Dacă $d\neq 0$ și $q\neq 0$ înmulțim convenabil ecuațiile și le adunăm-scădem astfel încât să obținem $0$ în dreapta.
+**sisteme simetrice:**
+$\geq$ O ecuație în necunoscutele $x$ și $y$ se numește *simetrică* dacă prin schimbarea necunoscutelor între ele ecuația nu se schimbă: $\begin{aligned}[t] &2x^2-3x-3y+2y^2=5 \\ &x\longleftrightarrow y:\,2y^2-3y-3x+2x^2=5\end{aligned}$ (de exemplu). Un sistem în care ambele ecuații sunt simetrice se numește *sistem simetric*. Indicație generală de rezolvare: $\text{notăm }S=x+y,\,P=xy\implies\text{ sistemul în necunoscutele }S\text{ și }P\text{ este mai simplu}$
+
+
+
 
 
 
