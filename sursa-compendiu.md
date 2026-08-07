@@ -66,7 +66,7 @@ $\{x\}=0\Longleftrightarrow x\in\mathbb{Z}$
 **ELEMENTE DE LOGICĂ MATEMATICĂ**
 $\geq$ Un enunț despre care putem spune că este adevărat sau fals, dar nu ambele, se numește
 *propoziție logică.*
-$\geq$ *Valorile de adevăr* sunt 
+$\geq$ *Valorile de adevăr* sunt *"adevărat" ("A" sau "1")* și *"fals" ("F" sau "0")*. 
 $\geq$ Prin *negația* propoziției logice $p$ înțelegem propoz. notată $\neg p$ sau $\overline p$ numită "$non\,\,p$" care este
 adevărată când $p$ este falsă și este falsă când $p$ este adevărată. 
 $\geq$ *Tabel de adevăr* pentru negația propozițiilor:
@@ -215,7 +215,7 @@ $\geq$ Graficul funcției de gradul al doilea este o curbă numită *parabolă*.
 2) $\Delta=0:$ $x_1=x_2=-\frac b{2a}\implies G_f\cap Ox=V(-\frac b{2a},0)$, axa $Ox$ este ***tangentă*** la parabolă
 3) $\Delta>0:$ $x_{1,2}=\frac{-b\pm\sqrt{\Delta}}{2a},\,x_1\neq x_2\implies G_f\cap Ox=\{A(x_1,0),\,B(x_2,0)\}$ 
 
-***Observație:*** calculăm imaginile unor valori ded o parte și de alta a vârfului pentru a desena parabola cât mai exact.
+***Observație:*** calculăm imaginile unor valori de o parte și de alta a vârfului pentru a desena parabola cât mai exact.
 $\geq$ Dacă $a>0$ atunci funcția $f$ este strict descrescătoare pe $(-\infty,-\frac b{2a}]$ și strict crescătoare pe $[-\frac b{2a},\,+\infty)$. Dacă $a<0$ atunci funcția $f$ este strict crescătoare pe $(-\infty,-\frac b{2a}]$ și strict descrescătoare pe $[-\frac b{2a},+\infty)$. ***Observație:*** $f$ (orice funcție de gradul II) nu este monotonă pe $\mathbb{R}$.
 $\geq$ *A stabili semnul funcției $f$* înseamnă a determina intervalele pe care funcția este positivă sau negativă. Intervalele acestea sunt dependente de semnul lui $\Delta$  și al lui $a$ după cum urmează:
 1) $\Delta<0$: $\begin{aligned}[t] &a>0\implies f(x)>0,\,\forall x\in\mathbb{R} \\ &a<0\implies f(x)<0,\,\forall x\in\mathbb{R} \end{aligned}$
