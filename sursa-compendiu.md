@@ -262,3 +262,17 @@ $\overrightarrow{AB}=\overrightarrow{CD}\Longleftrightarrow\begin{cases}AB=CD\\ 
 ***Observație:*** dacă $A=B$, atunci $\overrightarrow{AB}=\overrightarrow{AA}=\overrightarrow 0$ (vector *nul*). Vectorul nul are următoarele proprietăți: direcția este orice dreaptă (nu este bine definită) și originea este egală cu vârful. 
 $\left.\begin{aligned}\overrightarrow{AB}\\ \overrightarrow{BA}\end{aligned}\right\} \left.\begin{aligned}&\text{-același modul}\\ &\text{-aceeași direcție}\\ &\text{-sens opus} \end{aligned}\right\}$ vectori *opuși*
 $-\overrightarrow v\longrightarrow\text{ opusul vectorului }\overrightarrow v;\,\,\overrightarrow{AB}=-\overrightarrow{BA}$.
+
+**OPERAȚII CU VECTORI LIBERI**
+**adunarea vectorilor**
+$\geq$ Notăm cu $V$ mulțimea tuturor vectorilor. Dacă avem vectorii $\overrightarrow u$ și $\overrightarrow v$, atunci și suma lor, vectorul $\overrightarrow w=\overrightarrow u+\overrightarrow v$ , aparține de asemenea lui $V$.
+1) $\overrightarrow u$ și $\overrightarrow v$ au ***același*** sens: 
+$\left.\begin{aligned}\overrightarrow u=\overrightarrow{AB} \\ \overrightarrow v=\overrightarrow{BC}\end{aligned}\right\} \implies\overrightarrow u+\overrightarrow v=\overrightarrow{AC}=\overrightarrow w$
+direcție: aceeași cu $\overrightarrow u$ și $\overrightarrow v$
+sens: același cu $\overrightarrow u$ și $\overrightarrow v$
+modul: $|\overrightarrow u+\overrightarrow v|=|\overrightarrow u|+|\overrightarrow v|$
+2) $\overrightarrow u$ și $\overrightarrow v$ au sens ***opus***:
+$\left.\begin{aligned}&\overrightarrow u=\overrightarrow{AB} \\&\overrightarrow v=\overrightarrow{BC}\end{aligned}\right\}\implies\overrightarrow u+\overrightarrow v=\overrightarrow{AC}$
+direcție: comună cu $\overrightarrow u$ și $\overrightarrow v$
+sens: același cu $\overrightarrow u$ ***pentru că*** $|\overrightarrow u|>|\overrightarrow v|$
+
