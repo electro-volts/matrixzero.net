@@ -264,7 +264,7 @@ $\left.\begin{aligned}\overrightarrow{AB}\\ \overrightarrow{BA}\end{aligned}\rig
 $-\overrightarrow v\longrightarrow\text{ opusul vectorului }\overrightarrow v;\,\,\overrightarrow{AB}=-\overrightarrow{BA}$.
 
 **OPERAȚII CU VECTORI LIBERI**
-**adunarea vectorilor**
+**adunarea vectorilor:**
 $\geq$ Notăm cu $V$ mulțimea tuturor vectorilor. Dacă avem vectorii $\overrightarrow u$ și $\overrightarrow v$, atunci și suma lor, vectorul $\overrightarrow w=\overrightarrow u+\overrightarrow v$ , aparține de asemenea lui $V$.
 1) $\overrightarrow u$ și $\overrightarrow v$ au ***același*** sens: 
 $\left.\begin{aligned}\overrightarrow u=\overrightarrow{AB} \\ \overrightarrow v=\overrightarrow{BC}\end{aligned}\right\} \implies\overrightarrow u+\overrightarrow v=\overrightarrow{AC}=\overrightarrow w$
@@ -275,4 +275,29 @@ modul: $|\overrightarrow u+\overrightarrow v|=|\overrightarrow u|+|\overrightarr
 $\left.\begin{aligned}&\overrightarrow u=\overrightarrow{AB} \\&\overrightarrow v=\overrightarrow{BC}\end{aligned}\right\}\implies\overrightarrow u+\overrightarrow v=\overrightarrow{AC}$
 direcție: comună cu $\overrightarrow u$ și $\overrightarrow v$
 sens: același cu $\overrightarrow u$ ***pentru că*** $|\overrightarrow u|>|\overrightarrow v|$
+3) $\overrightarrow u$ și $\overrightarrow v$  au sens ***opus*** și $|\overrightarrow u|=|\overrightarrow v|$
+$\left.\begin{aligned}&\overrightarrow v=-\overrightarrow u \\&\overrightarrow u=-\overrightarrow v\end{aligned}\right\}$ vectori opuși
+$\overrightarrow u+\overrightarrow v=\overrightarrow 0$
+$\overrightarrow u+(-\overrightarrow u)=\overrightarrow 0$
+4) $\overrightarrow u$ și $\overrightarrow v$ au ***direcții diferite***:
+*Regula triunghiului:*
+$\left.\begin{aligned}&\overrightarrow u=\overrightarrow{AB}\\ &\overrightarrow v=\overrightarrow{BC}\end{aligned}\right\}\implies\overrightarrow u+\overrightarrow v=\overrightarrow{AC}$
+*Regula paralelogramului:*
+$\left.\begin{aligned}&\overrightarrow u=\overrightarrow{AB}\\ &\overrightarrow v=\overrightarrow{AC}\\ &\text{ABCD paralelogram}\end{aligned}\right\}\implies\overrightarrow u+\overrightarrow v=\overrightarrow{AD}$
+$\forall A,B,C$ puncte din plan: $\overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{AC}$
+
+$\geq$ Proprietăți:
+$(\overrightarrow u+\overrightarrow v)+\overrightarrow w=\overrightarrow u+(\overrightarrow v+\overrightarrow w),\,\forall\overrightarrow u,\,\,\overrightarrow v,\,\,\overrightarrow w\in V$ (asociativitate)
+$\overrightarrow u+\overrightarrow v=\overrightarrow v+\overrightarrow u,\,\forall\overrightarrow u,\,\,\overrightarrow v\in V$ (comutativitate)
+$\overrightarrow u+\overrightarrow 0=\overrightarrow u,\,\forall\overrightarrow u\in V$ ($\overrightarrow 0\in V$ element neutru)
+$\forall\overrightarrow v\in V\longrightarrow(\exists)-\overrightarrow v\in V$
+$\geq$ Generalizare: *regula poligonului:* suma vectorilor este vectorul care închide poligonul. Acesta are originea primului vector și vârful ultimului vector.
+**înmulțirea vectorilor:**
+$\geq$ Prin *produsul* dintre numărul real $\alpha$ și vectorul $\overrightarrow v$ înțelegem vectorul $\alpha\cdot\overrightarrow v$ cu proprietățile: are ***aceeași*** direcție cu $\overrightarrow v\,\,(\alpha\neq 0)$; are ***același*** sens cu $\overrightarrow v$ dacă $\alpha>0$ și sens ***opus*** lui $\overrightarrow v$ dacă $\alpha<0$; modulul $|\alpha\cdot\overrightarrow v|=|\alpha|\cdot|\overrightarrow v|$ ; dacă $\alpha=0$ sau $\overrightarrow v=0$, atunci $\alpha\cdot\overrightarrow v=\overrightarrow 0$.
+$\geq$ Proprietăți:
+$(\alpha+\beta)\cdot\overrightarrow v=\alpha\cdot\overrightarrow v+\beta\cdot\overrightarrow v,\,\forall\alpha,\beta\in\mathbb{R}\text{ și }\overrightarrow v\in V$
+$\alpha(\overrightarrow u+\overrightarrow v)=\alpha\cdot\overrightarrow u+\alpha\cdot\overrightarrow v,\,\forall\alpha\in\mathbb{R}\text{ și }\overrightarrow u,\,\,\overrightarrow v\in V$
+$\alpha(\beta\cdot\overrightarrow v)=\beta(\alpha\cdot\overrightarrow v)=\alpha\beta\cdot\overrightarrow v,\,\forall\alpha,\beta\in\mathbb{R}\text{ și }\overrightarrow v\in V$
+$1\cdot\overrightarrow v=\overrightarrow v,\,\forall\overrightarrow v\in V$
+
 
