@@ -234,10 +234,6 @@ $\geq$ O ecuație de forma $ax^2+bxy+cy^2=d,\,a,b,c,d\in\mathbb{R}$ se numește 
 $\geq$ O ecuație în necunoscutele $x$ și $y$ se numește *simetrică* dacă prin schimbarea necunoscutelor între ele ecuația nu se schimbă: $\begin{aligned}[t] &2x^2-3x-3y+2y^2=5 \\ &x\longleftrightarrow y:\,2y^2-3y-3x+2x^2=5\end{aligned}$ (de exemplu). Un sistem în care ambele ecuații sunt simetrice se numește *sistem simetric*. Indicație generală de rezolvare: $\text{notăm }S=x+y,\,P=xy\implies\text{ sistemul în necunoscutele }S\text{ și }P\text{ este mai simplu}$
 
 
-
-
-
-
 # GEOMETRIE
 
 **VECTORI ÎN PLAN**
@@ -300,4 +296,40 @@ $\alpha(\overrightarrow u+\overrightarrow v)=\alpha\cdot\overrightarrow u+\alpha
 $\alpha(\beta\cdot\overrightarrow v)=\beta(\alpha\cdot\overrightarrow v)=\alpha\beta\cdot\overrightarrow v,\,\forall\alpha,\beta\in\mathbb{R}\text{ și }\overrightarrow v\in V$
 $1\cdot\overrightarrow v=\overrightarrow v,\,\forall\overrightarrow v\in V$
 
+**VECTORI COLINIARI**
+$\geq$ Doi vectori care au aceeași direcție se numesct vectori *coliniari*. Fie $\overrightarrow u,\,\overrightarrow v\in V,\,\overrightarrow u\neq0,\,\overrightarrow v\neq0$. Atunci $\overrightarrow u$ și $\overrightarrow v$ sunt coliniari dacă și numai dacă $\exists\alpha\in\mathbb{R}^*$ astfel încât $\overrightarrow u=\alpha\cdot\overrightarrow v$.
+$\geq$ Dacă $\overrightarrow u$ și $\overrightarrow v$ nu au aceeași direcție, atunci ei se numesc *necoliniari*. ***Consecință:*** dacă $\overrightarrow u$ și $\overrightarrow v$ sunt necoliniari și $p\cdot\overrightarrow u+q\cdot\overrightarrow v,\,p,q\in\mathbb{R}$ atunci $p=q=0$.
+$\geq$ Mulțimea formattă din doi vectori necoliniari se numește *bază*. ***Observație:*** orice vector din plan se exprimă în mod unic în funcție de doi vectori coliniari.
+$(\overrightarrow u,\overrightarrow v)$ bază
+$\left.\begin{aligned}&\overrightarrow w=a\cdot\overrightarrow u+b\cdot\overrightarrow v\\ &\overrightarrow w=c\cdot\overrightarrow u+d\cdot\overrightarrow v\end{aligned}\right\}\implies a=c,\,b=d$
 
+$a\cdot\overrightarrow u+b\cdot\overrightarrow v=c\cdot\overrightarrow u+d\cdot\overrightarrow v$
+$\left.\begin{aligned}&(a-c)\overrightarrow u+(b-d)\overrightarrow v=\overrightarrow 0 \\&\text{fie }p=a-c\text{ și } q=b-d \\&\overrightarrow u,\,\overrightarrow v\text{ necoliniari}\end{aligned}\right\}\implies\begin{aligned}[t]&p=q=0 \\&a=c \\&b=d\end{aligned}$
+
+**DESCOMPUNEREA UNUI VECTOR**
+$\geq$ Pentru orice vector $\overrightarrow w\in V\,\,\,\exists a,b\in\mathbb{R}$ și baza $(\overrightarrow u,\,\overrightarrow v)$ astfel încât $\overrightarrow w=a\cdot\overrightarrow u+b\cdot\overrightarrow v$, unde $a$ și $b$ se numesc *componentele* lui $\overrightarrow w$ după baza $(\overrightarrow u,\,\overrightarrow v)$.
+
+**REPER CARTEZIAN ÎN PLAN**
+$\geq$ Fie punctele $x,y,O$ și dreptele $Ox\perp Oy$. Numim planul $(xOy)$ *sistem* sau *reper cartezian*, unde $Ox$ se numește *axa absciselor* și $Oy$ *axa ordonatelor*. $\forall A$ punct în plan există perechea $(x_a,y_a)\in\mathbb{R}\times\mathbb{R}$ numită *coordonatele* lui $A$, unde $x_a$ se numește *abscisă* și $y_a$ *ordonată*.
+$\geq$ Vectorii $\overrightarrow i$ și $\overrightarrow j$  se numesc *versori ai axelor* și au următoarele proprietăți:
+$\begin{aligned}&|\overrightarrow i|=|\overrightarrow j|=1 \\&\overrightarrow i\perp\overrightarrow j \\&\overrightarrow i\text{ direcția lui }Ox \\&\overrightarrow j\text{ direcția lui }Oy\end{aligned}$
+Cum $\overrightarrow i$ și $\overrightarrow j$ sunt vectori necoliniari, ei reprezintă o bază.
+$\geq$ Orice vector $\overrightarrow{OA}$ dintr-un reper cartezian unde $O$ se numește *origine* și are coordonatele $(0,0)$ poate fi descompus după baza $(\overrightarrow i,\,\overrightarrow j)$ după cum urmează: $\overrightarrow{OA}=x_a\cdot\overrightarrow i+y_a\cdot\overrightarrow j$. $\overrightarrow{AB}=(x_B-x_A)\overrightarrow i+(y_B-y_A)\overrightarrow j,\,\forall A,B$ din plan.
+$\geq$ Operațiile cu vectorii scriși în funcție de $\overrightarrow i$ și $\overrightarrow j$ se realizează în felul următor: $\overrightarrow u=a\cdot\overrightarrow i+b\cdot\overrightarrow j,\,\overrightarrow v=c\cdot\overrightarrow i+d\cdot\overrightarrow j\implies\overrightarrow u+\overrightarrow v=(a+c)\overrightarrow i+(b+d)\overrightarrow j,\,k\cdot\overrightarrow u=k\cdot a\cdot\overrightarrow i+k\cdot b\cdot\overrightarrow j$. Modulul vectorului $\overrightarrow u$ poate fi exprimat în funcție de componentele $a$ și $b$ folosind formula $|\overrightarrow u|=\sqrt{a^2+b^2}$. ***Observații:*** $\overrightarrow u=\overrightarrow v\Longleftrightarrow a=c,\,b=d;\,\,\,\overrightarrow u,\,\overrightarrow v\text{ coliniari}\Longleftrightarrow\frac ac=\frac bd$.
+
+**PARALELISM, COLINIARITATE ȘI CONCURENȚĂ**
+$\geq$ Fie segmentul $[AB]$, punctul $M\in[AB]$, punctul fix $O\notin[AB]$ și raportul $\frac{MA}{MB}=k>0$ în care punctul $M$ împarte segmentul $[AB]$. $\overrightarrow{OA}$ se numește *vectorul de poziție* al punctului $A$ și se notează $\overrightarrow{r_A}$. Vectorul de poziție al punctului $M$ poate fi exprimat în funcție de $\overrightarrow{r_A}$ și $\overrightarrow{r_B}\,(\overrightarrow{OB})$: $\overrightarrow{OM}=\frac1{k+1}\overrightarrow{OA}+\frac k{k+1}\overrightarrow{OB}$. Dacă $M$ este mijlocul segmentului $[AB]$, atunci $\overrightarrow{OM}=\frac 12(\overrightarrow{OA}+\overrightarrow{OB})$.
+$\geq$ Vectorul de poziție al centrului de greutate $G$ al unui triunghi oarecare $\triangle ABC$ poate fi exprimat în funcție de $\overrightarrow{OA},\,\overrightarrow{OB}$ și $\overrightarrow{OC}$ astfel: $$\overrightarrow{OG}=\frac 13(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}),\,\forall O\in\mathcal{P}$$ Dacă $O=G$ atunci $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\overrightarrow 0$.
+
+**PARALELISM, TEOREMA LUI THALES ȘI TEOREMA BISECTOAREI**
+$\geq$ *Teorema lui Thales:* o paralelă dusă la una din laturile unui triunghi (care nu trece prin niciun vârf al triunghiului) formează cu celelalte două laturi *segmente propoționale*. Fie $\triangle ABC,\,M\in AB,\,M\neq A,\,M\neq B$ și $N\in AC,\,N\neq A,\,N\neq C$. Dacă $MN\parallel BC$, atunci $\frac{AM}{AB}=\frac{AN}{AC}$.
+$\geq$ *Teorema bisectoarei:* dacă $[AD$ este bisectoarea unghiului $\angle A$ din triunghiul $\triangle ABC$, atunci $\frac{AB}{BD}=\frac{AC}{CD}\Longleftrightarrow\frac{CD}{BD}=\frac{AC}{AB}$. 
+$\geq$ Vectorul de poziție al centrului cercului înscris $I$ într-un triunghi oarecare $\triangle ABC$ poate fi exprimat în funcție de $\overrightarrow{OA},\,\overrightarrow{OB}$ și $\overrightarrow{OC}$ și laturile $a=BC,\,b=AC$ și $c=AB$ astfel: $$\overrightarrow{OI}=\frac a{a+b+c}\overrightarrow{OA}+\frac b{a+b+c}\overrightarrow{OB}+\frac c{a+b+c}\overrightarrow{OC}$$
+ 
+**PROBLEME DE COLINIARITATE, TEOREMA LUI MENELAUS**
+$\geq$ *Teorema lui Menelaus:* fie $A'\in BC,\,B'\in AC,\,C'\in AC$ în $\triangle ABC$. $A',\,B'$și $C'$ sunt coliniare dacă și numai dacă $\frac{A'B}{A'C}\cdot\frac{B'C}{B'A}\cdot\frac{C'A}{C'B}=1$.
+$\geq$ Vectorul de poziție al ortocentrului $H$ al unui triunghiu oarecare $\triangle ABC$ poate fi exprimat în funcție de $\overrightarrow{OA},\,\overrightarrow{OB}$ și $\overrightarrow{OC}$ astfel: $\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}=\overrightarrow{OH}$. Relația anterioară împreună cu relația $\overrightarrow{HA}+\overrightarrow{HB}+\overrightarrow{HC}=2\overrightarrow{HO}$ sunt cunoscunte sub numele de *relațiile lui Sylvester*.
+
+**PROBLEME DE CONCURENȚĂ, TEOREMA LUI CEVA**
+$\geq$ *Teorema lui Ceva:* fie $\triangle ABC$ și $D\in(BC),\,E\in(AC),\,F\in(AB)$. Dreptele $AD,\,BE$ și $CF$ sunt coliniare dacă și numai dacă $\frac{DB}{DC}\cdot\frac{EC}{EA}\cdot\frac{FA}{FB}=1$. În acelați triunghi $\triangle ABC$ are loc și *relația lui Van Aubel:* $\frac{FA}{FB}+\frac{EA}{EC}=\frac{OA}{OD}$.
+  
