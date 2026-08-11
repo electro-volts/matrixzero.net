@@ -332,4 +332,32 @@ $\geq$ Vectorul de poziție al ortocentrului $H$ al unui triunghiu oarecare $\tr
 
 **PROBLEME DE CONCURENȚĂ, TEOREMA LUI CEVA**
 $\geq$ *Teorema lui Ceva:* fie $\triangle ABC$ și $D\in(BC),\,E\in(AC),\,F\in(AB)$. Dreptele $AD,\,BE$ și $CF$ sunt coliniare dacă și numai dacă $\frac{DB}{DC}\cdot\frac{EC}{EA}\cdot\frac{FA}{FB}=1$. În acelați triunghi $\triangle ABC$ are loc și *relația lui Van Aubel:* $\frac{FA}{FB}+\frac{EA}{EC}=\frac{OA}{OD}$.
+
+
+# TRIGONOMETRIE
+**ELEMENTE DE TRIGONOMETRIE**
+$\geq$ Fie triunghiul dreptunghic $\triangle ABC,\,m(\angle A)=90\degree$. Se definesc următoarele notații: $m(\angle B)=B,\,m(\angle C)=C$ și $BC=a,\,AC=b,\,AB=c$.
+$\geq$ *Sinusul* unui unghi reprezintă raportul dintre cateta opusă și ipotenuză.
+$\geq$ *Cosinusul* unui unghi reprezintă raportul dintre cateta alăturată și ipotenuză.
+$\geq$ *Tangenta* unui unghi reprezintă raportul dintre cateta opusă și cateta alăturată. Alternativ, ea poate fi exprimată prin raportul dintre $\sin$ și $\cos$.
+$\geq$ *Cotangenta* unui unghi reprezintă raportul dintre cateta alăturată și cateta opusă. Alternativ, ea poate fi exprimată prin raportul dintre $\cos$ și $\sin$:$$\sin\,B=\frac ba,\,\,\cos\,B=\frac ca,\,\,\tan\,B=\frac bc=\frac{\sin\,B}{\cos\,B},\,\,\cot\,B=\frac cb=\frac{\cos\,B}{\sin\,B}$$
+***n. a.: În ciuda faptului că notațiile mai firești pentru funcțiile tangentă, respectiv cotangentă sunt "tg" și "ctg", toate aparițiile acestora vor fi indicate prin notațiile internaționale "tan", respectiv "cot".***
+$\geq$ Pentru orice unghi $x\in(0,90\degree)$ au loc următoarele relații: $\begin{aligned}[t]&\sin\,x=\cos(90\degree-x) \\ &\cos\,x=\sin(90\degree-x) \\ &\tan\,x=\cot(90\degree-x)=\frac{\sin\,x}{\cos\,x}=\frac1{\cot\,x} \\ &\cot\,x=\tan(90\degree-x)=\frac{\cos\,x}{\sin\,x}=\frac1{\tan\,x}\end{aligned}$
+$\geq$ *Formula fundamentală a trigonometriei* este adevărată $\forall x\in[0,360\degree]$: $\sin^2x+\cos^2x=1$.
+$\geq$ Măsura unui arc de cerc este egală cu măsura unghiului la centru corespunzător:
+$\begin{aligned}&m(\overset{\frown}{AB})=m(\angle AOB)=\alpha\degree \\&m(\overset{\frown}{CD})=m(\overset{\frown}{AB})=m(\angle COD)=m(\angle AOB)=\alpha\degree\end{aligned}$ 
+***Observație:*** măsura unui arc de cerc nu depinde de raza cercului. în schimb, măsura influențează, alături de rază, lungimea arcului: $$l_{\overset{\frown}{AB}}=\frac{\pi R}{180\degree}\cdot\alpha\degree\,\,(\text{forma simplificată al lui }\frac{2\pi R}{360\degree}\cdot\alpha\degree)$$
+$\geq$ *Radianul* este măsura unui arc de cerc a cărui lungime este egală cu raza cercului. Măsura unui unghi în radiani se notează $\mu(\angle AOB)$. Transformarea din grade sexagesimale în radiani se face astfel:$$\mu(\overset{\frown}{MN})=\mu(\angle MON)=\frac{l_{\overset{\frown}{MN}}}{R}(\text{ sau se derivă din egalitatea: }\pi\text{ rad}=180\degree)$$
+
+**CERCUL TRIGONOMETRIC**
+$\geq$ Orice sistem cartezian este compus din patru *cadrane:* $\begin{aligned}[t]&\text{cadranul I: }x>0,\,y>0 \\&\text{cadranul II: }x<0,\,y>0 \\&\text{cadranul III: }x<0,\,y<0 \\&\text{cadranul IV: }x>0,\,y<0\end{aligned}$
+$\geq$ Fie punctele $A(x_A,\,y_A)$ și $B(x_B,\,y_B)$. *Distanța* dintre punctele $A$ și $B$ se calculează prin formula $AB=\sqrt{(x_A-x_B)^2+(y_A-y_B)^2}$. ***Observații:*** dacă $A\in Ox$, atunci $A$ are coordonatele $(x,\,0),\,x\in\mathbb{R}$; dacă $A\in Oy$, atunci $A$ are coordonatele $(0,\,y),\,y\in\mathbb{R}$.
+$\geq$ Cercul cu centrul în originea axelor $O$ și rază $1$ împreună cu cele două *sensuri de parcurgere* (pozitiv, respectiv negativ) se numește *cerc trigonometric*. $\forall t\in[0,2\pi]$ îi asociem $M_t\in\mathscr{C}$ astfel încât $l_{\overset{\frown}{AB}_t}=t$. $\forall t\in\mathbb{R}\implies t=2\pi\cdot k+t_0,$ unde $k\in\mathbb{Z},\,t_0\in[0,2\pi]$ rest. ***Observație:*** oricărui număr real $t$ îi putem asocia un punct pe cercul trigonometric astfel încât lungimea arcului $\overset{\frown}{AM}$ să fie $t_0$. 
+$\geq$ Funcția $F:\mathbb{R}\rightarrow\mathscr{C}(0,1),\,F(t)=M_t\in\mathscr{C}$ se numește *funcția de acoperire a cercului trigonometric.*
+
+
+
+
+
+
   
