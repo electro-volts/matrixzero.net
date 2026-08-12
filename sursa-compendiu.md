@@ -4,7 +4,7 @@
 $\mathbb{N}=\{0,\,1,\,2,\,3,\,...\}$: mulțimea nr. *naturale*
 $\mathbb{Z}=\mathbb{N}\cup\{-1,\,-2,\,-3,\,...\}=\{...,\,-3,\,-2,\,-1,\,0,\,1,\,2,\,3,\,...\}$: mulțimea nr. *întregi*
 $\mathbb{Q}=\{\frac ab\,|\,\,a,\,b\in\mathbb{Z},\,b\neq0\}$: mulțimea nr. *raționale*
-$\mathbb{R}\,\backslash\,\mathbb{Q}$: mulțimea nr. *reale*
+$\mathbb{R}\,\setminus\,\mathbb{Q}$: mulțimea nr. *reale*
 $\geq$ Orice număr rațional se scrie sub formă de fracție zecimală finită sau infinită periodică, cu perioada diferită de 0 sau 9.
 
 **FORMULE DE CALCUL PRESCURTATE**
@@ -203,26 +203,26 @@ $\geq$ *Rezolvarea* ecuației de gradul II presupune aflarea *rădăcinilor* $x_
 
 $\geq$ Dacă $x_1,x_2$ sunt rădăcinile (soluțiile) ecuației $(1)$ atunci au loc următoarele relații (cunoscute și ca *relațiile lui Viete*): $S=x_1+x_2=-\frac ba,\,P=x_1\cdot x_2=\frac ca$. Dacă $x_1,x_2\in\mathbb{R}$ și $S=x_1+x_2,\,P=x_1x_2$ atunci ecuația $x^2-Sx+P=0$ are ca soluții reale pe $x_1$ și $x_2$. ***Observații:*** $x_1^2+x_2^2=S^2-2P,\,x_1^3+x_2^3=S(S^2-3P)$. 
 $\geq$ O expresie de forma $ax^2+bx+c,\,a,b,c\in\mathbb{R},\,a\neq 0$ se numește *trinom de gradul al doilea*. Dacă $a,b,c\in\mathbb{R},\,a\neq 0$ și $x_1,x_2\in\mathbb{R}$ sunt rădăcinile ecuației $ax^2+bx+c=0$ atunci $ax^2+bx+c=a(x-x_1)(x-x_2)$.
-$\geq$ Funcția $f:\mathbb{R}\rightarrow\mathbb{R},\,f(x)=ax^2+bx+c,\,a,b,c\in\mathbb{R},\,a\neq 0$ se numește *funcție de gradul al doilea*. Ecuația $ax^2+bx+c=0$ s numește *ecuație asociată* funcției de gradul II. Orice funcție de gradul II admite o *formă canonică*:$$f(x)=a(x+\frac b{2a})^2+\frac{-\Delta}{4a}$$
+$\geq$ Funcția $f:\mathbb{R}\rightarrow\mathbb{R},\,f(x)=ax^2+bx+c,\,a,b,c\in\mathbb{R},\,a\neq 0$ se numește *funcție de gradul al doilea*. Ecuația $ax^2+bx+c=0$ s numește *ecuație asociată* funcției de gradul II. Orice funcție de gradul II admite o *formă canonică*:$$f(x)=a\left(x+\frac b{2a}\right)^2+\frac{-\Delta}{4a}$$
 $\geq$ Fie $f:D\rightarrow\mathbb{R},\,D\subseteq\mathbb{R}$. Spunem că $x_0\in D$ este un punct de *minim (maxim)* al funcției $f$ dacă $f(x)\geq f(x_0),\,\forall x\in D\,\,\,(f(x)\leq f(x_0),\,\forall x\in D)$. Numărul $f(x_0)$ se numește *valoare minimă (maximă)* a funcției $f$.
 $\geq$ Fie $f:\mathbb{R}\rightarrow\mathbb{R},\,f(x)=ax^2+bx+c,\,a,b,c\in\mathbb{R},\,a\neq 0$:
 1) dacă $a>0$ atunci funcția $f$ are minim $x_{min}=-\frac b{2a}$ este punctul minim și $f(x)_{min}=-\frac \Delta{4a}$ este valoarea minimă a funcției
 2) dacă $a<0$ atunci funcția $f$ are maxim, $x_{max}=-\frac b{2a}$ este punctul de maxim și $f(x)_{max}=-\frac \Delta{4a}$ este valoarea maximă a funcției
 
-***Observații:*** $\begin{aligned}[t]&a>0\implies f(x)_{min}=-\frac \Delta{4a}\implies Im\,f=[-\frac \Delta{4a},+\infty) \\ &a<0\implies f(x)_{max}=-\frac \Delta{4a}\implies Im\,f=(-\infty,-\frac \Delta{4a}] \\ &x=-\frac b{2a}\text{ este axa de simetrie a }G_f\end{aligned}$
-$\geq$ Graficul funcției de gradul al doilea este o curbă numită *parabolă*. Punctul $V(-\frac b{2a},-\frac \Delta{4a})$ se numește *vârful* parabolei. Graficul se intersectează ***tot timpul*** cu axa $Oy$ în punctul de coordonate $(0,f(0))$, iar intersecția cu axa $Ox$ acceptă ***trei cazuri:***
+***Observații:*** $\begin{aligned}[t]&a>0\implies f(x)_{min}=-\frac \Delta{4a}\implies Im\,f=\left[-\frac \Delta{4a},+\infty\right) \\ &a<0\implies f(x)_{max}=-\frac \Delta{4a}\implies Im\,f=\left(-\infty,-\frac \Delta{4a}\right] \\ &x=-\frac b{2a}\text{ este axa de simetrie a }G_f\end{aligned}$
+$\geq$ Graficul funcției de gradul al doilea este o curbă numită *parabolă*. Punctul $V\left(-\frac b{2a},-\frac \Delta{4a}\right)$ se numește *vârful* parabolei. Graficul se intersectează ***tot timpul*** cu axa $Oy$ în punctul de coordonate $(0,f(0))$, iar intersecția cu axa $Ox$ acceptă ***trei cazuri:***
 1) $\Delta<0:$ ecuația nu are soluții în $\mathbb{R}\implies G_f\cap Ox=\varnothing$
-2) $\Delta=0:$ $x_1=x_2=-\frac b{2a}\implies G_f\cap Ox=V(-\frac b{2a},0)$, axa $Ox$ este ***tangentă*** la parabolă
+2) $\Delta=0:$ $x_1=x_2=-\frac b{2a}\implies G_f\cap Ox=V\left(-\frac b{2a},0\right)$, axa $Ox$ este ***tangentă*** la parabolă
 3) $\Delta>0:$ $x_{1,2}=\frac{-b\pm\sqrt{\Delta}}{2a},\,x_1\neq x_2\implies G_f\cap Ox=\{A(x_1,0),\,B(x_2,0)\}$ 
 
 ***Observație:*** calculăm imaginile unor valori de o parte și de alta a vârfului pentru a desena parabola cât mai exact.
-$\geq$ Dacă $a>0$ atunci funcția $f$ este strict descrescătoare pe $(-\infty,-\frac b{2a}]$ și strict crescătoare pe $[-\frac b{2a},\,+\infty)$. Dacă $a<0$ atunci funcția $f$ este strict crescătoare pe $(-\infty,-\frac b{2a}]$ și strict descrescătoare pe $[-\frac b{2a},+\infty)$. ***Observație:*** $f$ (orice funcție de gradul II) nu este monotonă pe $\mathbb{R}$.
+$\geq$ Dacă $a>0$ atunci funcția $f$ este strict descrescătoare pe $\left(-\infty,-\frac b{2a}\right]$ și strict crescătoare pe $\left[-\frac b{2a},\,+\infty\right)$. Dacă $a<0$ atunci funcția $f$ este strict crescătoare pe $\left(-\infty,-\frac b{2a}\right]$ și strict descrescătoare pe $\left[-\frac b{2a},+\infty\right)$. ***Observație:*** $f$ (orice funcție de gradul II) nu este monotonă pe $\mathbb{R}$.
 $\geq$ *A stabili semnul funcției $f$* înseamnă a determina intervalele pe care funcția este positivă sau negativă. Intervalele acestea sunt dependente de semnul lui $\Delta$  și al lui $a$ după cum urmează:
 1) $\Delta<0$: $\begin{aligned}[t] &a>0\implies f(x)>0,\,\forall x\in\mathbb{R} \\ &a<0\implies f(x)<0,\,\forall x\in\mathbb{R} \end{aligned}$
 2) $\Delta=0$: $\begin{aligned}[t] &a>0\implies f(x)\geq 0,\,\forall x\in\mathbb{R} \\ &a<0\implies f(x)\leq 0,\,\forall x\in\mathbb{R} \end{aligned}$
 3) $\Delta>0$: $\begin{aligned}[t] &x\in(-\infty,x_1)\cup(x_2,+\infty) \\ &a>0\implies f(x)>0 \\ &a<0\implies f(x)<0\end{aligned}$
 
-$\geq$ Semnul unei funcții de gradul I urmează următoarele reguli: $\begin{aligned}[t] &x\in(-\infty,-\frac ba)\implies f(x)\text{ are semnul opus lui }a \\ &x\in(-\frac ba,+\infty)\implies f(x)\text{ are semnul lui }a \\ &x=-\frac ba\implies f(x)=0\end{aligned}$
+$\geq$ Semnul unei funcții de gradul I urmează următoarele reguli: $\begin{aligned}[t] &x\in\left(-\infty,-\frac ba\right)\implies f(x)\text{ are semnul opus lui }a \\ &x\in\left(-\frac ba,+\infty\right)\implies f(x)\text{ are semnul lui }a \\ &x=-\frac ba\implies f(x)=0\end{aligned}$
 $\geq$ În funcție de semnul lui $S$ și $P$ menționate anterior în cadrul relațiilor lui Viete putem stabili câteva relații între rădăcinile $x_1$ și $x_2$ ale unei ecuații de gradul II:$\begin{aligned}[t] &S>0,\,P>0\implies x_1<0,\,x_2>0 \\ &S<0,\,P>0\implies x_1<0,\,x_2<0 \\ &S>0,\,P<0\implies x_1<0,\,x_2>0,\,|x_2|>|x_1| \\ &S<0,\,P<0\implies x_1<0,\,x_2>0,\,|x_1|>|x_2|\end{aligned}$
 
 **REZOLVAREA UNOR SISTEME DE DOUĂ ECUAȚII CU DOUĂ NECUNOSCUTE**
@@ -319,7 +319,7 @@ $\geq$ Operațiile cu vectorii scriși în funcție de $\overrightarrow i$ și $
 
 **PARALELISM, COLINIARITATE ȘI CONCURENȚĂ**
 $\geq$ Fie segmentul $[AB]$, punctul $M\in[AB]$, punctul fix $O\notin[AB]$ și raportul $\frac{MA}{MB}=k>0$ în care punctul $M$ împarte segmentul $[AB]$. $\overrightarrow{OA}$ se numește *vectorul de poziție* al punctului $A$ și se notează $\overrightarrow{r_A}$. Vectorul de poziție al punctului $M$ poate fi exprimat în funcție de $\overrightarrow{r_A}$ și $\overrightarrow{r_B}\,(\overrightarrow{OB})$: $\overrightarrow{OM}=\frac1{k+1}\overrightarrow{OA}+\frac k{k+1}\overrightarrow{OB}$. Dacă $M$ este mijlocul segmentului $[AB]$, atunci $\overrightarrow{OM}=\frac 12(\overrightarrow{OA}+\overrightarrow{OB})$.
-$\geq$ Vectorul de poziție al centrului de greutate $G$ al unui triunghi oarecare $\triangle ABC$ poate fi exprimat în funcție de $\overrightarrow{OA},\,\overrightarrow{OB}$ și $\overrightarrow{OC}$ astfel: $$\overrightarrow{OG}=\frac 13(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}),\,\forall O\in\mathcal{P}$$ Dacă $O=G$ atunci $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\overrightarrow 0$.
+$\geq$ Vectorul de poziție al centrului de greutate $G$ al unui triunghi oarecare $\triangle ABC$ poate fi exprimat în funcție de $\overrightarrow{OA},\,\overrightarrow{OB}$ și $\overrightarrow{OC}$ astfel: $$\overrightarrow{OG}=\frac 13\left(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}\right),\,\forall O\in\mathcal{P}$$ Dacă $O=G$ atunci $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\overrightarrow 0$.
 
 **PARALELISM, TEOREMA LUI THALES ȘI TEOREMA BISECTOAREI**
 $\geq$ *Teorema lui Thales:* o paralelă dusă la una din laturile unui triunghi (care nu trece prin niciun vârf al triunghiului) formează cu celelalte două laturi *segmente propoționale*. Fie $\triangle ABC,\,M\in AB,\,M\neq A,\,M\neq B$ și $N\in AC,\,N\neq A,\,N\neq C$. Dacă $MN\parallel BC$, atunci $\frac{AM}{AB}=\frac{AN}{AC}$.
@@ -333,31 +333,98 @@ $\geq$ Vectorul de poziție al ortocentrului $H$ al unui triunghiu oarecare $\tr
 **PROBLEME DE CONCURENȚĂ, TEOREMA LUI CEVA**
 $\geq$ *Teorema lui Ceva:* fie $\triangle ABC$ și $D\in(BC),\,E\in(AC),\,F\in(AB)$. Dreptele $AD,\,BE$ și $CF$ sunt coliniare dacă și numai dacă $\frac{DB}{DC}\cdot\frac{EC}{EA}\cdot\frac{FA}{FB}=1$. În acelați triunghi $\triangle ABC$ are loc și *relația lui Van Aubel:* $\frac{FA}{FB}+\frac{EA}{EC}=\frac{OA}{OD}$.
 
-
-# TRIGONOMETRIE
 **ELEMENTE DE TRIGONOMETRIE**
 $\geq$ Fie triunghiul dreptunghic $\triangle ABC,\,m(\angle A)=90\degree$. Se definesc următoarele notații: $m(\angle B)=B,\,m(\angle C)=C$ și $BC=a,\,AC=b,\,AB=c$.
 $\geq$ *Sinusul* unui unghi reprezintă raportul dintre cateta opusă și ipotenuză.
 $\geq$ *Cosinusul* unui unghi reprezintă raportul dintre cateta alăturată și ipotenuză.
 $\geq$ *Tangenta* unui unghi reprezintă raportul dintre cateta opusă și cateta alăturată. Alternativ, ea poate fi exprimată prin raportul dintre $\sin$ și $\cos$.
-$\geq$ *Cotangenta* unui unghi reprezintă raportul dintre cateta alăturată și cateta opusă. Alternativ, ea poate fi exprimată prin raportul dintre $\cos$ și $\sin$:$$\sin\,B=\frac ba,\,\,\cos\,B=\frac ca,\,\,\tan\,B=\frac bc=\frac{\sin\,B}{\cos\,B},\,\,\cot\,B=\frac cb=\frac{\cos\,B}{\sin\,B}$$
+$\geq$ *Cotangenta* unui unghi reprezintă raportul dintre cateta alăturată și cateta opusă. Alternativ, ea poate fi exprimată prin raportul dintre $\cos$ și $\sin$:$$\large\sin\,B=\frac ba,\,\,\cos\,B=\frac ca,\,\,\tan\,B=\frac bc=\frac{\sin\,B}{\cos\,B},\,\,\cot\,B=\frac cb=\frac{\cos\,B}{\sin\,B}$$
 ***n. a.: În ciuda faptului că notațiile mai firești pentru funcțiile tangentă, respectiv cotangentă sunt "tg" și "ctg", toate aparițiile acestora vor fi indicate prin notațiile internaționale "tan", respectiv "cot".***
 $\geq$ Pentru orice unghi $x\in(0,90\degree)$ au loc următoarele relații: $\begin{aligned}[t]&\sin\,x=\cos(90\degree-x) \\ &\cos\,x=\sin(90\degree-x) \\ &\tan\,x=\cot(90\degree-x)=\frac{\sin\,x}{\cos\,x}=\frac1{\cot\,x} \\ &\cot\,x=\tan(90\degree-x)=\frac{\cos\,x}{\sin\,x}=\frac1{\tan\,x}\end{aligned}$
 $\geq$ *Formula fundamentală a trigonometriei* este adevărată $\forall x\in[0,360\degree]$: $\sin^2x+\cos^2x=1$.
 $\geq$ Măsura unui arc de cerc este egală cu măsura unghiului la centru corespunzător:
 $\begin{aligned}&m(\overset{\frown}{AB})=m(\angle AOB)=\alpha\degree \\&m(\overset{\frown}{CD})=m(\overset{\frown}{AB})=m(\angle COD)=m(\angle AOB)=\alpha\degree\end{aligned}$ 
-***Observație:*** măsura unui arc de cerc nu depinde de raza cercului. în schimb, măsura influențează, alături de rază, lungimea arcului: $$l_{\overset{\frown}{AB}}=\frac{\pi R}{180\degree}\cdot\alpha\degree\,\,(\text{forma simplificată al lui }\frac{2\pi R}{360\degree}\cdot\alpha\degree)$$
-$\geq$ *Radianul* este măsura unui arc de cerc a cărui lungime este egală cu raza cercului. Măsura unui unghi în radiani se notează $\mu(\angle AOB)$. Transformarea din grade sexagesimale în radiani se face astfel:$$\mu(\overset{\frown}{MN})=\mu(\angle MON)=\frac{l_{\overset{\frown}{MN}}}{R}(\text{ sau se derivă din egalitatea: }\pi\text{ rad}=180\degree)$$
+***Observație:*** măsura unui arc de cerc nu depinde de raza cercului. în schimb, măsura influențează, alături de rază, lungimea arcului: $$\large l_{\overset{\frown}{AB}}=\frac{\pi R}{180\degree}\cdot\alpha\degree\,\,(\text{forma simplificată al lui }\frac{2\pi R}{360\degree}\cdot\alpha\degree)$$
+$\geq$ *Radianul* este măsura unui arc de cerc a cărui lungime este egală cu raza cercului. Măsura unui unghi în radiani se notează $\mu(\angle AOB)$. Transformarea din grade sexagesimale în radiani se face astfel:$$\large\mu(\overset{\frown}{MN})=\mu(\angle MON)=\frac{l_{\overset{\frown}{MN}}}{R}(\text{ sau se derivă din egalitatea: }\pi\text{ rad}=180\degree)$$
 
 **CERCUL TRIGONOMETRIC**
 $\geq$ Orice sistem cartezian este compus din patru *cadrane:* $\begin{aligned}[t]&\text{cadranul I: }x>0,\,y>0 \\&\text{cadranul II: }x<0,\,y>0 \\&\text{cadranul III: }x<0,\,y<0 \\&\text{cadranul IV: }x>0,\,y<0\end{aligned}$
 $\geq$ Fie punctele $A(x_A,\,y_A)$ și $B(x_B,\,y_B)$. *Distanța* dintre punctele $A$ și $B$ se calculează prin formula $AB=\sqrt{(x_A-x_B)^2+(y_A-y_B)^2}$. ***Observații:*** dacă $A\in Ox$, atunci $A$ are coordonatele $(x,\,0),\,x\in\mathbb{R}$; dacă $A\in Oy$, atunci $A$ are coordonatele $(0,\,y),\,y\in\mathbb{R}$.
-$\geq$ Cercul cu centrul în originea axelor $O$ și rază $1$ împreună cu cele două *sensuri de parcurgere* (pozitiv, respectiv negativ) se numește *cerc trigonometric*. $\forall t\in[0,2\pi]$ îi asociem $M_t\in\mathscr{C}$ astfel încât $l_{\overset{\frown}{AB}_t}=t$. $\forall t\in\mathbb{R}\implies t=2\pi\cdot k+t_0,$ unde $k\in\mathbb{Z},\,t_0\in[0,2\pi]$ rest. ***Observație:*** oricărui număr real $t$ îi putem asocia un punct pe cercul trigonometric astfel încât lungimea arcului $\overset{\frown}{AM}$ să fie $t_0$. 
-$\geq$ Funcția $F:\mathbb{R}\rightarrow\mathscr{C}(0,1),\,F(t)=M_t\in\mathscr{C}$ se numește *funcția de acoperire a cercului trigonometric.*
+$\geq$ Cercul cu centrul în originea axelor $O$ și rază $1$ împreună cu cele două *sensuri de parcurgere* (pozitiv, respectiv negativ) se numește *cerc trigonometric*. $\forall t\in[0,2\pi]$ îi asociem $M_t\in\mathscr{C}$ astfel încât $l_{\overset{\frown}{AB}_t}=t$. $\forall t\in\mathbb{R}\implies t=2\pi\cdot k+t_0,$ unde $k\in\mathbb{Z},\,t_0\in[0,2\pi)$ rest. ***Observație:*** oricărui număr real $t$ îi putem asocia un punct pe cercul trigonometric astfel încât lungimea arcului $\overset{\frown}{AM}$ să fie $t_0$. 
+$\geq$ Funcția $F:\mathbb{R}\rightarrow\mathscr{C}(0,1),\,F(t)=M_t\in\mathscr{C}$ se numește *funcția de acoperire a cercului trigonometric.* $\forall t\in\mathbb{R}\rightarrow M_t\in\mathscr{C}\implies M_t(x_M,\,y_M)$.
 
+**FUNCȚIILE  SINUS ȘI COSINUS**
+$\geq$ Fie un număr real $t$ și $M_t\in\mathscr{C}$ punctul corespunzător pe cercul trigonometric. Prin *cosinusul* numărului real $t$ înțelegem abscisa punctului $M$ și notăm $\cos t=x_M$. Prin *sinusul* numărului real $t$ înțelegem ordonata punctului $M$ și notăm $\sin t=y_M$. Funcția $f:\mathbb{R}\rightarrow\mathbb{R},\,f(t)=\cos t$ se numește *funcția cosinus* și funcția $g:\mathbb{R}\rightarrow\mathbb{R},\,g(t)=\sin t$ se numește *funcția sinus*. Intervalul $(0,\,2\pi)$ se numește *primul cerc trigonometric*.
 
+|   $x$    | $0$ | $\displaystyle\frac\pi2$ | $\pi$ | $\displaystyle\frac{3\pi}2$ | $2\pi$ |
+| :------: | :-: | :----------------------: | :---: | :-------------------------: | :----: |
+| $\sin x$ | $0$ |           $1$            |  $0$  |            $-1$             |  $0$   |
+| $\cos x$ | $1$ |           $0$            | $-1$  |             $0$             |  $1$   |
+|          |     |                          |       |                             |        |
 
+$\geq$ Proprietăți:
+$\forall x\in\mathbb{R}\implies\cos x\in[-1,\,1],\,\sin x\in[-1,\,1]$
+$\sin^2x+\cos^2x=1,\,\forall x\in\mathbb{R}$ ***Observație:*** $(\cos\,x)^2=\cos^2x\neq\cos\,x^2$
+$\begin{cases}\sin(x+2k\pi)=\sin x \\ \cos(x+2k\pi)=\cos x,\,\forall x\in\mathbb{R},\,\forall k\in\mathbb{Z}\end{cases}\implies$ funcțiile $\sin$ și $\cos$ sunt funcții periodice cu perioada de forma $T=2k\pi,\,k\in\mathbb{Z}$
+$\cos(-x)=\cos x,\,\forall x\in\mathbb{R}\implies$ funcția cosinus este o funcție ***pară***
+$\sin(-x)=-\sin x,\,\forall x\in\mathbb{R}\implies$ funcția sinus este o funcție ***impară***
 
+|          | $\text{CI}$ | $\text{CII}$ | $\text{CIII}$ | $\text{CIV}$ |
+| :------: | :---------: | :----------: | :-----------: | :----------: |
+| $\sin x$ |    **+**    |    **+**     |     **-**     |    **-**     |
+| $\cos x$ |    **+**    |    **-**     |     **-**     |    **+**     |
 
+**REDUCEREA LA PRIMUL CADRAN**
+$\left.\begin{aligned}&\sin(\pi-x)=\sin x \\ &\cos(\pi-x)=-\cos x\end{aligned}\right\}$ $\text{CII}\rightarrow\text{CI}$
 
-  
+$\left.\begin{aligned}&\sin(\pi+x)=-\sin x \\ &\cos(\pi+x)=-\cos x\end{aligned}\right\}$ $\text{CIII}\rightarrow\text{CI}$
+
+$\left.\begin{aligned}&\sin(2\pi-x)=-\sin x \\ &\cos(2\pi-x)=\cos x\end{aligned}\right\}$ $\text{CIV}\rightarrow\text{CI}$
+
+$\begin{aligned}&\sin(90\degree-x)=\sin\left(\frac\pi2-x\right)=\cos x \\&\cos(90\degree-x)=\cos\left(\frac\pi2-x\right)=\sin x\end{aligned}$
+
+**FORMULE PENTTRU SINUSUL ȘI COSINUSUL SUMEI ȘI DIFERENȚEI DE UNGHIURI**
+$\forall a,\,b\in\mathbb{R}:\begin{aligned}[t]&\cos(a-b)=\cos a\cdot\cos b+\sin a\cdot\sin b \\ &\cos(a+b)=\cos a\cdot\cos b-\sin a\cdot\sin b \\ &\sin(a-b)=\sin a\cdot\cos b-\cos a\cdot\sin b \\&\sin(a+b)=\sin a\cdot\cos b+\cos a\cdot\sin b\end{aligned}$
+
+**FORMULE PENTRU SINUSUL ȘI COSINUSUL ARGUMENTULUI DUBLU ȘI TRIPLU**
+$\begin{cases}\sin2x=2\sin x+2\cos x \\ \cos 2x=\cos^2x-\sin^2x \\ \cos 2x=1-2\sin^2x \\ \cos2x=2\cos^2x-1\end{cases}$
+
+$\begin{cases}\cos x=\sqrt{1-\sin^2x} \\ \sin x=\sqrt{1-\cos^2x}\end{cases}$
+
+$\begin{cases}\sin 3x=3\sin x-4\sin^3x \\ \cos 3x=4\cos^3x-3\cos x\end{cases}$
+
+**FUNCȚIILE TRIGONOMETRICE TANGENTĂ ȘI COTANGENTĂ**
+$$\large\tan t=\frac{\sin t}{\cos t},\,t\notin\left\{(2k+1)\frac\pi2,\,k\in\mathbb{Z}\right\},\,\,\,\cot t=\frac{\cos t}{\sin t},\,t\in\left\{k\pi,\,k\in\mathbb{Z}\right\}$$
+$\geq$ Prin *tangenta* numărului $t\in\mathbb{R}\setminus\left\{(2k+1)\frac\pi2\,|\,k\in\mathbb{Z}\right\}$ înțelegem $\tan t=\frac{\sin t}{\cos t}$. Prin *cotangenta* numărului $t\in\mathbb{R}\setminus\left\{k\pi\,|\,k\in\mathbb{Z}\right\}$ înțelegem $\cot t=\frac{\cos t}{\sin t}$. 
+$\geq$ Funcția $$\large\tan t:\mathbb{R}\setminus\left\{(2k+1)\frac\pi2\,|\,k\in\mathbb{Z}\right\}\rightarrow\mathbb{R},\,\tan=\frac{\sin t}{\cos t}$$ se numește *funcția tangentă*. Funcția $$\large\cot t:\mathbb{R}\setminus\left\{k\pi\,|\,k\in\mathbb{Z}\right\}\rightarrow\mathbb{R},\,\cot t=\frac{\cos t}{\sin t}$$ se numește *funcția cotangentă*.
+$\geq$ Proprietăți:
+$\begin{cases}\forall t\in\mathbb{R}\setminus\left\{(2k+1)\frac\pi2\,|\,k\in\mathbb{Z}\right\}\implies\tan t\in\mathbb{R} \\ \forall t\in\mathbb{R}\setminus\left\{k\pi\,|\,k\in\mathbb{Z}\right\}\implies\cot t\in\mathbb{R}\end{cases}$
+
+$\begin{cases}1+\tan^2x=\frac1{\cos^2x},\,\forall x\in D_1,\,D_1=\mathbb{R}\setminus\left\{(2k+1)\frac\pi2\,|\,k\in\mathbb{Z}\right\} \\ 1+\cot^2x=\frac1{\sin^2x},\,\forall x\in D_2,\,D_2=\mathbb{R}\setminus\left\{k\pi\,|\,k\in\mathbb{Z}\right\}\end{cases}$
+
+$\begin{cases}\tan(x+k\pi)=\tan x,\,\forall x\in D_1,\,\forall k\in\mathbb{Z} \\ \cot(x+k\pi)=\cot x,\,\forall x\in D_2,\,\forall k\in\mathbb{Z}\end{cases}\implies$ funcțiile $\tan$ și $\cot$ au perioadă principală $\pi$
+
+|   $x$    | $\displaystyle\left(0,\,\frac\pi2\right)$ | $\displaystyle\left(\frac\pi2,\,\pi\right)$ | $\displaystyle\left(\pi,\,\frac{3\pi}2\right)$ | $\displaystyle\left(\frac{3\pi}2,\,2\pi\right)$ |
+| :------: | :---------------------------------------: | :-----------------------------------------: | :--------------------------------------------: | :---------------------------------------------: |
+| $\tan x$ |                   **+**                   |                    **-**                    |                     **+**                      |                      **-**                      |
+| $\cot x$ |                   **+**                   |                    **-**                    |                     **+**                      |                      **-**                      |
+$\begin{cases}\tan(-x)=-\tan x,\,\forall x\in D_1 \\ \cot(-x)=-\cot x,\,\forall x\in D_2\end{cases}\implies$ funcțiile $\tan$ și $\cot$ sunt impare
+$\begin{cases}\tan\left(\frac\pi2-x\right)=\cot x \\ \cot\left(\frac\pi2-x\right)=\tan x\end{cases}$
+
+**FORMULE PENTRU TANGENTA SUMEI ȘI DIFERENȚEI DE UNGHIURI**
+$$\large\tan(a+b)=\frac{\tan a+\tan b}{1-\tan a\cdot\tan b},\,\,\tan(a-b)=\frac{\tan a-\tan b}{1+\tan a\cdot\tan b}$$
+
+|   $x$    | $0$ | $\displaystyle\frac\pi2$ | $\pi$ | $\displaystyle\frac{3\pi}2$ | $2\pi$ |   $\displaystyle\frac\pi6$    |   $\displaystyle\frac\pi3$    |   $\displaystyle\frac\pi4$    |
+| :------: | :-: | :----------------------: | :---: | :-------------------------: | :----: | :---------------------------: | :---------------------------: | :---------------------------: |
+| $\sin x$ | $0$ |           $1$            |  $0$  |            $-1$             |  $0$   |    $\displaystyle\frac12$     | $\displaystyle\frac{\sqrt3}2$ | $\displaystyle\frac{\sqrt2}2$ |
+| $\cos x$ | $1$ |           $0$            | $-1$  |             $0$             |  $1$   | $\displaystyle\frac{\sqrt3}2$ |    $\displaystyle\frac12$     | $\displaystyle\frac{\sqrt2}2$ |
+| $\tan x$ | $0$ |           $-$            |  $0$  |             $-$             |  $0$   | $\displaystyle\frac{\sqrt3}3$ |           $\sqrt3$            |              $1$              |
+| $\cot x$ | $-$ |           $0$            |  $-$  |             $0$             |  $-$   |           $\sqrt3$            | $\displaystyle\frac{\sqrt3}3$ |              $1$              |
+$$\large\tan 2x=\frac{2\tan x}{1-\tan^2x},\,\,\tan\frac x2=\frac{\sin x}{1+\cos x}=\frac{1-\cos x}{\sin x}$$
+**substituția universală (exprimarea funcțiilor trigonometrice în funcție de tangenta jumătății argumentului):**$$\large\sin x=\frac{2\tan\frac x2}{1+\tan^2\frac x2},\,\,\cos x=\frac{1-\tan^2\frac x2}{1+\tan^2\frac x2},\,\,\tan x=\frac{2\tan\frac x2}{1-\tan^2\frac x2},\,\,\cot x=\frac{1-\tan^2\frac x2}{2\tan\frac x2}$$
+
+**TRANSFORMAREA PRODUSELOR ÎN SUME ȘI A SUMELOR ÎN PRODUSE**
+**din sume în produse**:
+$$\large\sin x+\sin y=2\sin\frac{x+y}2\cdot\cos\frac{x-y}2,\,\,\sin x-\sin y=2\cos\frac{x+y}2\cdot\sin\frac{x-y}2$$$$\large\cos x+\cos y=2\cos\frac{x+y}2\cos\frac{x-y}2,\,\,\cos x-\cos y=-2\sin\frac{x+y}2\sin\frac{x-y}2$$
+**din produse în sume:**$$\large\sin a\sin b=\frac12\bigg[\cos(a-b)-\cos(a+b)\bigg],\,\,\cos a\cos b=\frac12\bigg[\cos(a+b)+\cos(a-b)\bigg]$$$$\large\sin a\cos b=\frac12\bigg[\sin(a+b)+\sin(a-b)\bigg]$$
+
