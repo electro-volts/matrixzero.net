@@ -22,7 +22,7 @@ $a^{2k+1}+b^{2k+1}=(a+b)(a^{2k}-a^{2k-1}\cdot b+a^{2k-2}\cdot b^2-...+b^{2k}),\,
 
 **ORDONAREA NR. REALE**
 $a<b\,|\cdot c\implies\begin{cases}c>0\implies ac<bc\\c<0\implies ac>bc\end{cases}$
-$$m_a=\frac{a_1+a_2+...+a_n}n;\,\,m_h=\frac n{\frac{1}{a_1}+\frac{1}{a_2}+...+\frac{1}{a_n}};\,\,m_g=\sqrt[n]{a_1\cdot a_2\cdot...\cdot a_n}$$
+$$m_a=\frac{a_1+a_2+...+a_n}n;\,\,m_h=\frac n{\large\frac{1}{a_1}+\frac{1}{a_2}+...+\frac{1}{a_n}};\,\,m_g=\sqrt[\Large n]{a_1\cdot a_2\cdot...\cdot a_n}$$
 $\geq$ Mediile sunt, de la stânga la dreapta: media *aritmetică*, media *armonică* și media
 *geometrică*. Pentru $n=2,\,m_h\leq m_g\leq m_a,\,\forall x,\,y>0$.
 
@@ -66,7 +66,7 @@ $\{x\}=0\Longleftrightarrow x\in\mathbb{Z}$
 **ELEMENTE DE LOGICĂ MATEMATICĂ**
 $\geq$ Un enunț despre care putem spune că este adevărat sau fals, dar nu ambele, se numește
 *propoziție logică.*
-$\geq$ *Valorile de adevăr* sunt *"adevărat" ("A" sau "1")* și *"fals" ("F" sau "0")*. 
+$\geq$ *Valorile de adevăr* sunt *"adevărat" ("A"* sau *"1")* și *"fals" ("F"* sau *"0")*. 
 $\geq$ Prin *negația* propoziției logice $p$ înțelegem propoz. notată $\neg p$ sau $\overline p$ numită "$non\,\,p$" care este
 adevărată când $p$ este falsă și este falsă când $p$ este adevărată. 
 $\geq$ *Tabel de adevăr* pentru negația propozițiilor:
@@ -125,7 +125,7 @@ $\geq$ Fie $P(n)$ o propoziție care depinde de $n\in\mathbb{N},\,n\geq m$. Acea
 1) verificăm dacă $P(m)$ este $\text{"A"}$
 2) presupunem că $P(k)$ este $\text{"A"},\,k\in\mathbb{N},\,k\geq m$, oarecare și demonstrăm $P(k+1)$ este $\text{"A"}$
 Dacă qambele etape au loc atunci $P(n)\text{ "A"}\,\,\forall n\geq m$.
-$\geq$ Se definesc următoarele notații: $$\frac{1}{1\cdot 4}+\frac{1}{4\cdot 7}+...+\frac{1}{(3n-2)(3n+1)}=\sum_{k=1}^{n} \frac{1}{(3k-2)(3k+1)}\,\,\,\text{ și }\,\,\,1^2\cdot 2^2\cdot 3^2\cdot...\cdot n^2=\prod_{k=1}^n k^2,$$
+$\geq$ Se definesc următoarele notații: $$\frac{1}{1\cdot 4}+\frac{1}{4\cdot 7}+...+\frac{1}{(3n-2)(3n+1)}=\sum_{\large k=1}^{\large n} \frac{1}{(3k-2)(3k+1)}\,\,\,\text{ și }\,\,\,1^2\cdot 2^2\cdot 3^2\cdot...\cdot n^2=\prod_{\large k=1}^{\large n} k^2,$$
 unde operatorul $\Sigma$ indică "sumă pentru $k$ de la $1$ la $n$" și operatorul $\Pi$ indică "produs pentru $k$ de la $1$ la $n$".
 
 **ȘIRURI DE NUMERE REALE**
@@ -315,37 +315,37 @@ $\geq$ Vectorii $\overrightarrow i$ și $\overrightarrow j$  se numesc *versori 
 $\begin{aligned}&|\overrightarrow i|=|\overrightarrow j|=1 \\&\overrightarrow i\perp\overrightarrow j \\&\overrightarrow i\text{ direcția lui }Ox \\&\overrightarrow j\text{ direcția lui }Oy\end{aligned}$
 Cum $\overrightarrow i$ și $\overrightarrow j$ sunt vectori necoliniari, ei reprezintă o bază.
 $\geq$ Orice vector $\overrightarrow{OA}$ dintr-un reper cartezian unde $O$ se numește *origine* și are coordonatele $(0,0)$ poate fi descompus după baza $(\overrightarrow i,\,\overrightarrow j)$ după cum urmează: $\overrightarrow{OA}=x_a\cdot\overrightarrow i+y_a\cdot\overrightarrow j$. $\overrightarrow{AB}=(x_B-x_A)\overrightarrow i+(y_B-y_A)\overrightarrow j,\,\forall A,B$ din plan.
-$\geq$ Operațiile cu vectorii scriși în funcție de $\overrightarrow i$ și $\overrightarrow j$ se realizează în felul următor: $\overrightarrow u=a\cdot\overrightarrow i+b\cdot\overrightarrow j,\,\overrightarrow v=c\cdot\overrightarrow i+d\cdot\overrightarrow j\implies\overrightarrow u+\overrightarrow v=(a+c)\overrightarrow i+(b+d)\overrightarrow j,\,k\cdot\overrightarrow u=k\cdot a\cdot\overrightarrow i+k\cdot b\cdot\overrightarrow j$. Modulul vectorului $\overrightarrow u$ poate fi exprimat în funcție de componentele $a$ și $b$ folosind formula $|\overrightarrow u|=\sqrt{a^2+b^2}$. ***Observații:*** $\overrightarrow u=\overrightarrow v\Longleftrightarrow a=c,\,b=d;\,\,\,\overrightarrow u,\,\overrightarrow v\text{ coliniari}\Longleftrightarrow\frac ac=\frac bd$.
+$\geq$ Operațiile cu vectorii scriși în funcție de $\overrightarrow i$ și $\overrightarrow j$ se realizează în felul următor: $\overrightarrow u=a\cdot\overrightarrow i+b\cdot\overrightarrow j,\,\overrightarrow v=c\cdot\overrightarrow i+d\cdot\overrightarrow j\implies\overrightarrow u+\overrightarrow v=(a+c)\overrightarrow i+(b+d)\overrightarrow j,\,k\cdot\overrightarrow u=k\cdot a\cdot\overrightarrow i+k\cdot b\cdot\overrightarrow j$. Modulul vectorului $\overrightarrow u$ poate fi exprimat în funcție de componentele $a$ și $b$ folosind formula $|\overrightarrow u|=\sqrt{a^2+b^2}$. ***Observații:*** $\overrightarrow u=\overrightarrow v\Longleftrightarrow a=c,\,b=d;\,\,\,\overrightarrow u,\,\overrightarrow v\text{ coliniari}\Longleftrightarrow\large\frac ac=\frac bd$.
 
 **PARALELISM, COLINIARITATE ȘI CONCURENȚĂ**
-$\geq$ Fie segmentul $[AB]$, punctul $M\in[AB]$, punctul fix $O\notin[AB]$ și raportul $\frac{MA}{MB}=k>0$ în care punctul $M$ împarte segmentul $[AB]$. $\overrightarrow{OA}$ se numește *vectorul de poziție* al punctului $A$ și se notează $\overrightarrow{r_A}$. Vectorul de poziție al punctului $M$ poate fi exprimat în funcție de $\overrightarrow{r_A}$ și $\overrightarrow{r_B}\,(\overrightarrow{OB})$: $\overrightarrow{OM}=\frac1{k+1}\overrightarrow{OA}+\frac k{k+1}\overrightarrow{OB}$. Dacă $M$ este mijlocul segmentului $[AB]$, atunci $\overrightarrow{OM}=\frac 12(\overrightarrow{OA}+\overrightarrow{OB})$.
+$\geq$ Fie segmentul $[AB]$, punctul $M\in[AB]$, punctul fix $O\notin[AB]$ și raportul ${\large\frac{MA}{MB}}=k>0$ în care punctul $M$ împarte segmentul $[AB]$. $\overrightarrow{OA}$ se numește *vectorul de poziție* al punctului $A$ și se notează $\overrightarrow{r_A}$. Vectorul de poziție al punctului $M$ poate fi exprimat în funcție de $\overrightarrow{r_A}$ și $\overrightarrow{r_B}\,(\overrightarrow{OB})$: $\overrightarrow{OM}={\large\frac1{k+1}}\overrightarrow{OA}+{\large\frac k{k+1}}\overrightarrow{OB}$. Dacă $M$ este mijlocul segmentului $[AB]$, atunci $\overrightarrow{OM}={\large\frac12}(\overrightarrow{OA}+\overrightarrow{OB})$.
 $\geq$ Vectorul de poziție al centrului de greutate $G$ al unui triunghi oarecare $\triangle ABC$ poate fi exprimat în funcție de $\overrightarrow{OA},\,\overrightarrow{OB}$ și $\overrightarrow{OC}$ astfel: $$\overrightarrow{OG}=\frac 13\left(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}\right),\,\forall O\in\mathcal{P}$$ Dacă $O=G$ atunci $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\overrightarrow 0$.
 
 **PARALELISM, TEOREMA LUI THALES ȘI TEOREMA BISECTOAREI**
-$\geq$ *Teorema lui Thales:* o paralelă dusă la una din laturile unui triunghi (care nu trece prin niciun vârf al triunghiului) formează cu celelalte două laturi *segmente propoționale*. Fie $\triangle ABC,\,M\in AB,\,M\neq A,\,M\neq B$ și $N\in AC,\,N\neq A,\,N\neq C$. Dacă $MN\parallel BC$, atunci $\frac{AM}{AB}=\frac{AN}{AC}$.
-$\geq$ *Teorema bisectoarei:* dacă $[AD$ este bisectoarea unghiului $\angle A$ din triunghiul $\triangle ABC$, atunci $\frac{AB}{BD}=\frac{AC}{CD}\Longleftrightarrow\frac{CD}{BD}=\frac{AC}{AB}$. 
+$\geq$ *Teorema lui Thales:* o paralelă dusă la una din laturile unui triunghi (care nu trece prin niciun vârf al triunghiului) formează cu celelalte două laturi *segmente propoționale*. Fie $\triangle ABC,\,M\in AB,\,M\neq A,\,M\neq B$ și $N\in AC,\,N\neq A,\,N\neq C$. Dacă $MN\parallel BC$, atunci $\large\frac{AM}{AB}=\frac{AN}{AC}$.
+$\geq$ *Teorema bisectoarei:* dacă semidreapta $AD$ este bisectoarea unghiului $\angle A$ din triunghiul $\triangle ABC$, atunci $\large\frac{AB}{BD}=\frac{AC}{CD}\Longleftrightarrow\frac{CD}{BD}=\frac{AC}{AB}$. 
 $\geq$ Vectorul de poziție al centrului cercului înscris $I$ într-un triunghi oarecare $\triangle ABC$ poate fi exprimat în funcție de $\overrightarrow{OA},\,\overrightarrow{OB}$ și $\overrightarrow{OC}$ și laturile $a=BC,\,b=AC$ și $c=AB$ astfel: $$\overrightarrow{OI}=\frac a{a+b+c}\overrightarrow{OA}+\frac b{a+b+c}\overrightarrow{OB}+\frac c{a+b+c}\overrightarrow{OC}$$
  
 **PROBLEME DE COLINIARITATE, TEOREMA LUI MENELAUS**
-$\geq$ *Teorema lui Menelaus:* fie $A'\in BC,\,B'\in AC,\,C'\in AC$ în $\triangle ABC$. $A',\,B'$și $C'$ sunt coliniare dacă și numai dacă $\frac{A'B}{A'C}\cdot\frac{B'C}{B'A}\cdot\frac{C'A}{C'B}=1$.
+$\geq$ *Teorema lui Menelaus:* fie $A'\in BC,\,B'\in AC,\,C'\in AC$ în $\triangle ABC$. $A',\,B'$și $C'$ sunt coliniare dacă și numai dacă ${\large\frac{A'B}{A'C}\cdot\frac{B'C}{B'A}\cdot\frac{C'A}{C'B}}=1$.
 $\geq$ Vectorul de poziție al ortocentrului $H$ al unui triunghiu oarecare $\triangle ABC$ poate fi exprimat în funcție de $\overrightarrow{OA},\,\overrightarrow{OB}$ și $\overrightarrow{OC}$ astfel: $\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}=\overrightarrow{OH}$. Relația anterioară împreună cu relația $\overrightarrow{HA}+\overrightarrow{HB}+\overrightarrow{HC}=2\overrightarrow{HO}$ sunt cunoscunte sub numele de *relațiile lui Sylvester*.
 
 **PROBLEME DE CONCURENȚĂ, TEOREMA LUI CEVA**
-$\geq$ *Teorema lui Ceva:* fie $\triangle ABC$ și $D\in(BC),\,E\in(AC),\,F\in(AB)$. Dreptele $AD,\,BE$ și $CF$ sunt coliniare dacă și numai dacă $\frac{DB}{DC}\cdot\frac{EC}{EA}\cdot\frac{FA}{FB}=1$. În acelați triunghi $\triangle ABC$ are loc și *relația lui Van Aubel:* $\frac{FA}{FB}+\frac{EA}{EC}=\frac{OA}{OD}$.
+$\geq$ *Teorema lui Ceva:* fie $\triangle ABC$ și $D\in(BC),\,E\in(AC),\,F\in(AB)$. Dreptele $AD,\,BE$ și $CF$ sunt coliniare dacă și numai dacă ${\large\frac{DB}{DC}\cdot\frac{EC}{EA}\cdot\frac{FA}{FB}}=1$. În acelați triunghi $\triangle ABC$ are loc și *relația lui Van Aubel:* $\large\frac{FA}{FB}+\frac{EA}{EC}=\frac{OA}{OD}$.
 
 **ELEMENTE DE TRIGONOMETRIE**
 $\geq$ Fie triunghiul dreptunghic $\triangle ABC,\,m(\angle A)=90\degree$. Se definesc următoarele notații: $m(\angle B)=B,\,m(\angle C)=C$ și $BC=a,\,AC=b,\,AB=c$.
 $\geq$ *Sinusul* unui unghi reprezintă raportul dintre cateta opusă și ipotenuză.
 $\geq$ *Cosinusul* unui unghi reprezintă raportul dintre cateta alăturată și ipotenuză.
 $\geq$ *Tangenta* unui unghi reprezintă raportul dintre cateta opusă și cateta alăturată. Alternativ, ea poate fi exprimată prin raportul dintre $\sin$ și $\cos$.
-$\geq$ *Cotangenta* unui unghi reprezintă raportul dintre cateta alăturată și cateta opusă. Alternativ, ea poate fi exprimată prin raportul dintre $\cos$ și $\sin$:$$\large\sin\,B=\frac ba,\,\,\cos\,B=\frac ca,\,\,\tan\,B=\frac bc=\frac{\sin\,B}{\cos\,B},\,\,\cot\,B=\frac cb=\frac{\cos\,B}{\sin\,B}$$
+$\geq$ *Cotangenta* unui unghi reprezintă raportul dintre cateta alăturată și cateta opusă. Alternativ, ea poate fi exprimată prin raportul dintre $\cos$ și $\sin$:$$\sin\,B=\frac ba,\,\,\cos\,B=\frac ca,\,\,\tan\,B=\frac bc=\frac{\sin\,B}{\cos\,B},\,\,\cot\,B=\frac cb=\frac{\cos\,B}{\sin\,B}$$
 ***n. a.: În ciuda faptului că notațiile mai firești pentru funcțiile tangentă, respectiv cotangentă sunt "tg" și "ctg", toate aparițiile acestora vor fi indicate prin notațiile internaționale "tan", respectiv "cot".***
 $\geq$ Pentru orice unghi $x\in(0,90\degree)$ au loc următoarele relații: $\begin{aligned}[t]&\sin\,x=\cos(90\degree-x) \\ &\cos\,x=\sin(90\degree-x) \\ &\tan\,x=\cot(90\degree-x)=\frac{\sin\,x}{\cos\,x}=\frac1{\cot\,x} \\ &\cot\,x=\tan(90\degree-x)=\frac{\cos\,x}{\sin\,x}=\frac1{\tan\,x}\end{aligned}$
 $\geq$ *Formula fundamentală a trigonometriei* este adevărată $\forall x\in[0,360\degree]$: $\sin^2x+\cos^2x=1$.
 $\geq$ Măsura unui arc de cerc este egală cu măsura unghiului la centru corespunzător:
 $\begin{aligned}&m(\overset{\frown}{AB})=m(\angle AOB)=\alpha\degree \\&m(\overset{\frown}{CD})=m(\overset{\frown}{AB})=m(\angle COD)=m(\angle AOB)=\alpha\degree\end{aligned}$ 
-***Observație:*** măsura unui arc de cerc nu depinde de raza cercului. în schimb, măsura influențează, alături de rază, lungimea arcului: $$\large l_{\overset{\frown}{AB}}=\frac{\pi R}{180\degree}\cdot\alpha\degree\,\,(\text{forma simplificată al lui }\frac{2\pi R}{360\degree}\cdot\alpha\degree)$$
-$\geq$ *Radianul* este măsura unui arc de cerc a cărui lungime este egală cu raza cercului. Măsura unui unghi în radiani se notează $\mu(\angle AOB)$. Transformarea din grade sexagesimale în radiani se face astfel:$$\large\mu(\overset{\frown}{MN})=\mu(\angle MON)=\frac{l_{\overset{\frown}{MN}}}{R}(\text{ sau se derivă din egalitatea: }\pi\text{ rad}=180\degree)$$
+***Observație:*** măsura unui arc de cerc nu depinde de raza cercului. în schimb, măsura influențează, alături de rază, lungimea arcului: $$ l_{\overset{\frown}{AB}}=\frac{\pi R}{180\degree}\cdot\alpha\degree\,\,(\text{forma simplificată al lui }\frac{2\pi R}{360\degree}\cdot\alpha\degree)$$
+$\geq$ *Radianul* este măsura unui arc de cerc a cărui lungime este egală cu raza cercului. Măsura unui unghi în radiani se notează $\mu(\angle AOB)$. Transformarea din grade sexagesimale în radiani se face astfel:$$\mu(\overset{\frown}{MN})=\mu(\angle MON)=\frac{l_{\overset{\frown}{MN}}}{R}(\text{ sau se derivă din egalitatea: }\pi\text{ rad}=180\degree)$$
 
 **CERCUL TRIGONOMETRIC**
 $\geq$ Orice sistem cartezian este compus din patru *cadrane:* $\begin{aligned}[t]&\text{cadranul I: }x>0,\,y>0 \\&\text{cadranul II: }x<0,\,y>0 \\&\text{cadranul III: }x<0,\,y<0 \\&\text{cadranul IV: }x>0,\,y<0\end{aligned}$
@@ -394,13 +394,13 @@ $\begin{cases}\cos x=\sqrt{1-\sin^2x} \\ \sin x=\sqrt{1-\cos^2x}\end{cases}$
 $\begin{cases}\sin 3x=3\sin x-4\sin^3x \\ \cos 3x=4\cos^3x-3\cos x\end{cases}$
 
 **FUNCȚIILE TRIGONOMETRICE TANGENTĂ ȘI COTANGENTĂ**
-$$\large\tan t=\frac{\sin t}{\cos t},\,t\notin\left\{(2k+1)\frac\pi2,\,k\in\mathbb{Z}\right\},\,\,\,\cot t=\frac{\cos t}{\sin t},\,t\in\left\{k\pi,\,k\in\mathbb{Z}\right\}$$
-$\geq$ Prin *tangenta* numărului $t\in\mathbb{R}\setminus\left\{(2k+1)\frac\pi2\,|\,k\in\mathbb{Z}\right\}$ înțelegem $\tan t=\frac{\sin t}{\cos t}$. Prin *cotangenta* numărului $t\in\mathbb{R}\setminus\left\{k\pi\,|\,k\in\mathbb{Z}\right\}$ înțelegem $\cot t=\frac{\cos t}{\sin t}$. 
-$\geq$ Funcția $$\large\tan t:\mathbb{R}\setminus\left\{(2k+1)\frac\pi2\,|\,k\in\mathbb{Z}\right\}\rightarrow\mathbb{R},\,\tan=\frac{\sin t}{\cos t}$$ se numește *funcția tangentă*. Funcția $$\large\cot t:\mathbb{R}\setminus\left\{k\pi\,|\,k\in\mathbb{Z}\right\}\rightarrow\mathbb{R},\,\cot t=\frac{\cos t}{\sin t}$$ se numește *funcția cotangentă*.
+$$\tan t=\frac{\sin t}{\cos t},\,t\notin\left\{(2k+1)\frac\pi2,\,k\in\mathbb{Z}\right\},\,\,\,\cot t=\frac{\cos t}{\sin t},\,t\in\left\{k\pi,\,k\in\mathbb{Z}\right\}$$
+$\geq$ Prin *tangenta* numărului $t\in\mathbb{R}\setminus\left\{(2k+1){\large\frac\pi2}\,|\,k\in\mathbb{Z}\right\}$ înțelegem $\tan t={\large\frac{\sin t}{\cos t}}$. Prin *cotangenta* numărului $t\in\mathbb{R}\setminus\left\{k\pi\,|\,k\in\mathbb{Z}\right\}$ înțelegem $\cot t={\large\frac{\cos t}{\sin t}}$. 
+$\geq$ Funcția $$\tan t:\mathbb{R}\setminus\left\{(2k+1)\frac\pi2\,|\,k\in\mathbb{Z}\right\}\rightarrow\mathbb{R},\,\tan=\frac{\sin t}{\cos t}$$ se numește *funcția tangentă*. Funcția $$\cot t:\mathbb{R}\setminus\left\{k\pi\,|\,k\in\mathbb{Z}\right\}\rightarrow\mathbb{R},\,\cot t=\frac{\cos t}{\sin t}$$ se numește *funcția cotangentă*.
 $\geq$ Proprietăți:
-$\begin{cases}\forall t\in\mathbb{R}\setminus\left\{(2k+1)\frac\pi2\,|\,k\in\mathbb{Z}\right\}\implies\tan t\in\mathbb{R} \\ \forall t\in\mathbb{R}\setminus\left\{k\pi\,|\,k\in\mathbb{Z}\right\}\implies\cot t\in\mathbb{R}\end{cases}$
+$\begin{cases}\forall t\in\mathbb{R}\setminus\left\{(2k+1){\large\frac\pi2}\,|\,k\in\mathbb{Z}\right\}\implies\tan t\in\mathbb{R} \\ \forall t\in\mathbb{R}\setminus\left\{k\pi\,|\,k\in\mathbb{Z}\right\}\implies\cot t\in\mathbb{R}\end{cases}$
 
-$\begin{cases}1+\tan^2x=\frac1{\cos^2x},\,\forall x\in D_1,\,D_1=\mathbb{R}\setminus\left\{(2k+1)\frac\pi2\,|\,k\in\mathbb{Z}\right\} \\ 1+\cot^2x=\frac1{\sin^2x},\,\forall x\in D_2,\,D_2=\mathbb{R}\setminus\left\{k\pi\,|\,k\in\mathbb{Z}\right\}\end{cases}$
+$\begin{cases}1+\tan^2x={\large\frac1{\cos^2x}},\,\forall x\in D_1,\,D_1=\mathbb{R}\setminus\left\{(2k+1){\large\frac\pi2}\,|\,k\in\mathbb{Z}\right\} \\ 1+\cot^2x={\large\frac1{\sin^2x}},\,\forall x\in D_2,\,D_2=\mathbb{R}\setminus\left\{k\pi\,|\,k\in\mathbb{Z}\right\}\end{cases}$
 
 $\begin{cases}\tan(x+k\pi)=\tan x,\,\forall x\in D_1,\,\forall k\in\mathbb{Z} \\ \cot(x+k\pi)=\cot x,\,\forall x\in D_2,\,\forall k\in\mathbb{Z}\end{cases}\implies$ funcțiile $\tan$ și $\cot$ au perioadă principală $\pi$
 
@@ -412,7 +412,7 @@ $\begin{cases}\tan(-x)=-\tan x,\,\forall x\in D_1 \\ \cot(-x)=-\cot x,\,\forall 
 $\begin{cases}\tan\left(\frac\pi2-x\right)=\cot x \\ \cot\left(\frac\pi2-x\right)=\tan x\end{cases}$
 
 **FORMULE PENTRU TANGENTA SUMEI ȘI DIFERENȚEI DE UNGHIURI**
-$$\large\tan(a+b)=\frac{\tan a+\tan b}{1-\tan a\cdot\tan b},\,\,\tan(a-b)=\frac{\tan a-\tan b}{1+\tan a\cdot\tan b}$$
+$$\tan(a+b)=\frac{\tan a+\tan b}{1-\tan a\cdot\tan b},\,\,\tan(a-b)=\frac{\tan a-\tan b}{1+\tan a\cdot\tan b},\,\,\cot(a+b)=\frac1{\tan(a+b)}$$
 
 |   $x$    | $0$ | $\displaystyle\frac\pi2$ | $\pi$ | $\displaystyle\frac{3\pi}2$ | $2\pi$ |   $\displaystyle\frac\pi6$    |   $\displaystyle\frac\pi3$    |   $\displaystyle\frac\pi4$    |
 | :------: | :-: | :----------------------: | :---: | :-------------------------: | :----: | :---------------------------: | :---------------------------: | :---------------------------: |
@@ -420,11 +420,27 @@ $$\large\tan(a+b)=\frac{\tan a+\tan b}{1-\tan a\cdot\tan b},\,\,\tan(a-b)=\frac{
 | $\cos x$ | $1$ |           $0$            | $-1$  |             $0$             |  $1$   | $\displaystyle\frac{\sqrt3}2$ |    $\displaystyle\frac12$     | $\displaystyle\frac{\sqrt2}2$ |
 | $\tan x$ | $0$ |           $-$            |  $0$  |             $-$             |  $0$   | $\displaystyle\frac{\sqrt3}3$ |           $\sqrt3$            |              $1$              |
 | $\cot x$ | $-$ |           $0$            |  $-$  |             $0$             |  $-$   |           $\sqrt3$            | $\displaystyle\frac{\sqrt3}3$ |              $1$              |
-$$\large\tan 2x=\frac{2\tan x}{1-\tan^2x},\,\,\tan\frac x2=\frac{\sin x}{1+\cos x}=\frac{1-\cos x}{\sin x}$$
-**substituția universală (exprimarea funcțiilor trigonometrice în funcție de tangenta jumătății argumentului):**$$\large\sin x=\frac{2\tan\frac x2}{1+\tan^2\frac x2},\,\,\cos x=\frac{1-\tan^2\frac x2}{1+\tan^2\frac x2},\,\,\tan x=\frac{2\tan\frac x2}{1-\tan^2\frac x2},\,\,\cot x=\frac{1-\tan^2\frac x2}{2\tan\frac x2}$$
+$$\tan 2x=\frac{2\tan x}{1-\tan^2x},\,\,\tan\frac x2=\frac{\sin x}{1+\cos x}=\frac{1-\cos x}{\sin x}$$
+**substituția universală (exprimarea funcțiilor trigonometrice în funcție de tangenta jumătății argumentului):**$$\sin x=\frac{2\tan{\large\frac x2}}{1+\tan^2{\large\frac x2}},\,\,\cos x=\frac{1-\tan^2{\large\frac x2}}{1+\tan^2{\large\frac x2}},\,\,\tan x=\frac{2\tan{\large\frac x2}}{1-\tan^2{\large\frac x2}},\,\,\cot x=\frac{1-\tan^2{\large\frac x2}}{2\tan{\large\frac x2}}$$
 
 **TRANSFORMAREA PRODUSELOR ÎN SUME ȘI A SUMELOR ÎN PRODUSE**
 **din sume în produse**:
-$$\large\sin x+\sin y=2\sin\frac{x+y}2\cdot\cos\frac{x-y}2,\,\,\sin x-\sin y=2\cos\frac{x+y}2\cdot\sin\frac{x-y}2$$$$\large\cos x+\cos y=2\cos\frac{x+y}2\cos\frac{x-y}2,\,\,\cos x-\cos y=-2\sin\frac{x+y}2\sin\frac{x-y}2$$
-**din produse în sume:**$$\large\sin a\sin b=\frac12\bigg[\cos(a-b)-\cos(a+b)\bigg],\,\,\cos a\cos b=\frac12\bigg[\cos(a+b)+\cos(a-b)\bigg]$$$$\large\sin a\cos b=\frac12\bigg[\sin(a+b)+\sin(a-b)\bigg]$$
+$$\sin x+\sin y=2\sin\frac{x+y}2\cdot\cos\frac{x-y}2,\,\,\sin x-\sin y=2\cos\frac{x+y}2\cdot\sin\frac{x-y}2$$$$\cos x+\cos y=2\cos\frac{x+y}2\cos\frac{x-y}2,\,\,\cos x-\cos y=-2\sin\frac{x+y}2\sin\frac{x-y}2$$
+**din produse în sume:**$$\sin a\sin b=\frac12\bigg[\cos(a-b)-\cos(a+b)\bigg],\,\,\cos a\cos b=\frac12\bigg[\cos(a+b)+\cos(a-b)\bigg]$$$$\sin a\cos b=\frac12\bigg[\sin(a+b)+\sin(a-b)\bigg]$$
+**PRODUSUL SCALAR A DOI VECTORI**
+$\geq$ Fie $\overrightarrow u$ și $\overrightarrow v$ vectori astfel încât $m(\angle\overrightarrow u,\,\overrightarrow v)=\alpha$. Prin *produsul scalar* al vectorilor $\overrightarrow u$ și $\overrightarrow v$ înțelegem numărul real notat $\overrightarrow u\cdot\overrightarrow v$ cu proprietatea $\overrightarrow u\cdot\overrightarrow v=|\overrightarrow u|\cdot|\overrightarrow v|\cdot\cos\alpha$, dacă $\overrightarrow u$ și $\overrightarrow v$ nenuli sau $\overrightarrow u\cdot\overrightarrow v=0$, dacă $\overrightarrow u$ sau $\overrightarrow v$ nul.***Observație:*** $\overrightarrow u\perp\overrightarrow v\Longleftrightarrow\overrightarrow u\cdot\overrightarrow v=0,\,\cos\alpha=0$. Există patru cazuri particulare:
+1) $\alpha=0\implies\cos\alpha=1\implies\overrightarrow u\cdot\overrightarrow v=|\overrightarrow u||\overrightarrow v|:$ aceeași direcție, același sens
+2) $\alpha=\pi\implies\cos\alpha=-1\implies\overrightarrow u\cdot\overrightarrow v=-|\overrightarrow u||\overrightarrow v|:$ aceeași direcție, sens diferit
+3) $\overrightarrow u\cdot\overrightarrow v>0\implies\cos\alpha>0\implies\alpha\in\displaystyle\left(0,\frac\pi2\right)$
+4) $\overrightarrow u\cdot\overrightarrow v<0\implies\cos\alpha<0\implies\alpha\in\displaystyle\left(\frac\pi2,\pi\right)$
+
+$\geq$ Proprietăți:
+$\overrightarrow u\cdot\overrightarrow v=\overrightarrow v\cdot\overrightarrow u$ (comutativitate)
+$\overrightarrow u(\overrightarrow v+\overrightarrow w)=\overrightarrow u\cdot\overrightarrow v+\overrightarrow u\cdot\overrightarrow w$ (distributivitate)
+$\overrightarrow u(k\cdot\overrightarrow v)=(k\overrightarrow u)\cdot\overrightarrow v=k\,\overrightarrow u\,\overrightarrow v,\,k\in\mathbb{R}$
+$\overrightarrow u\,^2=\overrightarrow u\cdot\overrightarrow u=|\overrightarrow u||\overrightarrow u|\cos0=|\overrightarrow u|^2$
+$|\overrightarrow u+\overrightarrow v|^2=|\overrightarrow u|^2+2\overrightarrow u\overrightarrow v+|\overrightarrow v|^2$
+$|\overrightarrow u-\overrightarrow v|^2=|\overrightarrow u|^2-2\overrightarrow u\overrightarrow v+|\overrightarrow v|^2$
+$(\overrightarrow u+\overrightarrow v)(\overrightarrow u-\overrightarrow v)=|\overrightarrow u|^2-|\overrightarrow v|^2$
+$\geq$ Produsul scalar dintre doi vectori $\overrightarrow u=a\overrightarrow i+b\overrightarrow j$ și $\overrightarrow v=c\overrightarrow i+d\overrightarrow j$ este $\overrightarrow u\cdot\overrightarrow v=ac+bd$. Între versorii $\overrightarrow i$ și $\overrightarrow j$ mai există și următoarele proprietăți: $\overrightarrow i\cdot\overrightarrow i=1$ și $\overrightarrow j\cdot\overrightarrow j=0$.
 
