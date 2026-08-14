@@ -444,3 +444,49 @@ $|\overrightarrow u-\overrightarrow v|^2=|\overrightarrow u|^2-2\overrightarrow 
 $(\overrightarrow u+\overrightarrow v)(\overrightarrow u-\overrightarrow v)=|\overrightarrow u|^2-|\overrightarrow v|^2$
 $\geq$ Produsul scalar dintre doi vectori $\overrightarrow u=a\overrightarrow i+b\overrightarrow j$ și $\overrightarrow v=c\overrightarrow i+d\overrightarrow j$ este $\overrightarrow u\cdot\overrightarrow v=ac+bd$. Între versorii $\overrightarrow i$ și $\overrightarrow j$ mai există și următoarele proprietăți: $\overrightarrow i\cdot\overrightarrow i=1$ și $\overrightarrow j\cdot\overrightarrow j=0$.
 
+**APLICAȚII ALE PRODUSULUI SCALAR ÎN GEOMETRIE**
+$\geq$ *Teorema cosinusului*: în orice triunghiu $\triangle ABC$ are loc relația: $BC^2=AB^2+AC^2-2AB\cdot AC\cdot\cos A$. Folosind notațiile definite anterior, avem setul de relații: $\begin{aligned}[t]&a^2=b^2+c^2-2bc\cdot\cos A \\&b^2=a^2+c^2-2ac\cdot\cos B \\&c^2=a^2+b^2-2ab\cdot\cos C\end{aligned}$. 
+Din acestea, se pot deriva alte trei relații: $\begin{aligned}[t]&\cos A=\frac{b^2+c^2-a^2}{2bc} \\&\cos B=\frac{c^2+a^2-b^2}{2ac} \\&\cos C=\frac{a^2+b^2-c^2}{2ab}\end{aligned}$.
+$\geq$ *Relația lui Stewart:* fie $A,B,C\in d$ astfel încât $B\in(AC)$ și $M\notin d$. Atunci are loc relația $MA^2\cdot BC+MC^2\cdot AB-MB^2\cdot AC=AB\cdot BC\cdot AC$.
+$\geq$ *Teorema medianei:* fie $\triangle ABC$ și $M\in(BC),\,MB\equiv MC$. Notăm segmentul $[AM]$ prin $m_a$, notație ce indică lungimea medianei din $A$. Există și notațiile $m_b$ și respectiv $m_c$ pentru a indica lungimea medianei din $B$, respectiv din $C$: $$m_a^2=\frac{2(b^2+c^2)-a^2}4,\,\,m_b^2=\frac{2(c^2+a^2)-b^2}4,\,\,m_c^2=\frac{2(a^2+b^2)-c^2}4$$
+**APLICAȚII TRIGONOMETRIEI ÎN GEOMETRIE**
+**relații între unghiuri:**
+$A+B+C=180\degree\;(\pi)$
+$\sin(A+B)=\sin C\quad(\sin(\pi-C))$
+$\cos(A+B)=-\cos C\quad(\cos(\pi-C))$
+$\displaystyle\sin\frac{B+C}2=\cos\frac A2\quad\bigg(\sin\frac{\pi-A}2\bigg)$
+$\displaystyle\cos\frac{B+C}2=\sin\frac A2\quad\bigg(\cos\frac{\pi-A}2\bigg)$
+**relații între unghiurile și laturile unui triunghi:**
+$\geq$ Pe lângă teorema cosinusului avem și *teorema sinusurilor:* ${\large\frac a{\sin A}=\frac b{\sin B}=\frac c{\sin C}}=2R$, unde $R$ reprezintă raza cercului circumscris triunghiului. 
+$\geq$ În cadrul următoarelor formule notația $p={\large\frac{a+b+c}2}$ indică *semiperimetrul* unui triunghi:
+$\begin{cases}\sin{\Large\frac A2}=\sqrt{\Large\frac{(p-b)(p-c)}{bc}} \\ \sin{\Large\frac B2}=\sqrt{\Large\frac{(p-a)(p-c)}{ac}} \\ \sin{\Large\frac C2}=\sqrt{\Large\frac{(p-a)(p-b)}{ab}}\end{cases}$
+
+$\begin{cases}\cos{\Large\frac A2}=\sqrt{\Large\frac{p(p-a)}{bc}} \\ \cos{\Large\frac B2}=\sqrt{\Large\frac{p(p-b)}{ac}} \\ \cos{\Large\frac C2}=\sqrt{\Large\frac{p(p-c)}{ab}}\end{cases}$
+
+$\begin{cases}\tan{\Large\frac A2}=\sqrt{\Large\frac{(p-b)(p-c)}{p(p-a)}}\quad\Bigg(\cot{\Large\frac A2}=\sqrt{\Large\frac{p(p-a)}{(p-b)(p-c)}}\Bigg) \\ \tan{\Large\frac B2}=\sqrt{\Large\frac{(p-a)(p-c)}{p(p-b)}} \\ \tan{\Large\frac C2}=\sqrt{\Large\frac{(p-a)(p-b)}{p(p-c)}}\end{cases}$
+
+**REZOLVAREA TRIUNGHIULUI OARECARE**
+$\geq$ *A rezolva* un triunghi înseamnă a determina toate elementele sale când cunoaștem câteva dintre ele. ***Observație:*** în cazul unghiurilor este destul să cunoaștem doar o funcție trigonometrică a fiecăruia dintre ele.
+**cazul L.U.L. (latură-unghiu-latură):**
+$\begin{cases}AB=c \\ BC=a \\ m(\angle B)=B\end{cases}$
+$T\cos\implies AC^2=a^2+c^2-2ac\cos B$
+$T\cos\implies\cos A={\Large\frac{b^2+c^2-a^2}{2bc}}$
+$C=180\degree-A-B$
+**cazul U.L.U. (unghi-latură-unghi):**
+$\begin{cases}m(\angle A)=A \\ m(\angle B)=B \\ AB=c\end{cases}\implies C=180\degree-(A+B)$
+$T\sin\implies{\large\frac a{\sin A}=\frac b{\sin B}=\frac c{\sin C}}=2R\implies a={\Large\frac{c\sin A}{\sin C}},\,b={\Large\frac{c\sin B}{\sin C}}$
+**cazul L.L.L. (latură-latură-latură):**
+$T\cos\implies\cos A={\Large\frac{b^2+c^2-a^2}{2bc}},\,\cos B={\Large\frac{c^2+a^2-b^2}{2ac}}$
+$C=\pi-(A+B)$
+
+**FORMULE PENTRU ARIA UNUI TRIUNGHI**
+$\mathcal{A}_{ABC}=S_{ABC}=S$
+$$S=\frac{b\cdot c\cdot\sin A}2=\frac{a\cdot b\cdot\sin C}2=\frac{a\cdot c\cdot\sin B}2$$
+$AA'=h_a$ înățimea corespunzătoare lui $a$
+$h_b$ înălțimea corespuzătoare lui $b$
+$h_c$ înălțimea corespunătoare lui $c$
+$$S=\frac{a\cdot h_a}2=\frac{b\cdot h_b}2=\frac{c\cdot h_c}2,\,\,S=\sqrt{p(p-a)(p-b)(p-c)}\quad(\text{formula lui Heron})$$
+$$S=\frac{a^2\cdot\sin B\cdot\sin C}{2\sin A}=\frac{b^2\cdot\sin A\cdot\sin C}{2\sin B}=\frac{c^2\cdot\sin A\cdot\sin B}{2\sin C}$$
+$$S=\frac{abc}{4R},\,\,S=rp,$$
+unde $R$ este raza cercului circumscris și $r$ raza cercului înscris.
+
