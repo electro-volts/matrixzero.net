@@ -6,7 +6,7 @@ render_with_liquid: false
 **NUMERE REALE**
 $\mathbb{N}=\{0,\,1,\,2,\,3,\,...\}$: mulțimea nr. *naturale*
 $\mathbb{Z}=\mathbb{N}\cup\{-1,\,-2,\,-3,\,...\}=\{...,\,-3,\,-2,\,-1,\,0,\,1,\,2,\,3,\,...\}$: mulțimea nr. *întregi*
-$\mathbb{Q}=\left\{{\large\frac ab}\,|\,\,a,\,b\in\mathbb{Z},\,b\neq0\right\}$: mulțimea nr. *raționale*
+$\mathbb{Q}=\left\{ {\large\frac{a}{b}} \;\middle|\; a, b \in \mathbb{Z},\ b \neq 0 \right\}$: mulțimea nr. *raționale*
 $\mathbb{R}\,\setminus\,\mathbb{Q}$: mulțimea nr. *reale*
 $\geq$ Orice număr rațional se scrie sub formă de fracție zecimală finită sau infinită periodică, cu perioada diferită de $0$ sau $9$.
 
