@@ -1,3 +1,6 @@
+---
+render_with_liquid: false
+---
 # ALGEBRĂ
 
 **NUMERE REALE**
@@ -488,7 +491,3 @@ $$S=\frac{a\cdot h_a}2=\frac{b\cdot h_b}2=\frac{c\cdot h_c}2,\,\,S=\sqrt{p(p-a)(
 $$S=\frac{a^2\cdot\sin B\cdot\sin C}{2\sin A}=\frac{b^2\cdot\sin A\cdot\sin C}{2\sin B}=\frac{c^2\cdot\sin A\cdot\sin B}{2\sin C}$$
 $$S=\frac{abc}{4R},\,\,S=rp,$$
 unde $R$ este raza cercului circumscris și $r$ raza cercului înscris.
-<div style="text-align: right; margin-right: 30px;">
-<br><br>
-KRUPKA SEBASTIAN-ANDREI
-</div>
