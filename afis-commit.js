@@ -6,7 +6,7 @@
         const container = document.getElementById("recent-commits");
         const apiUrl =
             `https://api.github.com/repos/${OWNER}/${REPO}/commits` +
-            `?path=${encodeURIComponent(FILE_PATH)}&per_page=3`;
+            `?path=${encodeURIComponent(FILE_PATH)}&per_page=5`;
 
         try {
             const res = await fetch(apiUrl);
