@@ -246,11 +246,11 @@ $\geq$ *Direcția* segmentului orientat $\overline{AB}$ este formată din dreapt
 $\geq$ Fie $\overline{AB}$ și $\overline{CD}$ două segmente orientate cu aceeași direcție. Spunem că segmentele orientate au același *sens* dacă punctele $B$ și $D$ se află de aceeași parte a dreptei $AC$ sau dacă semidreptele $(AB$ și $(CD$ se includ una pe cealaltă. 
 $\geq$ Spunem că segmentele orientate $\overline{AB}$ și $\overline{CD}$ sunt *echipolente* dacă au aceeași lungime, direcție șl sens. Relația de echipolență se notează astfel: $\overline{AB}\sim\overline{CD}$. $\overline{AB}\sim\overline{CD}\Longleftrightarrow \begin{cases}AB=CD\\ AB\parallel CD\text{ sau }A-B-C-D\\ A\rightarrow B,\,C\rightarrow D\text{ același sens}\end{cases}$
 $\geq$ Propietăți:
-$\overline{AB}\sim\overline{AB}$ (reflexitivitate)
-$\overline{AB}\sim\overline{CD}\Longleftrightarrow\overline{CD}\sim\overline{AB}$ (simetrie)
+$\overline{AB}\sim\overline{AB}\text{ (reflexitivitate)}$
+$\overline{AB}\sim\overline{CD}\Longleftrightarrow\overline{CD}\sim\overline{AB}\text{ (simetrie)}$
 $\left.\begin{aligned}\overline{AB}\sim\overline{CD}\\ \overline{CD}\sim\overline{EF}\end{aligned}\right\} \implies\overline{AB}\sim\overline{EF}\text{ (tranzitivitate)}$
-$\geq$ Deoarece relația de echipolență este reflexivă, simetrică și tranzitivă, echipolența este și o relație de echivalență, ceea ce o determină să împartă mulțimea tuturor segmentelor orientate în *clase de echivalență*. ***Observație:*** pentru un segment orientat dat există o infinitate de segmente orientate echipolente cu el.
-$\geq$ Mulțimea tuturor segmentelor orientate echipolente cu un segment orientat dat se numește *vector*. Vectorul este o clasă de echivalență. ***Observație:*** Oricare segment orientat este considerat *reprezentant* al vectorului: $\begin{aligned}[t]&\overline{AB}\text{ segment orientat}\\ &\overrightarrow{AB}\text{ vector (liber)}\\ &\overrightarrow{AB}=\{\overline{AB},\,\overline{CD},\,\overline{EF},\,...\}\end{aligned}$
+$\geq$ Deoarece relația de echipolență este reflexivă, simetrică și tranzitivă, echipolența este și o *relație de echivalență*, ceea ce o determină să împartă mulțimea tuturor segmentelor orientate în *clase de echivalență*. ***Observație:*** pentru un segment orientat dat există o infinitate de segmente orientate echipolente cu el.
+$\geq$ Mulțimea tuturor segmentelor orientate echipolente cu un segment orientat dat se numește *vector*. Vectorul este o clasă de echivalență. ***Observație:*** oricare segment orientat este considerat *reprezentant* al vectorului: $\begin{aligned}[t]&\overline{AB}\text{ segment orientat}\\ &\overrightarrow{AB}\text{ vector (liber)}\\ &\overrightarrow{AB}=\{\overline{AB},\,\overline{CD},\,\overline{EF},\,...\}\end{aligned}$
 $\geq$ Prin *modulul* sau *lungimea* vectorului $\overrightarrow{AB}$ înțelegem $|\overrightarrow{AB}|=AB=BA$.
 $\geq$ Prin *direcția* vectorului $\overrightarrow{AB}$ înțelegem dreapta $AB$ și $(\forall)d\parallel AB$.
 $\geq$ *Sensul* vectorului $\overrightarrow{AB}$ este de la $A$ la $B$, unde $A$ se numește *origine* și $B$ *vârf*. 
@@ -285,9 +285,9 @@ $\left.\begin{aligned}&\overrightarrow u=\overrightarrow{AB}\\ &\overrightarrow 
 $\forall A,B,C$ puncte din plan: $\overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{AC}$
 
 $\geq$ Proprietăți:
-$(\overrightarrow u+\overrightarrow v)+\overrightarrow w=\overrightarrow u+(\overrightarrow v+\overrightarrow w),\,\forall\overrightarrow u,\,\,\overrightarrow v,\,\,\overrightarrow w\in V$ (asociativitate)
-$\overrightarrow u+\overrightarrow v=\overrightarrow v+\overrightarrow u,\,\forall\overrightarrow u,\,\,\overrightarrow v\in V$ (comutativitate)
-$\overrightarrow u+\overrightarrow 0=\overrightarrow u,\,\forall\overrightarrow u\in V$ ($\overrightarrow 0\in V$ element neutru)
+$(\overrightarrow u+\overrightarrow v)+\overrightarrow w=\overrightarrow u+(\overrightarrow v+\overrightarrow w),\,\forall\overrightarrow u,\,\,\overrightarrow v,\,\,\overrightarrow w\in V\text{ (asociativitate)}$
+$\overrightarrow u+\overrightarrow v=\overrightarrow v+\overrightarrow u,\,\forall\overrightarrow u,\,\,\overrightarrow v\in V\text{ (comutativitate)}$
+$\overrightarrow u+\overrightarrow 0=\overrightarrow u,\,\forall\overrightarrow u\in V\overrightarrow 0\in V\text{ (element neutru)}$
 $\forall\overrightarrow v\in V\longrightarrow(\exists)-\overrightarrow v\in V$
 $\geq$ Generalizare: *regula poligonului:* suma vectorilor este vectorul care închide poligonul. Acesta are originea primului vector și vârful ultimului vector.
 **înmulțirea vectorilor:**
@@ -299,9 +299,9 @@ $\alpha(\beta\cdot\overrightarrow v)=\beta(\alpha\cdot\overrightarrow v)=\alpha\
 $1\cdot\overrightarrow v=\overrightarrow v,\,\forall\overrightarrow v\in V$
 
 **VECTORI COLINIARI**
-$\geq$ Doi vectori care au aceeași direcție se numesct vectori *coliniari*. Fie $\overrightarrow u,\,\overrightarrow v\in V,\,\overrightarrow u\neq0,\,\overrightarrow v\neq0$. Atunci $\overrightarrow u$ și $\overrightarrow v$ sunt coliniari dacă și numai dacă $\exists\alpha\in\mathbb{R}^*$ astfel încât $\overrightarrow u=\alpha\cdot\overrightarrow v$.
+$\geq$ Doi vectori care au aceeași direcție se numesc vectori *coliniari*. Fie $\overrightarrow u,\,\overrightarrow v\in V,\,\overrightarrow u\neq0,\,\overrightarrow v\neq0$. Atunci $\overrightarrow u$ și $\overrightarrow v$ sunt coliniari dacă și numai dacă $\exists\alpha\in\mathbb{R}^*$ astfel încât $\overrightarrow u=\alpha\cdot\overrightarrow v$.
 $\geq$ Dacă $\overrightarrow u$ și $\overrightarrow v$ nu au aceeași direcție, atunci ei se numesc *necoliniari*. ***Consecință:*** dacă $\overrightarrow u$ și $\overrightarrow v$ sunt necoliniari și $p\cdot\overrightarrow u+q\cdot\overrightarrow v,\,p,q\in\mathbb{R}$ atunci $p=q=0$.
-$\geq$ Mulțimea formattă din doi vectori necoliniari se numește *bază*. ***Observație:*** orice vector din plan se exprimă în mod unic în funcție de doi vectori coliniari.
+$\geq$ Mulțimea formattă din doi vectori necoliniari se numește *bază*. ***Observație:*** orice vector din plan se exprimă în mod unic în funcție de doi vectori necoliniari.
 $(\overrightarrow u,\overrightarrow v)$ bază
 $\left.\begin{aligned}&\overrightarrow w=a\cdot\overrightarrow u+b\cdot\overrightarrow v\\ &\overrightarrow w=c\cdot\overrightarrow u+d\cdot\overrightarrow v\end{aligned}\right\}\implies a=c,\,b=d$
 
@@ -320,12 +320,12 @@ $\geq$ Orice vector $\overrightarrow{OA}$ dintr-un reper cartezian unde $O$ se n
 $\geq$ Operațiile cu vectorii scriși în funcție de $\overrightarrow i$ și $\overrightarrow j$ se realizează în felul următor: $\overrightarrow u=a\cdot\overrightarrow i+b\cdot\overrightarrow j,\,\overrightarrow v=c\cdot\overrightarrow i+d\cdot\overrightarrow j\implies\overrightarrow u+\overrightarrow v=(a+c)\overrightarrow i+(b+d)\overrightarrow j,\,k\cdot\overrightarrow u=k\cdot a\cdot\overrightarrow i+k\cdot b\cdot\overrightarrow j$. Modulul vectorului $\overrightarrow u$ poate fi exprimat în funcție de componentele $a$ și $b$ folosind formula $|\overrightarrow u|=\sqrt{a^2+b^2}$. ***Observații:*** $\overrightarrow u=\overrightarrow v\Longleftrightarrow a=c,\,b=d;\,\,\,\overrightarrow u,\,\overrightarrow v\text{ coliniari}\Longleftrightarrow\large\frac ac=\frac bd$.
 
 **PARALELISM, COLINIARITATE ȘI CONCURENȚĂ**
-$\geq$ Fie segmentul $[AB]$, punctul $M\in[AB]$, punctul fix $O\notin[AB]$ și raportul ${\large\frac{MA}{MB}}=k>0$ în care punctul $M$ împarte segmentul $[AB]$. $\overrightarrow{OA}$ se numește *vectorul de poziție* al punctului $A$ și se notează $\overrightarrow{r_A}$. Vectorul de poziție al punctului $M$ poate fi exprimat în funcție de $\overrightarrow{r_A}$ și $\overrightarrow{r_B}\,(\overrightarrow{OB})$: $\overrightarrow{OM}={\large\frac1{k+1}}\overrightarrow{OA}+{\large\frac k{k+1}}\overrightarrow{OB}$. Dacă $M$ este mijlocul segmentului $[AB]$, atunci $\overrightarrow{OM}={\large\frac12}(\overrightarrow{OA}+\overrightarrow{OB})$.
+$\geq$ Fie segmentul $[AB]$, punctul $M\in[AB]$, punctul fix $O\notin[AB]$ și raportul ${\large\frac{MA}{MB}}=k>0$ în care punctul $M$ împarte segmentul $[AB]$. $\overrightarrow{OA}$ se numește *vectorul de poziție* al punctului $A$ și se notează $\overrightarrow{r_A}$. Vectorul de poziție al punctului $M$ poate fi exprimat în funcție de $\overrightarrow{r_A}$ și $\overrightarrow{r_B}\,\,(\overrightarrow{OB})$: $\overrightarrow{OM}={\large\frac1{k+1}}\overrightarrow{OA}+{\large\frac k{k+1}}\overrightarrow{OB}$. Dacă $M$ este mijlocul segmentului $[AB]$, atunci $\overrightarrow{OM}={\large\frac12}(\overrightarrow{OA}+\overrightarrow{OB})$.
 $\geq$ Vectorul de poziție al centrului de greutate $G$ al unui triunghi oarecare $\triangle ABC$ poate fi exprimat în funcție de $\overrightarrow{OA},\,\overrightarrow{OB}$ și $\overrightarrow{OC}$ astfel: $$\overrightarrow{OG}=\frac 13\left(\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}\right),\,\forall O\in\mathcal{P}$$ Dacă $O=G$ atunci $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\overrightarrow 0$.
 
 **PARALELISM, TEOREMA LUI THALES ȘI TEOREMA BISECTOAREI**
 $\geq$ *Teorema lui Thales:* o paralelă dusă la una din laturile unui triunghi (care nu trece prin niciun vârf al triunghiului) formează cu celelalte două laturi *segmente propoționale*. Fie $\triangle ABC,\,M\in AB,\,M\neq A,\,M\neq B$ și $N\in AC,\,N\neq A,\,N\neq C$. Dacă $MN\parallel BC$, atunci $\large\frac{AM}{AB}=\frac{AN}{AC}$.
-$\geq$ *Teorema bisectoarei:* dacă semidreapta $AD$ este bisectoarea unghiului $\angle A$ din triunghiul $\triangle ABC$, atunci $\large\frac{AB}{BD}=\frac{AC}{CD}\Longleftrightarrow\frac{CD}{BD}=\frac{AC}{AB}$. 
+$\geq$ *Teorema bisectoarei:* dacă semidreapta $(AD$ este bisectoarea unghiului $\angle A$ din triunghiul $\triangle ABC$, atunci $\large\frac{AB}{BD}=\frac{AC}{CD}\Longleftrightarrow\frac{CD}{BD}=\frac{AC}{AB}$. 
 $\geq$ Vectorul de poziție al centrului cercului înscris $I$ într-un triunghi oarecare $\triangle ABC$ poate fi exprimat în funcție de $\overrightarrow{OA},\,\overrightarrow{OB}$ și $\overrightarrow{OC}$ și laturile $a=BC,\,b=AC$ și $c=AB$ astfel: $$\overrightarrow{OI}=\frac a{a+b+c}\overrightarrow{OA}+\frac b{a+b+c}\overrightarrow{OB}+\frac c{a+b+c}\overrightarrow{OC}$$
  
 **PROBLEME DE COLINIARITATE, TEOREMA LUI MENELAUS**
@@ -333,7 +333,7 @@ $\geq$ *Teorema lui Menelaus:* fie $A'\in BC,\,B'\in AC,\,C'\in AC$ în $\triang
 $\geq$ Vectorul de poziție al ortocentrului $H$ al unui triunghiu oarecare $\triangle ABC$ poate fi exprimat în funcție de $\overrightarrow{OA},\,\overrightarrow{OB}$ și $\overrightarrow{OC}$ astfel: $\overrightarrow{OA}+\overrightarrow{OB}+\overrightarrow{OC}=\overrightarrow{OH}$. Relația anterioară împreună cu relația $\overrightarrow{HA}+\overrightarrow{HB}+\overrightarrow{HC}=2\overrightarrow{HO}$ sunt cunoscunte sub numele de *relațiile lui Sylvester*.
 
 **PROBLEME DE CONCURENȚĂ, TEOREMA LUI CEVA**
-$\geq$ *Teorema lui Ceva:* fie $\triangle ABC$ și $D\in(BC),\,E\in(AC),\,F\in(AB)$. Dreptele $AD,\,BE$ și $CF$ sunt coliniare dacă și numai dacă ${\large\frac{DB}{DC}\cdot\frac{EC}{EA}\cdot\frac{FA}{FB}}=1$. În acelați triunghi $\triangle ABC$ are loc și *relația lui Van Aubel:* $\large\frac{FA}{FB}+\frac{EA}{EC}=\frac{OA}{OD}$.
+$\geq$ *Teorema lui Ceva:* fie $\triangle ABC$ și $D\in(BC),\,E\in(AC),\,F\in(AB)$. Dreptele $AD,\,BE$ și $CF$ sunt coliniare dacă și numai dacă ${\large\frac{DB}{DC}\cdot\frac{EC}{EA}\cdot\frac{FA}{FB}}=1$. În același triunghi $\triangle ABC$ are loc și *relația lui Van Aubel:* $\large\frac{FA}{FB}+\frac{EA}{EC}=\frac{OA}{OD}$.
 
 **ELEMENTE DE TRIGONOMETRIE**
 $\geq$ Fie triunghiul dreptunghic $\triangle ABC,\,m(\angle A)=90\degree$. Se definesc următoarele notații: $m(\angle B)=B,\,m(\angle C)=C$ și $BC=a,\,AC=b,\,AB=c$.
@@ -362,7 +362,6 @@ $\geq$ Fie un număr real $t$ și $M_t\in\mathscr{C}$ punctul corespunzător pe 
 | :------: | :-: | :----------------------: | :---: | :-------------------------: | :----: |
 | $\sin x$ | $0$ |           $1$            |  $0$  |            $-1$             |  $0$   |
 | $\cos x$ | $1$ |           $0$            | $-1$  |             $0$             |  $1$   |
-|          |     |                          |       |                             |        |
 
 $\geq$ Proprietăți:
 $\forall x\in\mathbb{R}\implies\cos x\in[-1,\,1],\,\sin x\in[-1,\,1]$
@@ -430,15 +429,15 @@ $$\tan 2x=\frac{2\tan x}{1-\tan^2x},\,\,\tan\frac x2=\frac{\sin x}{1+\cos x}=\fr
 $$\sin x+\sin y=2\sin\frac{x+y}2\cdot\cos\frac{x-y}2,\,\,\sin x-\sin y=2\cos\frac{x+y}2\cdot\sin\frac{x-y}2$$$$\cos x+\cos y=2\cos\frac{x+y}2\cos\frac{x-y}2,\,\,\cos x-\cos y=-2\sin\frac{x+y}2\sin\frac{x-y}2$$
 **din produse în sume:**$$\sin a\sin b=\frac12\bigg[\cos(a-b)-\cos(a+b)\bigg],\,\,\cos a\cos b=\frac12\bigg[\cos(a+b)+\cos(a-b)\bigg]$$$$\sin a\cos b=\frac12\bigg[\sin(a+b)+\sin(a-b)\bigg]$$
 **PRODUSUL SCALAR A DOI VECTORI**
-$\geq$ Fie $\overrightarrow u$ și $\overrightarrow v$ vectori astfel încât $m(\angle\overrightarrow u,\,\overrightarrow v)=\alpha$. Prin *produsul scalar* al vectorilor $\overrightarrow u$ și $\overrightarrow v$ înțelegem numărul real notat $\overrightarrow u\cdot\overrightarrow v$ cu proprietatea $\overrightarrow u\cdot\overrightarrow v=|\overrightarrow u|\cdot|\overrightarrow v|\cdot\cos\alpha$, dacă $\overrightarrow u$ și $\overrightarrow v$ nenuli sau $\overrightarrow u\cdot\overrightarrow v=0$, dacă $\overrightarrow u$ sau $\overrightarrow v$ nul.***Observație:*** $\overrightarrow u\perp\overrightarrow v\Longleftrightarrow\overrightarrow u\cdot\overrightarrow v=0,\,\cos\alpha=0$. Există patru cazuri particulare:
-1) $\alpha=0\implies\cos\alpha=1\implies\overrightarrow u\cdot\overrightarrow v=|\overrightarrow u||\overrightarrow v|:$ aceeași direcție, același sens
-2) $\alpha=\pi\implies\cos\alpha=-1\implies\overrightarrow u\cdot\overrightarrow v=-|\overrightarrow u||\overrightarrow v|:$ aceeași direcție, sens diferit
+$\geq$ Fie $\overrightarrow u$ și $\overrightarrow v$ vectori astfel încât $m(\angle\overrightarrow u,\,\overrightarrow v)=\alpha$. Prin *produsul scalar* al vectorilor $\overrightarrow u$ și $\overrightarrow v$ înțelegem numărul real notat $\overrightarrow u\cdot\overrightarrow v$ cu proprietatea $\overrightarrow u\cdot\overrightarrow v=|\overrightarrow u|\cdot|\overrightarrow v|\cdot\cos\alpha$, dacă $\overrightarrow u$ și $\overrightarrow v$ nenuli sau $\overrightarrow u\cdot\overrightarrow v=0$, dacă $\overrightarrow u$ sau $\overrightarrow v$ nul. ***Observație:*** $\overrightarrow u\perp\overrightarrow v\Longleftrightarrow\overrightarrow u\cdot\overrightarrow v=0,\,\cos\alpha=0$. Există patru cazuri particulare:
+1) $\alpha=0\implies\cos\alpha=1\implies\overrightarrow u\cdot\overrightarrow v=|\overrightarrow u||\overrightarrow v|:$ ***aceeași*** direcție, ***același*** sens
+2) $\alpha=\pi\implies\cos\alpha=-1\implies\overrightarrow u\cdot\overrightarrow v=-|\overrightarrow u||\overrightarrow v|:$ ***aceeași*** direcție, sens ***diferit***
 3) $\overrightarrow u\cdot\overrightarrow v>0\implies\cos\alpha>0\implies\alpha\in\displaystyle\left(0,\frac\pi2\right)$
 4) $\overrightarrow u\cdot\overrightarrow v<0\implies\cos\alpha<0\implies\alpha\in\displaystyle\left(\frac\pi2,\pi\right)$
 
 $\geq$ Proprietăți:
-$\overrightarrow u\cdot\overrightarrow v=\overrightarrow v\cdot\overrightarrow u$ (comutativitate)
-$\overrightarrow u(\overrightarrow v+\overrightarrow w)=\overrightarrow u\cdot\overrightarrow v+\overrightarrow u\cdot\overrightarrow w$ (distributivitate)
+$\overrightarrow u\cdot\overrightarrow v=\overrightarrow v\cdot\overrightarrow u\text{ (comutativitate)}$
+$\overrightarrow u(\overrightarrow v+\overrightarrow w)=\overrightarrow u\cdot\overrightarrow v+\overrightarrow u\cdot\overrightarrow w\text{ (distributivitate)}$
 $\overrightarrow u(k\cdot\overrightarrow v)=(k\overrightarrow u)\cdot\overrightarrow v=k\,\overrightarrow u\,\overrightarrow v,\,k\in\mathbb{R}$
 $\overrightarrow u\,^2=\overrightarrow u\cdot\overrightarrow u=|\overrightarrow u||\overrightarrow u|\cos0=|\overrightarrow u|^2$
 $|\overrightarrow u+\overrightarrow v|^2=|\overrightarrow u|^2+2\overrightarrow u\overrightarrow v+|\overrightarrow v|^2$
