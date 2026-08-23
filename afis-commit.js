@@ -1,4 +1,4 @@
-(async function () { //cod furnizat de Claude Sonnet 5-medium
+(async function () { //cod furnizat de Claude Sonnet 5 - medium
         const OWNER = "electro-volts";
         const REPO = "matrixzero.net";
         const FILE_PATH = "sursa-compendiu.md";

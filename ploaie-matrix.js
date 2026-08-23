@@ -16,7 +16,7 @@
     resize();
 
     function draw() {
-        // low-alpha fill each frame creates the fading trail behind each character
+        // culoare cu alpha redus creează efectul lăsat în urmă de ploaie
         ctx.fillStyle = 'rgba(11, 26, 18, 0.08)';
         ctx.fillRect(0, 0, width, height);
 
@@ -36,9 +36,9 @@
 
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (!reducedMotion) {
-        setInterval(draw, 40); // classic cmatrix-like speed
+        setInterval(draw, 40); // viteză identică cu cmatrix
     } else {
-        // static fallback: fill with the theme background, no animation
+        // fundal normal, în caz de orice eroare a efectului
         ctx.fillStyle = '#0b1a12';
         ctx.fillRect(0, 0, width, height);
     }
