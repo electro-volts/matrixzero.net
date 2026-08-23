@@ -1,8 +1,22 @@
-body {
+.matrix-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    display: block;
+}
+
+.content {
 	font-family: 'Courier New', monospace;
     font-size: 2vw;
     color: #b4ff00;
-    background-color: #0b1a12;
+    background-color: rgba(11, 26, 18, 0.4); /* semi-transparent astfel încât ploaia să fie vizibilă */
+}
+body {
+    background-color: #0b1a12; /* fundal afișat înainte de ploaie */
+    margin: 0;
 }
 a:link {
     color: #b4ff00; /* link nevizitat */
@@ -15,7 +29,7 @@ table {
 }
 table, th, td {
     border: 1px none #b4ff00;
-    background-color: #0b1a12;
+    background-color: transparent;
 }
 th, td {
     padding: 6px 6px; /* sus-jos și stânga-dreapta */
