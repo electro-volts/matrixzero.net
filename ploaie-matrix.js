@@ -7,8 +7,17 @@
     let width, height, columns, drops;
 
     function resize() {
-        width = canvas.width = window.innerWidth;
-        height = canvas.height = window.innerHeight;
+        const dpr = window.devicePixelRatio || 1;
+        width = window.innerWidth;
+        height = window.innerHeight;
+        // canvas-ul are o rezoluție internă mai mare pe ecrane high-DPI (mobil), dar rămâne afișat la aceeași dimensiune vizuală (CSS)
+        canvas.width = width * dpr;
+        canvas.height = height * dpr;
+        canvas.style.width = width + 'px';
+        canvas.style.height = height + 'px';
+
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
         columns = Math.floor(width / fontSize);
         drops = new Array(columns).fill(1);
     }

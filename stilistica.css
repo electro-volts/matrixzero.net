@@ -10,9 +10,23 @@
 
 .content {
 	font-family: 'Courier New', monospace;
-    font-size: 2vw;
+    font-size: clamp(15px, 1.1rem + 0.3vw, 20px); /* lizibil pe telefon, nu imens pe calculator */
     color: #b4ff00;
-    background-color: rgba(11, 26, 18, 0.4); /* semi-transparent astfel încât ploaia să fie vizibilă */
+    position: relative;
+    max-width: 100vw;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+.content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    background-color: rgba(11, 26, 18, 0.4); /* semi-transparent prin alpha */
+    z-index: -1;
 }
 body {
     background-color: #0b1a12; /* fundal afișat înainte de ploaie */
@@ -40,4 +54,9 @@ th, td {
 }
 .commit-item {
     padding: 12px 0;
+}
+hr {
+    width: 100vw;
+    max-width: 100vw;
+    box-sizing: border-box;
 }
