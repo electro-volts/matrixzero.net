@@ -1,7 +1,7 @@
 ---
 render_with_liquid: false
 ---
-# ALGEBRĂ
+# ALGEBRĂ - CLASA A IX-A
 
 **NUMERE REALE**
 $\mathbb{N}=\{0,\,1,\,2,\,3,\,...\}$: mulțimea nr. *naturale*
@@ -236,7 +236,7 @@ $\geq$ O ecuație de forma $ax^2+bxy+cy^2=d,\,a,b,c,d\in\mathbb{R}$ se numește 
 $\geq$ O ecuație în necunoscutele $x$ și $y$ se numește *simetrică* dacă prin schimbarea necunoscutelor între ele ecuația nu se schimbă: $\begin{aligned}[t] &2x^2-3x-3y+2y^2=5 \\ &x\longleftrightarrow y:\,2y^2-3y-3x+2x^2=5\end{aligned}$ (de exemplu). Un sistem în care ambele ecuații sunt simetrice se numește *sistem simetric*. Indicație generală de rezolvare: $\text{notăm }S=x+y,\,P=xy\implies\text{ sistemul în necunoscutele }S\text{ și }P\text{ este mai simplu}$
 
 
-# GEOMETRIE
+# GEOMETRIE - CLASA A IX-A
 
 **VECTORI ÎN PLAN**
 $\geq$ Prin *segmentul* $(AB)$ înțelegem mulțimea punctelor dreptei $AB$ situate între punctele $A$ și $B$  (puncte ce sunt numite și *capete* sau *extremități*).
@@ -490,3 +490,26 @@ $$S=\frac{a\cdot h_a}2=\frac{b\cdot h_b}2=\frac{c\cdot h_c}2,\,\,S=\sqrt{p(p-a)(
 $$S=\frac{a^2\cdot\sin B\cdot\sin C}{2\sin A}=\frac{b^2\cdot\sin A\cdot\sin C}{2\sin B}=\frac{c^2\cdot\sin A\cdot\sin B}{2\sin C}$$
 $$S=\frac{abc}{4R},\,\,S=rp,$$
 unde $R$ este raza cercului circumscris și $r$ raza cercului înscris.
+
+
+# ALGEBRĂ - CLASA A X-A
+
+**RADICALI DE ORDIN n**
+$\geq$ Se definesc următoarele proprietăți, împreună cu câteva observații aferente:
+$\large a^x\cdot a^y=a^{x+y},\,\forall a\in\mathbb{R},\,\forall x,y\in\mathbb{Z}$
+$\large a^x:a^y=a^{x-y},\,\forall a \in\mathbb{R},\,\forall x,y\in\mathbb{Z},\,a\neq0$
+$\large(a^x)^y=a^{x\cdot y}$
+$\large a^x\cdot b^x=(a\cdot b)^x$
+$\large\frac{a^x}{b^x}=\left(\frac ab\right)^x$
+$\large a^0=1,\,a\neq0;\,0^0\text{ nu are sens}$
+$\geq$ Fie $n\in\mathbb{N},\,n\geq2,\,a\in\mathbb{R}$. Dacă $a\geq0$ și $n\in\mathbb{N}$ par prin *radical de ordin n* înțelegem numărul pozitiv notat $\large\sqrt[n]a$ cu proprietatea $\large\left(\sqrt[n]a\right)^n=a$. Dacă $n\in\mathbb{N}$ impar prin *radical de ordin n* înțelegem numărul real $\large\sqrt[n]a$ cu proprietatea $\large(\sqrt[n]a)^n$, unde (în ambele cazuri) $n$ se numește *ordin radicalului* și $a$ *cantitatea de sub radical*. Există niște *condiții de existență* care trebuie satisfăcute astfel încât radicalii să aibă sens: ${\large\sqrt[n]x},\,n=2k$ are sens $\Longleftrightarrow x\geq0$; ${\large\sqrt[n]x},\,n=2k+1$ are sens $\forall x\in\mathbb{R}$.
+$\geq$ Proprietăți:
+1) radicalul produsului este egal cu produsul radicalilor: $\large\sqrt[n]{a\cdot b}=\sqrt[n]a\cdot\sqrt[n]b,\,\forall a,b\geq0,\,n\in\mathbb{N},\,n\geq2$
+2) radicalul câtului este egal cu câtul radicalilor: $\large\sqrt[n]{\frac ab}=\frac{\sqrt[n]a}{\sqrt[n]b},\,\forall a,b\geq0,\,b\neq0,\,n\in\mathbb{N},\,n\geq2$
+3) $\large\left(\sqrt[n]a\right)^m=\sqrt[n]{a^m}$
+4) simplificarea ordinului radicalului și a exponentului puterii printr-un divizor comun: $\large\sqrt[n\cdot k]{a^{m\cdot k}}=\sqrt[n]{a^m}$
+5) extragerea radicalului din radical: $\large\sqrt[n]{\sqrt[m]x}=\sqrt[m\cdot n]x,\,\forall x\geq0,\,\forall m,n\in\mathbb{N},\,m,n\geq2$
+6) introducerea factorului sub radical: $\large a\cdot\sqrt[2k]b=\sqrt[2k]{a^2k\cdot b},\,a,b\geq0$ (se introduce doar factorul pozitiv);  $\large a\cdot\sqrt[2k+1]b=\sqrt[2k+1]{a^{2k+1}\cdot b},\,\forall a,b\in\mathbb{R}$
+7) scoaterea unui factor de sub radical: $\large\sqrt[2k]{a^{2k}\cdot b}=|a|\cdot\sqrt[2k]b,\,a\in\mathbb{R},\,b\geq0;\,\,\sqrt[2k+1]{a^{2k+1}\cdot b}=a\cdot\sqrt[2k+1]b,\,a,b\in\mathbb{R}$
+
+$\geq$ *A raționaliza* numitorul unei fracții înseamnă a-l transforma din număr irațional în număr rațional. În acest scop amplificăm fracția cu *expresia conjugată* a numitorului.
