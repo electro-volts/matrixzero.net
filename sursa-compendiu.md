@@ -511,12 +511,13 @@ $\geq$ Proprietăți:
 5) extragerea radicalului din radical: $\large\sqrt[n]{\sqrt[m]x}=\sqrt[m\cdot n]x,\,\forall x\geq0,\,\forall m,n\in\mathbb{N},\,m,n\geq2$
 6) introducerea factorului sub radical: $\large a\cdot\sqrt[2k]b=\sqrt[2k]{a^2k\cdot b},\,a,b\geq0$ (se introduce doar factorul pozitiv);  $\large a\cdot\sqrt[2k+1]b=\sqrt[2k+1]{a^{2k+1}\cdot b},\,\forall a,b\in\mathbb{R}$
 7) scoaterea unui factor de sub radical: $\large\sqrt[2k]{a^{2k}\cdot b}=|a|\cdot\sqrt[2k]b,\,a\in\mathbb{R},\,b\geq0;\,\,\sqrt[2k+1]{a^{2k+1}\cdot b}=a\cdot\sqrt[2k+1]b,\,a,b\in\mathbb{R}$
+<br>
 
 $\geq$ *A raționaliza* numitorul unei fracții înseamnă a-l transforma din număr irațional în număr rațional. În acest scop amplificăm fracția cu *expresia conjugată* a numitorului:
 1) numitorul este de forma $\large\sqrt[n]a,\,n\in\mathbb{N},\,n\geq2,\,a>0:\,\,\sqrt[n]a\cdot\sqrt[n]{a^{n-1}}=\sqrt[n]{a^n}=a$
 2) numitorul este de forma $\large\sqrt a\pm\sqrt b,\,a,b>0:\,\,(\sqrt a-\sqrt b)(\sqrt a+\sqrt b)=a-b$
 3) numitorul este de forma $\large\sqrt a\pm\sqrt b\pm\sqrt c,\,a,b,c>0:$ considerăm $\large\sqrt a\pm\sqrt b=\sqrt d$ și amplificăm cu $\large\sqrt d\pm\sqrt c$
-4) numitorul este de forma $\large\sqrt[3]a\pm\sqrt[3]b$ sau $\large\sqrt[3]{a^2}\pm\sqrt[3]{ab}+\sqrt[3]{b^2}:\,\,\begin{aligned}[t](\sqrt[3]a-\sqrt[3]b)(\sqrt[3]{a^2}+\sqrt[3]{ab}+\sqrt[3]{b^2})&=a-b \\ (\sqrt[3]a+\sqrt[3]b)(\sqrt[3]{a^2}-\sqrt[3]{ab}+\sqrt[3]{b^2})&=a+b\end{aligned}$
+4) numitorul este de forma $\large\sqrt[3]a\pm\sqrt[3]b$ sau $\large\sqrt[3]{a^2}\pm\sqrt[3]{ab}+\sqrt[3]{b^2}:$ $\large\begin{aligned}[t](\sqrt[3]a-\sqrt[3]b)(\sqrt[3]{a^2}+\sqrt[3]{ab}+\sqrt[3]{b^2})&=a-b \\ (\sqrt[3]a+\sqrt[3]b)(\sqrt[3]{a^2}-\sqrt[3]{ab}+\sqrt[3]{b^2})&=a+b\end{aligned}$
 
 ***Observații:*** $\large\begin{aligned}[t]\sqrt a\in\mathbb{Q}\Longleftrightarrow a=k^2,\,k\in\mathbb{Q} \\ \sqrt[3]a\in\mathbb{Q}\Longleftrightarrow a=k^3,\,k\in\mathbb{Q}\end{aligned}$
 
