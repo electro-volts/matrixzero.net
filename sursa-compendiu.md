@@ -530,3 +530,23 @@ $\large\frac{a^x}{b^x}=\left(\frac ab\right)^x$
 $\large\sqrt[n]x=x^{\frac1n},\,n\geq2$
 
 $\geq$ Fie $\large a>0,\,x\in\mathbb{R},\,x_{n}^{'}$ și $\large x_{n}^{''}$ aproximări prin lipsă, respectiv prin adaos ale lui $\large x$. Prin $\large a^x$ înțelegem numărul real cu proprietatea $\large a^{x_{n}^{'}}<a^x<a^{x_{n}^{''}}\,\,(a>1)$ sau $\large a^{x_{n}^{'}}>a^x>a^{x_{n}^{''}}\,\,(a\in(0,1))$.
+
+**LOGARITMI**
+$\geq$ Fie $\large a>0,\,a\neq1$ și $x>0$. Prin *logaritmul* în baza $\large a$ a numărului pozitiv $\large x$ înțelegem exponentul la care ridicăm baza pentru a obține $\large x:\,\log_ax,\,\,\large\begin{aligned}[t]&\log_ax=y\Longleftrightarrow a^y=x \\ &a^{\LARGE{\log_ax}}=x\end{aligned}$. <br>
+Condiții de existență: $\large\log_ax\text{ are sens}\Longleftrightarrow\begin{cases}x>0 \\ a>0 \\ a\neq1\end{cases}$. 
+Există niște valori specifice ale bazei $\large a$ care conferă logaritmului un nume specific: $\large\log_{10}x=\lg x$ și se numește *logaritm zecimal*; $\large\log_ex=\ln x$ și se numește *logaritm natural*.
+Proprietăți:
+$\begin{cases}\Large\log_a(xy)=\log_ax+\log_ay,\,\forall a>0,\,a\neq1,\,\forall x,y>0\\ \displaystyle\Large\text{generalizare: }\log_a\left(\prod_{k=1}^nx_k\right)=\sum_{k=1}^n\log_ax_k \\ \Large\log_ax^n=n\log_ax,\,n\in\mathbb{N}^*\end{cases}$
+
+$\Large\log_a1=0,\,\log_aa=1$
+
+$\begin{cases}\Large\log_a\left({\LARGE\frac{x}{y}}\right)=\log_ax-\log_ay,\,\forall a>0,\,a\neq1 \\ \Large\log_a{\LARGE\frac1y}=-\log_ay\end{cases}$
+
+$\begin{cases}\Large\log_ax^\alpha=\alpha\log_ax,\,\forall\alpha\in\mathbb{R} \\ \Large\log_a\sqrt[n]x={\LARGE\frac1n}\log_ax\end{cases}$
+
+$\begin{cases}\Large\log_ax=\frac{\log_bx}{\log_ba} \\ \Large\log_ab=\frac1{\log_ba} \\ \Large\log_{a^k}x=\frac1k\log_ax \\ \Large\log_{a^q}x^p=\frac pq\log_ax\end{cases}$
+
+$\begin{cases}\Large a^{\log_ax}=a \\ \Large a^{\log_bc}=c^{\log_ba} \end{cases}$
+
+$\Large\log_ax<\log_ay\Longleftrightarrow\left\{\begin{aligned} &x<y,\text{ dacă }a>1 \\ &x>y,\text{ dacă }a\in(0,1)\end{aligned}\right.$
+
