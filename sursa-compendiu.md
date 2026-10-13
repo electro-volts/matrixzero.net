@@ -553,3 +553,19 @@ $\Large\log_ax<\log_ay\Longleftrightarrow\left\{\begin{aligned} &x<y,\text{ dac�
 **NUMERE COMPLEXE**
 $\geq$ Se definește $\large\mathbb{R}\times\mathbb{R}=\{(a,b)\,|\,a,b\in\mathbb{R}\}$ cu operația de *adunare*: $\large(a_1,\,b_1)+(a_2,\,b_2)=(a_1+a_2,\,b_1+b_2)\in\mathbb{R}\times\mathbb{R}$ și operația de *înmulțire*: $\large(a_1,\,b_1)\cdot(a_2,\,b_2)=(a_1a_2-b_1b_2,\,a_1b_2+a_2b_1)\in\mathbb{R}\times\mathbb{R}$.  ***Observație:*** dacă $b_1=b_2=0$ adunarea și înmulțirea în $\large\mathbb{R}\times\mathbb{R}$ se reduce la adunarea și înmulțirea $\mathbb{R}\implies$ identificăm perechea $(a,\,0)$ cu numărul real $\large a$: $\large(a,\,0)=a\in\mathbb{R}$.
 $\geq$ Mulțimea $\mathbb{R}\times\mathbb{R}$ împreună cu cele două operații de adunare și înmulțire se numește mulțimea numerelor *complexe* și se notează cu $\large\mathbb{C}$. Orice element $\large z=(a,\,b)\in\mathbb{C}$ se numește *număr complex.* Notăm $\large(0,\,1)=i\in\mathbb{C}$, unde $\large i$ se numește *unitate imaginară* și are proprietatea $\large i^2=-1$. Notația $\large z=a+bi,\,a,b\in\mathbb{R},\,i^2=-1$ se numește *forma algebrică* a numărului complex $\large z$. $\large a$ se numește *parte reală* și se notează $\large\text{Re}(z)$ și $\large bi$ se numește *parte imaginară*, unde $\large b$ se numește *coeficientul* părții imaginare și se notează $\large\text{Im}(z)$. ***Observație:*** fie $\large z=a+bi\in\mathbb{C},\,a,b\in\mathbb{R},\,i^2=-1$. $\large z\in\mathbb{R}\Longleftrightarrow b=0$. Numerele reale sunt numere complexe cu coeficientul părții imaginare $\large 0\implies\mathbb{R}\subset\mathbb{C}.$ 
+$\geq$ Operațiile în $\large\mathbb{C}$ se realizează după cum urmează: 
+$\large\begin{aligned} z_1+z_2&=(a_1+a_2)+(b_1+b_2)i \\ z_1\cdot z_2&=(a_1a_2-b_1b_2)+(a_1b_2+a_2b_1)i \end{aligned}$
+$\geq$ Puteriile lui $\large i$ urmăresc următorul tipar:  $\large\begin{aligned}[t] &i^{4k+1}=i \\ &i^{4k+2}=-1 \\ &i^{4k+3}=-i \\ &i^{4k}=1 \end{aligned}$
+$\geq$ Egalitatea a două numere complexe se realizează astfel: $\large z_1=a_1+b_1i,\,z_2=a_2+b_2i,\,z_1=z_2\Longleftrightarrow a_1=a_2\text{ și }b_1=b_2$.
+$\geq$ Proprietățile adunării: 
+$\large(z_1+z_2)+z_3=z_1+(z_2+z_3),\,\forall z_1,z_2,z_3\in\mathbb{C}\text{ (asociativitate)}$
+$\large z_1+z_2=z_1+z_2,\,\forall z_1,z_2\in\mathbb{C}\text{ (comutativitate)}$
+$\large0=0+0\cdot i\in\mathbb{C},\,z+0=0+z=z,\,\forall z\in\mathbb{C}\text{ (element neutru)}$
+$\large\forall z\in\mathbb{C},\,z=a+bi\,\,\exists-z=-a-bi\text{ astfel încât }z+(-z)=0\implies\text{scăderea: }z_1-z_2=z_1+(-z_2)$
+$\geq$ Proprietățile înmulțirii:
+$\large(z_1z_2)z_3=z_1\cdot(z_2\cdot z_3),\,\forall z_1,z_2,z_3\in\mathbb{C}\text{ (asociativitate)}$
+$\large z_1\cdot z_2=z_2\cdot z_1,\,\forall z_1,z_2\in\mathbb{C}\text{ (comutativitate)}$
+$\large 1=1+0\cdot i\in\mathbb{C},\,z\cdot1=1\cdot z=z,\,\forall z\in\mathbb{C}\text{ (element neutru)}$
+$\large\forall z\in\mathbb{C},\,z\neq0\,\,\exists{\LARGE\frac1z}\longrightarrow\text{inversul lui z astfel încât }z\cdot{\LARGE\frac1z}=1\implies\text{împărțirea }{\LARGE\frac{z_1}{z_2}}=z_1\cdot{\LARGE\frac1{z_2}}$
+$\large z_1(z_2+z_3)=z_1z_2+z_1z_3,\,\forall z_1,z_2,z_3\in\mathbb{C}\text{ (distributivitatea înmulțirii față de adunare)}$
+$\geq$ Mulțimea $\large i\mathbb{R}^*=\{ib\,|\,b\in\mathbb{R}^*\}\subset\mathbb{C}$ se numește mulțimea numerelor *pur imaginare*.
