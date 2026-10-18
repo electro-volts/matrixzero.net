@@ -566,7 +566,8 @@ $\geq$ Proprietățile înmulțirii:
 $\large(z_1z_2)z_3=z_1\cdot(z_2\cdot z_3),\,\forall z_1,z_2,z_3\in\mathbb{C}\text{ (asociativitate)}$
 $\large z_1\cdot z_2=z_2\cdot z_1,\,\forall z_1,z_2\in\mathbb{C}\text{ (comutativitate)}$
 $\large 1=1+0\cdot i\in\mathbb{C},\,z\cdot1=1\cdot z=z,\,\forall z\in\mathbb{C}\text{ (element neutru)}$
-$\large\forall z\in\mathbb{C},\,z\neq0\,\,\exists{\LARGE\frac1z}\longrightarrow\text{inversul lui z astfel încât }z\cdot{\LARGE\frac1z}=1\implies\text{împărțirea }{\LARGE\frac{z_1}{z_2}}=z_1\cdot{\LARGE\frac1{z_2}}$
+$\large\forall z\in\mathbb{C},\,z\neq0\,\,\exists{\LARGE\frac1z}\longrightarrow\text{inversul lui z astfel încât }z\cdot{\LARGE\frac1z}=1$
+$\implies\text{împărțirea }{\LARGE\frac{z_1}{z_2}}=z_1\cdot{\LARGE\frac1{z_2}}$
 $\large z_1(z_2+z_3)=z_1z_2+z_1z_3,\,\forall z_1,z_2,z_3\in\mathbb{C}\text{ (distributivitatea înmulțirii față de adunare)}$
 $\geq$ Mulțimea $\large i\mathbb{R}^*=\{ib\,|\,b\in\mathbb{R}^*\}\subset\mathbb{C}$ se numește mulțimea numerelor *pur imaginare*.
 
@@ -590,3 +591,15 @@ Generalizare: $\displaystyle\large\left|\prod_{k=1}^nz_k\right|=\prod_{k=1}^n|z_
 Caz particular: $\large\begin{aligned}[t] &z_1=z_2=...=z_n=z \\ &|z^n|=|z|^n,\,\forall z\in\mathbb{C},\,n\in\mathbb{N}^*\end{aligned}$
 $\large\left|{\LARGE\frac{z_1}{z_2}}\right|={\LARGE\frac{|z_1|}{|z_2|}},\,\forall z_1,z_2\in\mathbb{C},\,z_2\neq0$
 $\large|z_1+z_2|\leq|z_1|+|z_2|,\,\forall z_1,z_2\in\mathbb{C}$ (inegalitatea triunghiului)
+
+**RĂDĂCINILE PĂTRATE ALE UNUI NUMĂR COMPLEX**
+$\geq$ Prin *rădăcina pătrată* a numărului complex $\large z$ înțelegem un număr complex $\large r$ cu proprietatea $\large r^2=z$. Orice număr complex are două rădăcini pătrate care sunt opuse:
+$\large\begin{aligned} &z=a+bi\in\mathbb{C}\text{ se dă} \\ &r=x+yi\in\mathbb{C}\text{ se cere} \\ &\text{rădăcina pătrată al lui }z\implies r^2=z \\ &(x+yi)^2=a+bi\longrightarrow\begin{aligned}[t] &\left|(x+yi)^2\right|=|a+bi| \\ &|x+yi|^2=\sqrt{a^2+b^2} \\ &x^2+y^2=\sqrt{a^2+b^2}\end{aligned} \\ &x^2+2xyi-y^2=a+bi\end{aligned}$
+$\large\begin{cases} x^2-y^2=a \\ 2xy=b \\ x^2+y^2=\sqrt{a^2+b^2}\end{cases}$
+
+**REZOLVAREA ECUAȚIEI DE GRADUL II (cu coeficienți reali)**
+$\large\begin{aligned} &ax^2+bx+c=0,\,a,b,c\in\mathbb{R},\,a\neq0 \\ &\Delta=b^2-4ac\in\mathbb{R} \\ &x_{1,2}=\frac{-b\pm i\sqrt{-\Delta}}{2a}\in\mathbb{C}\setminus\mathbb{R}\end{aligned}$
+**ecuația de gradul II cu coeficienți numere complexe**
+$\large\begin{aligned} &ax^2+bx+c=0,\,a,b,c\in\mathbb{C},\,a\neq0 \\ &\Delta=b^2-4ac\in\mathbb{C} \\ &\Delta=(x+yi)^2\longrightarrow r_1,r_2\text{ rădăcini pătrate, }r_2=-r_1 \\ &x_1=\frac{-b+r_1}{2a},\,\,x_2=\frac{-b+r_2}{2a}\end{aligned}$
+**relații între rădăcini și coeficienți (Viète)**
+$\geq$ Dacă $\large x_1,x_2\in\mathbb{C}$ sunt rădăcinile ecuației $\large ax^2+bx+c,\,a,b,c\in\mathbb{C},\,a\neq0$ atunci ecuația poate fi scrisă ca $\large x^2-Sx+P=0$, unde $\large S=x_1+x_2=-{\LARGE\frac ba}$ și $\large P=x_1x_2={\LARGE\frac ca}$. De asemenea, mai există și următoarele egalități: $\large\begin{aligned}[t] &x_1^2+x_2^2=S^2-2P \\ &x_1^3+x_2^3=S(S^3-3P)\end{aligned}$
