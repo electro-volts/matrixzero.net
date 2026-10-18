@@ -569,3 +569,24 @@ $\large 1=1+0\cdot i\in\mathbb{C},\,z\cdot1=1\cdot z=z,\,\forall z\in\mathbb{C}\
 $\large\forall z\in\mathbb{C},\,z\neq0\,\,\exists{\LARGE\frac1z}\longrightarrow\text{inversul lui z astfel încât }z\cdot{\LARGE\frac1z}=1\implies\text{împărțirea }{\LARGE\frac{z_1}{z_2}}=z_1\cdot{\LARGE\frac1{z_2}}$
 $\large z_1(z_2+z_3)=z_1z_2+z_1z_3,\,\forall z_1,z_2,z_3\in\mathbb{C}\text{ (distributivitatea înmulțirii față de adunare)}$
 $\geq$ Mulțimea $\large i\mathbb{R}^*=\{ib\,|\,b\in\mathbb{R}^*\}\subset\mathbb{C}$ se numește mulțimea numerelor *pur imaginare*.
+
+**CONJUGATUL UNUI NUMĂR COMPLEX**
+$\geq$ Fie $\large z=a+bi\in\mathbb{C}$. Prin *conjugatul* numărului complex $\large z$ înțelegem numărul complex $\large\overline z=a-bi$. ***Observație:*** $\large\overline{\overline z}=z=a+bi$. $\large z,\overline z$ numere complexe conjugate.
+$\geq$ Proprietatea 1: suma și produsul a două numere complexe conjugate sunt numere reale: $\large\begin{aligned}\forall z\in\mathbb{C}\implies&z+\overline z\in\mathbb{R} \\ &z\cdot\overline z\in\mathbb{R}\end{aligned}$
+$\geq$ Proprietatea 2: conjugatul sumei a două numere complexe este egal cu suma conjugatelor: $\large\overline{z_1+z_2}=\overline{z_1}+\overline{z_2},\,\forall z_1,z_2\in\mathbb{C}$. Generalizare: $\displaystyle\large\overline{\left(\sum_{k=1}^{n}z_k\right)}=\sum_{k=1}^n\overline{z_k}$
+$\geq$ Proprietatea 3: conjugata produsului este egală cu produsul conjugatelor: $\large\overline{z_1\cdot z_2}=\overline{z_1}\cdot\overline{z_2},\,\forall z_1,z_2\in\mathbb{C}$. Generalizare: $\displaystyle\large\overline{\left(\prod_{k=1}^nz_k\right)}=\prod_{k=1}^n\overline{z_k}\implies$ consecință: $\large\overline{z_n}=\overline{z}^n$.
+$\geq$ Proprietatea 4: $\large\begin{aligned}[t]&z\in\mathbb{C} \\ &z=\overline z\Longleftrightarrow z\in\mathbb{R}\end{aligned}$
+$\geq$ Proprietatea 5: $\large\begin{aligned}[t]&z\in\mathbb{C} \\ &z\in i\mathbb{R}^*\begin{aligned}[t]&\Longleftrightarrow\overline z+z=0 \\ &\Longleftrightarrow\overline z=-z\end{aligned}\end{aligned}$
+$\geq$ Proprietatea 6: $\large\overline{{\LARGE\left(\frac{z_1}{z_2}\right)}}={\LARGE\frac{\overline{z_1}}{\overline{z_2}}},\,\forall z_1,z_2\in\mathbb{C},\,z_2\neq0$
+
+**MODULUL UNUI NUMĂR COMPLEX**
+$\geq$ Fie $\large z=a+bi\in\mathbb{C}$. Prin *modulul* numărului complex $\large z$ înțelegem numărul real pozitiv $\large|z|=\sqrt{a^2+b^2}$.
+$\geq$ Proprietăți:
+$\large\begin{cases}|z|\in\mathbb{R},\,|z|\geq0,\,\forall z\in\mathbb{C} \\ |z|=0\Longleftrightarrow z=0\end{cases}$
+$\large z\cdot\overline z=|z|^2,\,\forall z\in\mathbb{C}$
+$\large|z|=|\overline z|,\,\forall z\in\mathbb{C}$
+$\large|z_1\cdot z_2|=|z_1|\cdot|z_2|,\,\forall z_1,z_2\in\mathbb{C}\implies$ consecință: $\large|-z|=|(-1)z|=|-1|\cdot|z|=|z|$. 
+Generalizare: $\displaystyle\large\left|\prod_{k=1}^nz_k\right|=\prod_{k=1}^n|z_k|,\,\forall n\in\mathbb{N}^*,\,\forall z_1,z_2,...,z_n\in\mathbb{C}$. 
+Caz particular: $\large\begin{aligned}[t] &z_1=z_2=...=z_n=z \\ &|z^n|=|z|^n,\,\forall z\in\mathbb{C},\,n\in\mathbb{N}^*\end{aligned}$
+$\large\left|{\LARGE\frac{z_1}{z_2}}\right|={\LARGE\frac{|z_1|}{|z_2|}},\,\forall z_1,z_2\in\mathbb{C},\,z_2\neq0$
+$\large|z_1+z_2|\leq|z_1|+|z_2|,\,\forall z_1,z_2\in\mathbb{C}$ (inegalitatea triunghiului)
