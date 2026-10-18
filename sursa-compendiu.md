@@ -578,7 +578,7 @@ $\geq$ Proprietatea 2: conjugatul sumei a două numere complexe este egal cu sum
 $\geq$ Proprietatea 3: conjugata produsului este egală cu produsul conjugatelor: $\large\overline{z_1\cdot z_2}=\overline{z_1}\cdot\overline{z_2},\,\forall z_1,z_2\in\mathbb{C}$. Generalizare: $\displaystyle\large\overline{\left(\prod_{k=1}^nz_k\right)}=\prod_{k=1}^n\overline{z_k}\implies$ consecință: $\large\overline{z_n}=\overline{z}^n$.
 $\geq$ Proprietatea 4: $\large\begin{aligned}[t]&z\in\mathbb{C} \\ &z=\overline z\Longleftrightarrow z\in\mathbb{R}\end{aligned}$
 $\geq$ Proprietatea 5: $\large\begin{aligned}[t]&z\in\mathbb{C} \\ &z\in i\mathbb{R}^*\begin{aligned}[t]&\Longleftrightarrow\overline z+z=0 \\ &\Longleftrightarrow\overline z=-z\end{aligned}\end{aligned}$
-$\geq$ Proprietatea 6: $\large\overline{{\LARGE\left(\frac{z_1}{z_2}\right)}}={\LARGE\frac{\overline{z_1}}{\overline{z_2}}},\,\forall z_1,z_2\in\mathbb{C},\,z_2\neq0$
+$\geq$ Proprietatea 6: $\large\overline{ {\LARGE\left(\frac{z_1}{z_2}\right)} }={\LARGE\frac{\overline{z_1} }{\overline{z_2}} },\,\forall z_1,z_2\in\mathbb{C},\,z_2\neq0$
 
 **MODULUL UNUI NUMĂR COMPLEX**
 $\geq$ Fie $\large z=a+bi\in\mathbb{C}$. Prin *modulul* numărului complex $\large z$ înțelegem numărul real pozitiv $\large|z|=\sqrt{a^2+b^2}$.
