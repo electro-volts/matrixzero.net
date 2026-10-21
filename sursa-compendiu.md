@@ -546,7 +546,7 @@ $\begin{cases}\Large\log_ax^\alpha=\alpha\log_ax,\,\forall\alpha\in\mathbb{R} \\
 
 $\begin{cases}\Large\log_ax=\frac{\log_bx}{\log_ba} \\ \Large\log_ab=\frac1{\log_ba} \\ \Large\log_{a^k}x=\frac1k\log_ax \\ \Large\log_{a^q}x^p=\frac pq\log_ax\end{cases}$
 
-$\begin{cases}\Large a^{\log_ax}=a \\ \Large a^{\log_bc}=c^{\log_ba} \end{cases}$
+$\begin{cases}\Large a^{\log_ax}=x \\ \Large a^{\log_bc}=c^{\log_ba} \end{cases}$
 
 $\Large\log_ax<\log_ay\Longleftrightarrow\left\{\begin{aligned} &x<y,\text{ dacă }a>1 \\ &x>y,\text{ dacă }a\in(0,1)\end{aligned}\right.$
 
