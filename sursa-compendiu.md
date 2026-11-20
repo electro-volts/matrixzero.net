@@ -603,3 +603,15 @@ $\large\begin{aligned} &ax^2+bx+c=0,\,a,b,c\in\mathbb{R},\,a\neq0 \\ &\Delta=b^2
 $\large\begin{aligned} &ax^2+bx+c=0,\,a,b,c\in\mathbb{C},\,a\neq0 \\ &\Delta=b^2-4ac\in\mathbb{C} \\ &\Delta=(x+yi)^2\longrightarrow r_1,r_2\text{ rădăcini pătrate, }r_2=-r_1 \\ &x_1=\frac{-b+r_1}{2a},\,\,x_2=\frac{-b+r_2}{2a}\end{aligned}$
 **relații între rădăcini și coeficienți (Viète)**
 $\geq$ Dacă $\large x_1,x_2\in\mathbb{C}$ sunt rădăcinile ecuației $\large ax^2+bx+c,\,a,b,c\in\mathbb{C},\,a\neq0$ atunci ecuația poate fi scrisă ca $\large x^2-Sx+P=0$, unde $\large S=x_1+x_2=-{\LARGE\frac ba}$ și $\large P=x_1x_2={\LARGE\frac ca}$. De asemenea, mai există și următoarele egalități: $\large\begin{aligned}[t] &x_1^2+x_2^2=S^2-2P \\ &x_1^3+x_2^3=S(S^3-3P)\end{aligned}$
+
+**APLICAȚII ALE NUMERELOR COMPLEXE ÎN GEOMETRIE**
+1) reprezentarea geometrică a numerelor complexe: $\large z=a+bi\in\mathbb{C},\,a,b\in\mathbb{R}\longrightarrow M(a,b)\in\mathcal{P},$ unde $\large M$ se numește *imaginea geometrică al lui* $\large z$. $\large z=a+bi$ se numește la rândul său *afixul* punctului $\large M$: $\large z_M=a+bi$. Punctul $\large M$ are și un vector de poziție $\large\overrightarrow{OM}=a\cdot\overrightarrow{i}+b\cdot\overrightarrow{j}$, unde $\large\overrightarrow{i}$ și $\large\overrightarrow{j}$ sunt versorii axelor.
+2) interpretarea geometrică a modulului unui număr complex: $\large z=a+bi\in\mathbb{C}\implies|z|=\sqrt{a^2+b^2},\,M(z)=M(a,b)\implies OM=\sqrt{a^2+b^2}=|z|,$ unde $\large O(0,0)$. 
+$\geq$ Modulul unui număr complex reprezintă distanța de la imaginea sa geometrică la originea axelor.
+3) interpretarea geometrică a adunării și scăderii numerelor complexe: $\large\begin{aligned} &z_1=a_1+b_1i\in\mathbb{C}\longrightarrow M(z_1) \\ &z_2=a_2+b_2i\in\mathbb{C}\longrightarrow N(z_2) \\ &z_1+z_2=(a_1+a_2)+i(b_1+b_2)\longrightarrow P(z_1+z_2)? \\ &\text{fie OMPN paralelogram}\implies\overrightarrow{OM}+\overrightarrow{ON}=\overrightarrow{OP},\,P=P(z_1+z_2) \\ &z_1-z_2=z_1+(-z_2),\,\text{unde }N'(-z_2)\text{ este simetricul lui N față de O} \\ &\overrightarrow{OM}+\overrightarrow{ON'}=\overrightarrow{OQ}=\overrightarrow{NM}\text{ deoarece OQMN paralelogram} \\ &\implies MN=OQ=|z_Q|\end{aligned}$
+$\geq$ Distanța dintre două puncte în plan este modulul diferenței afixelor lor: $\large MN=|z_M-z_N|$
+4) afixul punctului care împarte un segment într-un raport dat: $\large\begin{aligned} &M\in(AB)\text{ astfel încât }\frac{MA}{MB}=k>0\,\,\,\text{ raportul în care punctul M împarte segmentul [AB]} \\ &\overrightarrow{OM}=\frac{1}{k+1}\cdot\overrightarrow{OA}+\frac{k}{k+1}\cdot\overrightarrow{OB}\,\,\,\text{ vectori de poziție} \\ &A\longrightarrow z_A,\,B\longrightarrow z_B,\,M\longrightarrow z_M \\ &z_M=\frac{1}{k+1}\cdot z_A+\frac{k}{k+1}\cdot z_B\,\,\,\text{ afixul punctului care împarte segmentul [AB] în raportul k}\end{aligned}$
+
+$\geq$ Cazuri particulare:
+1)  afixul mijlocului unui segment: <br>$\large\begin{aligned} &M\in(AB)\text{ astfel încât }AM=MB\implies k\frac{MA}{MB}=1 \\ &z_M=\frac{1}{1+1}\cdot z_A+\frac{1}{1+1}\cdot z_B \\ &z_M\frac{z_A+z_B}{2}\,\,\,\text{ afixul mijlocului segmentului [AB]}\end{aligned}$
+2) 
