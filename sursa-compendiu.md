@@ -4,10 +4,10 @@ render_with_liquid: false
 # ALGEBRĂ - CLASA A IX-A
 
 **NUMERE REALE**
-$\mathbb{N}=\{0,\,1,\,2,\,3,\,...\}$: mulțimea nr. *naturale*
-$\mathbb{Z}=\mathbb{N}\cup\{-1,\,-2,\,-3,\,...\}=\{...,\,-3,\,-2,\,-1,\,0,\,1,\,2,\,3,\,...\}$: mulțimea nr. *întregi*
-$\mathbb{Q}=\left\{ {\large\frac{a}{b}} \;\middle|\; a, b \in \mathbb{Z},\ b \neq 0 \right\}$: mulțimea nr. *raționale*
-$\mathbb{R}\,\setminus\,\mathbb{Q}$: mulțimea nr. *reale*
+$\mathbb{N}=\{0,\,1,\,2,\,3,\,...\}$: mulțimea numerelor *naturale*
+$\mathbb{Z}=\mathbb{N}\cup\{-1,\,-2,\,-3,\,...\}=\{...,\,-3,\,-2,\,-1,\,0,\,1,\,2,\,3,\,...\}$: mulțimea numerelor *întregi*
+$\mathbb{Q}=\left\{ {\large\frac{a}{b}} \;\middle|\; a, b \in \mathbb{Z},\ b \neq 0 \right\}$: mulțimea numerelor *raționale*
+$\mathbb{R}\,\setminus\,\mathbb{Q}$: mulțimea numerelor *reale*
 $\geq$ Orice număr rațional se scrie sub formă de fracție zecimală finită sau infinită periodică, cu perioada diferită de $0$ sau $9$.
 
 **FORMULE DE CALCUL PRESCURTATE**
@@ -23,7 +23,7 @@ $a^3-b^3=(a-b)(a^2+ab+b^2)$
 $a^n-b^n=(a-b)(a^{n-1}+a^{n-2}\cdot b+a^{n-3}\cdot b^2+...+b^{n-1}),\,(\forall)n\in\mathbb{N}$
 $a^{2k+1}+b^{2k+1}=(a+b)(a^{2k}-a^{2k-1}\cdot b+a^{2k-2}\cdot b^2-...+b^{2k}),\,(\forall)k\in\mathbb{N^*}$
 
-**ORDONAREA NR. REALE**
+**ORDONAREA NUMERELOR REALE**
 $a<b\,|\cdot c\implies\begin{cases}c>0\implies ac<bc\\c<0\implies ac>bc\end{cases}$
 $$m_a=\frac{a_1+a_2+...+a_n}n;\,\,m_h=\frac n{\large\frac{1}{a_1}+\frac{1}{a_2}+...+\frac{1}{a_n}};\,\,m_g=\sqrt[\Large n]{a_1\cdot a_2\cdot...\cdot a_n}$$
 $\geq$ Mediile sunt, de la stânga la dreapta: media *aritmetică*, media *armonică* și media
@@ -51,8 +51,8 @@ $|x|\leq a,a>0\Longleftrightarrow -a\leq x\leq a\Longleftrightarrow x\in[-a,a]$
 $|x|\geq a,a>0\Longleftrightarrow x\leq-a\,\,sau\,\,x\geq a\Longleftrightarrow x\in(-\infty,-a]\cup[a,+\infty)$
 $|x|=|y|\Longleftrightarrow a=\pm b$
 
-**PARTEA ÎNTREAGĂ ȘI PARTEA FRACȚIONARĂ A UNUI NR. REAL**
-$\geq$ Prin *partea întreagă* a nr. real $x$ înțelegem cel mai mare nr. întreg mai mic-egal decât $x$:
+**PARTEA ÎNTREAGĂ ȘI PARTEA FRACȚIONARĂ A UNUI NUMĂR REAL**
+$\geq$ Prin *partea întreagă* a numărului real $x$ înțelegem cel mai mare număr întreg mai mic-egal decât $x$:
 $[x]=k\in\mathbb{Z}\Longleftrightarrow x\in[k,k+1)$.
 $\geq$ Proprietăți:
 $[x]\in\mathbb{Z},\forall x\in\mathbb{R}$
@@ -60,7 +60,7 @@ $[x]=k\in\mathbb{Z}\Longleftrightarrow x\in[k,k+1)$
 $[x]=x\Longleftrightarrow x\in\mathbb{Z}$
 $[x]\leq x<[x]+1,\forall x\in\mathbb{R}$
 $[x+k]=[x]+k,\forall x\in\mathbb{R},k\in\mathbb{Z}$
-$\geq$ *Partea fracționară* a unui nr. real $x$ reprezintă diferența dintre $x$ și partea sa întreagă $[x]$: 
+$\geq$ *Partea fracționară* a unui număr real $x$ reprezintă diferența dintre $x$ și partea sa întreagă $[x]$: 
 $\{x\}=x-[x]$.
 $\geq$ Proprietăți:
 $0\leq\{x\}<1,\forall x\in\mathbb{R}$
@@ -197,7 +197,7 @@ $\geq$ Funcția $1_A:A\rightarrow A,\,1_A(x)=x,\,\forall x\in A$ se numește *fu
 
 **FUNCȚIA DE GRADUL II**
 $\geq$ O ecuație de forma $ax^2+bx+c=0\,\,(1)$ unde $a,b,c\in\mathbb{R},\,a\neq 0$ se numește *ecuație de gradul al doilea*. Numerele reale $a,b,c$ se numesc *coeficienți* ai ecuației, iar $x$ se numește *necunoscută*.
-$\geq$ Prin *soluție* a ecuației $(1)$ înțelegem un nr. real $\alpha$ cu proprietatea $a\alpha^2+b\alpha+c=0$.
+$\geq$ Prin *soluție* a ecuației $(1)$ înțelegem un număr real $\alpha$ cu proprietatea $a\alpha^2+b\alpha+c=0$.
 $\geq$ *Rezolvarea* ecuației de gradul II presupune aflarea *rădăcinilor* $x_1,x_2$ folosind formula $x_{1,2}={\large\frac{-b\pm\sqrt{\Delta}}{2a}}$, unde $\Delta$ se numește *discriminant* și are formula $\Delta=b^2-4ac$. În funcție de semnul lui delta ($\Delta$), soluțiile oricărei ecuații aparțin unuia dintre următoarele trei cazuri:
 1) două soluții reale: $\Delta>0\implies x_1,x_2\in\mathbb{R},\,x_1\neq x_2$
 2) o soluție reală/două soluții reale identice: $\Delta=0\implies x_1,x_2\in\mathbb{R},\,x_1=x_2=-{\large\frac b{2a}}$
@@ -613,5 +613,27 @@ $\geq$ Distanța dintre două puncte în plan este modulul diferenței afixelor 
 4) afixul punctului care împarte un segment într-un raport dat: $\large\begin{aligned} &M\in(AB)\text{ astfel încât }\frac{MA}{MB}=k>0\,\,\,\text{ raportul în care punctul M împarte segmentul [AB]} \\ &\overrightarrow{OM}=\frac{1}{k+1}\cdot\overrightarrow{OA}+\frac{k}{k+1}\cdot\overrightarrow{OB}\,\,\,\text{ vectori de poziție} \\ &A\longrightarrow z_A,\,B\longrightarrow z_B,\,M\longrightarrow z_M \\ &z_M=\frac{1}{k+1}\cdot z_A+\frac{k}{k+1}\cdot z_B\,\,\,\text{ afixul punctului care împarte segmentul [AB] în raportul k}\end{aligned}$
 
 $\geq$ Cazuri particulare:
-1)  afixul mijlocului unui segment: <br>$\large\begin{aligned} &M\in(AB)\text{ astfel încât }AM=MB\implies k\frac{MA}{MB}=1 \\ &z_M=\frac{1}{1+1}\cdot z_A+\frac{1}{1+1}\cdot z_B \\ &z_M\frac{z_A+z_B}{2}\,\,\,\text{ afixul mijlocului segmentului [AB]}\end{aligned}$
-2) 
+1)  afixul mijlocului unui segment: <br>$\large\begin{aligned} &M\in(AB)\text{ astfel încât }AM=MB\implies k=\frac{MA}{MB}=1 \\ &z_M=\frac{1}{1+1}\cdot z_A+\frac{1}{1+1}\cdot z_B \\ &z_M\frac{z_A+z_B}{2}\,\,\,\text{ afixul mijlocului segmentului [AB]}\end{aligned}$
+2) condiția ca un patrulater să fie paralelogram: <br>$\large\begin{aligned} &\text{P mijlocul lui (AC)}\implies z_P=\frac{z_A+z_C}{2} \\ &\text{P mijlocul lui (BD)}\implies z_P=\frac{z_B+z_D}{2} \\ &\text{ABCD paralelogram}\Longleftrightarrow z_A+z_C=z_B+z_D\end{aligned}$
+3) afixul centrului de greutate al unui triunghi: <br>$\large\begin{aligned} &G\longrightarrow\text{centrul de greutate al }\triangle ABC \\ &\frac{GA}{GA'}=2=k\end{aligned}$<br>$\large\left.\begin{aligned} &\implies z_G=\frac{1}{2+1}\cdot z_A+\frac{2}{2+1}\cdot z_A' \\ &A'\text{ mijlocul lui (BC)}\implies z_A'=\frac{z_B+z_C}{2}\end{aligned}\right\}$<br>$\large\begin{aligned} &\implies z_G=\frac13z_A+\frac23\cdot\frac{z_B+z_C}{2} \\ &z_G=\frac{z_A+z_B+z_C}{3}\,\,\,\text{ afixul centrului de greutate al }\triangle ABC\end{aligned}$
+4) condiția de paralelism a două drepte:<br>$\large AB\parallel CD\Longleftrightarrow{\LARGE\frac{z_B-z_A}{z_D-z_C}}\in\mathbb{R}^*$
+5) condiția de coliniaritatea trei puncte:<br>$\large\text{A, B, C coliniare}\Longleftrightarrow{\LARGE\frac{z_B-z_A}{z_C-z_A}}\in\mathbb{R}^*$
+6) condiția de perpendicularitate a două drepte:<br>$\large AB\perp AC\Longleftrightarrow{\LARGE\frac{z_B-z_A}{z_C-z_A}}\in i\mathbb{R}^*$
+
+**FORMA TRIGONOMETRICĂ A UNUI NUMĂR COMPLEX**
+$\geq$ Numărul complex $\large z$ cu forma algebrică $\large a+bi$ are și o *formă trigonometrică*: <br>$\large z=r(\cos t+i\sin t),$ unde $\large r=|z|=\sqrt{a^2+b^2}$ reprezintă modulul numărului complex $\large z$ cu proprietățile $\large r\in\mathbb{R},\,r\geq0$ și $\large t\in[0,\,2\pi),\,t=\text{arg}(z)$ reprezintă *argumentul redus al lui* $\large z$ și are proprietatea $\large\tan t={\LARGE\frac ba}$.
+$\geq$ Funcția arctangentă: $\large\arctan x=y\Longleftrightarrow x=\tan y,\,x\in\mathbb{R},\,y\in\left({\LARGE-\frac\pi2,\,\frac\pi2}\right)$.<br>$\large\arctan(-x)=-\arctan x$. $\large t=\arctan{\LARGE\frac ba}+k\pi,$ unde:<br>$\large\begin{aligned} &k=0,\text{ dacă }M(z)\in\text{CI} \\ &k=1,\text{ dacă }M(z)\in\text{CI sau CII} \\ &k=2,\text{ dacă }M(z)\in\text{CIV}\end{aligned}$
+
+**OPERAȚII CU NUMERE COMPLEXE ÎN FORMĂ TRIGONOMETRICĂ**
+1) înmulțirea:$\large\begin{aligned} &z_1=r_1(\cos t_1+i\sin t_1) \\ &z_2=r_2(\cos t_2+i\sin t_2) \\ &z_1z_2=r_1r_2\bigl[\cos(t_1+t_2)+i\sin(t_1+t_2)\bigr] \\ &|z_1\cdot z_2|=|z_1|\cdot|z_2|=r_1r_2 \\ &\text{Arg}(z_1z_2)=\left\{\text{arg}(z_1)+\text{arg}(z_2)+2k\pi\,|\,k\in\mathbb{Z}\right\}\,\,\,\text{ un argument al produsului este suma argumentelor}\end{aligned}$Generalizare: <br>$\large\begin{aligned} &z_k=r_k(\cos t_k+i\sin t_k),\,k=\overline{1,n} \\ &z_1z_2\cdot...\cdot z_n=r_1r_2\cdot...\cdot r_n\left[\cos(t_1+t_2+...+t_n)+i\sin(t_1+t_2+...+t_n)\right]\end{aligned}$<br>Caz particular:$\large\begin{aligned} &z_1=z_2=...=z_n=r(\cos t+i\sin t) \\ &z^n=r^n\bigl[\cos(nt)+i\sin(nt)\bigr],\,n\in\mathbb{N}^* \\ &|z^n|=r^n=|z|^n \\ &\text{Arg}(z^n)\begin{aligned}[t] &=\left\{nt+2k\pi\,|\,k\in\mathbb{Z}\right\} \\ &=\left\{n\text{arg}(z)+2k\pi\,|\,k\in\mathbb{Z}\right\}\end{aligned}\,\,\,\text{ un argument al puterii este egal cu produsul lui }n\text{ cu argumentul lui }z\end{aligned}$
+$\geq$ ***Observații:*** $\large\begin{aligned}[t] &z^n=r^n(\cos nt+i\sin nt) \\ &z=r(\cos t+i\sin t) \\ &\text{dacă }r=1\implies(\cos t+i\sin t)^n=\cos nt+i\sin nt\,\,\,\text{ regula lui Moivre}\end{aligned}$
+2) împărțirea:$\large\begin{aligned} &z_1=r_1(\cos t_1+i\sin t_1) \\ &z_2=r_2(\cos t_2+i\sin t_2) \\ &\frac{z_1}{z_2}=\frac{r_1}{r_2}\bigl[\cos(t_1-t_2)+i\sin(t_1-t_2)\bigr] \\ &\left|\frac{z_1}{z_2}\right|=\frac{r_1}{r_2}=\frac{|z_1|}{|z_2|} \\ &\operatorname{Arg}\left(\frac{z_1}{z_2}\right)=\left\{\arg z_1-\arg z_2+2k\pi \,\middle|\, k\in\mathbb{Z}\right\}\,\,\,\text{ un argument al câtului este diferența argumentelor reduse} \\ &\frac{1}{z}=\frac{1}{r}\biggl(\cos(-t)+i\sin(-t)\biggr)\end{aligned}$
+
+**RĂDĂCINILE DE ORDIN n ALE UNUI NUMĂR COMPLEX ȘI ALE UNITĂȚII**
+$\geq$ Spunem că *rădăcina de ordin* $\large n$ a numărului complex $\large z$ este numărul complex $\large Z$ cu proprietatea $\large Z^n=z$:
+$\large\begin{aligned} &Z=R(\cos\alpha+i\sin\alpha)=? \\ &Z^n=R^n(\cos n\alpha+i\sin n\alpha)=r(\cos t+i\sin t) \\ &R={\Large\sqrt[n]r} \\ &\alpha=\frac{t+2k\pi}{n},\,k\in\mathbb{Z}\end{aligned}$
+$\geq$ Orice număr complex $\large z=r(\cos t+i\sin t)$ are $\large n$ rădăcini complexe de forma $\large Z_k={\Large\sqrt[n]r}\bigl(\cos{\LARGE\frac{t+2k\pi}{n}}+i\sin{\LARGE\frac{t+2k\pi}{n}}\bigr),\,k=\overline{0,n-1}$
+$\geq$ Dacă $\large z=1$, atunci $\large Z_k=\cos{\LARGE\frac{2k\pi}{n}}+i\sin{\LARGE\frac{2k\pi}{n}},\,k=\overline{1,n-1}$. Imaginile geometrice ale rădăcinilor de ordin $\large n$ ale unității sunt vârfurile unui poligon regulat cu $\large n$ laturi înscris în cercul $\mathscr{C}(0,1)$.
+
+**ECUAȚII BINOME**
+$\geq$ O ecuație de forma $\large Z^n=z_0$, unde $\large z_0\in\mathbb{C}$ și $\large n\in\mathbb{N},\,n\geq2$ se numește *ecuație binomă* cu necunoscuta $\large z$.
