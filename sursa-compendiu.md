@@ -4,8 +4,8 @@ render_with_liquid: false
 # ALGEBRĂ - CLASA A IX-A
 
 **NUMERE REALE**
-$\mathbb{N}=\{0,\,1,\,2,\,3,\,...\}$: mulțimea numerelor *naturale*
-$\mathbb{Z}=\mathbb{N}\cup\{-1,\,-2,\,-3,\,...\}=\{...,\,-3,\,-2,\,-1,\,0,\,1,\,2,\,3,\,...\}$: mulțimea numerelor *întregi*
+$\mathbb{N}=\left\{0,\,1,\,2,\,3,\,...\right\}$: mulțimea numerelor *naturale*
+$\mathbb{Z}=\mathbb{N}\cup\left\{-1,\,-2,\,-3,\,...\right\}=\left\{...,\,-3,\,-2,\,-1,\,0,\,1,\,2,\,3,\,...\right\}$: mulțimea numerelor *întregi*
 $\mathbb{Q}=\left\{ {\large\frac{a}{b}} \;\middle|\; a, b \in \mathbb{Z},\ b \neq 0 \right\}$: mulțimea numerelor *raționale*
 $\mathbb{R}\,\setminus\,\mathbb{Q}$: mulțimea numerelor *reale*
 $\geq$ Orice număr rațional se scrie sub formă de fracție zecimală finită sau infinită periodică, cu perioada diferită de $0$ sau $9$.
@@ -46,7 +46,7 @@ $|x|=0\Longleftrightarrow x=0$
 $|x\cdot y|=|x|\cdot|y|,\forall x,y\in\mathbb{R}$
 ${\large|\frac xy|}={\large\frac{|x|}{|y|}},\forall x,y\in\mathbb{R},y\neq0$
 $|x+y|\leq|x|+|y|,\forall x,y\in\mathbb{R};\,egalitate\Longleftrightarrow x\,\,și\,\,y\,\,au\,\,același\,\,semn$ $|x|=|-x|,\forall x\in\mathbb{R}$
-$|x|=a,a>0\Longleftrightarrow x\in\{-a,a\}$
+$|x|=a,a>0\Longleftrightarrow x\in\left\{-a,a\right\}$
 $|x|\leq a,a>0\Longleftrightarrow -a\leq x\leq a\Longleftrightarrow x\in[-a,a]$ 
 $|x|\geq a,a>0\Longleftrightarrow x\leq-a\,\,sau\,\,x\geq a\Longleftrightarrow x\in(-\infty,-a]\cup[a,+\infty)$
 $|x|=|y|\Longleftrightarrow a=\pm b$
@@ -61,10 +61,10 @@ $[x]=x\Longleftrightarrow x\in\mathbb{Z}$
 $[x]\leq x<[x]+1,\forall x\in\mathbb{R}$
 $[x+k]=[x]+k,\forall x\in\mathbb{R},k\in\mathbb{Z}$
 $\geq$ *Partea fracționară* a unui număr real $x$ reprezintă diferența dintre $x$ și partea sa întreagă $[x]$: 
-$\{x\}=x-[x]$.
+$\left\{x\right\}=x-[x]$.
 $\geq$ Proprietăți:
-$0\leq\{x\}<1,\forall x\in\mathbb{R}$
-$\{x\}=0\Longleftrightarrow x\in\mathbb{Z}$
+$0\leq\left\{x\right\}<1,\forall x\in\mathbb{R}$
+$\left\{x\right\}=0\Longleftrightarrow x\in\mathbb{Z}$
 
 **ELEMENTE DE LOGICĂ MATEMATICĂ**
 $\geq$ Un enunț despre care putem spune că este adevărat sau fals, dar nu ambele, se numește
@@ -132,7 +132,7 @@ unde operatorul $\Sigma$ indică "sumă pentru $k$ de la $1$ la $n$" și operato
 
 **ȘIRURI DE NUMERE REALE**
 $\geq$ O *funcție* este notată $f:A\rightarrow B;\,\forall x\in A\,\,\exists f(x)\in B\text{ unic}$, unde $A$ se numește *domeniu de definiție*, $B$ *codomeniu* sau *mulțimea imaginilor* și $f(x)$ *imaginea lui $x$ prin funcția $f$*.
-$\geq$ O funcție $f:\mathbb{N}_k\rightarrow\mathbb{R}$ se numește *șir de numere reale*, unde $\mathbb{N}_k=\{n\in\mathbb{N}\,|\,n\geq k,\,k\geq\mathbb{N}\}$. $\forall n\in\mathbb{N},\,n\geq k\rightarrow f(n)\in\mathbb{R}\text{ unic}$, unde $f(n)=a_n\in\mathbb{R}$ se numește *termenul de rang $n$ al șirului*. ***Observație:*** orice șir are o infinitate de termeni. Un șir poate fi definit prin unul dintre următoarele trei moduri:
+$\geq$ O funcție $f:\mathbb{N}_k\rightarrow\mathbb{R}$ se numește *șir de numere reale*, unde $\mathbb{N}_k=\left\{n\in\mathbb{N}\,\middle|\,n\geq k,\,k\geq\mathbb{N}\right\right\}$. $\forall n\in\mathbb{N},\,n\geq k\rightarrow f(n)\in\mathbb{R}\text{ unic}$, unde $f(n)=a_n\in\mathbb{R}$ se numește *termenul de rang $n$ al șirului*. ***Observație:*** orice șir are o infinitate de termeni. Un șir poate fi definit prin unul dintre următoarele trei moduri:
 1) prin *enumerare*
 2) cu ajutorul unei *formule* sau a mai multor formule, unde formula reprezintă o legătură dintre rang și valoare: $b_n={\large\frac{2n-1}{2n+1}},\forall n\in\mathbb{N}^*$ (de exemplu).
 3) printr-o *relație de recurență*, unde relația de recurență reprezintă o legătură între doi sau mai mulți termeni consecutivi ai șirului: $f_n=f_{n-1}+f_{n-2},\,\forall n\geq 2$ (de exemplu).
@@ -155,16 +155,16 @@ $\geq$ Spunem că numerele reale $x_1,x_2,...,x_n$ se află în progresie geomet
 $\geq$ Suma primilor $n$ termeni ai unei progresii geometrice poate fi calculată folosind următoarea formulă:$$S_n=b_1\cdot\frac{q^n-1}{q-1},\,q\neq1\,\text{ sau }\,S_n=b_1\cdot n,\,q=1$$
 
 **PROPRIETĂȚILE GENERALE ALE FUNCȚIILOR**
-$\geq$ Amintim notația și definiția unei funcții: $f:A\rightarrow B\implies\forall x\in A\,\,\exists f(x)\in B$, unde $A$ se numește domeniu de definiție și $B$ codomeniu sau *domeniu de valori*. *Graficul* funcției $f$ reprezintă mulțimea $G_f=\{(x,(f(x))\,|\,x\in A\}$. Dacă punctul $(x,y)\in G_f$, atunci $f(x)=y$. Numărul de funcții $f:A\rightarrow B$ este $(\text{card B})^{\text{card A}}$.
+$\geq$ Amintim notația și definiția unei funcții: $f:A\rightarrow B\implies\forall x\in A\,\,\exists f(x)\in B$, unde $A$ se numește domeniu de definiție și $B$ codomeniu sau *domeniu de valori*. *Graficul* funcției $f$ reprezintă mulțimea $G_f=\left\{(x,(f(x))\,\middle|\,x\in A\right\}$. Dacă punctul $(x,y)\in G_f$, atunci $f(x)=y$. Numărul de funcții $f:A\rightarrow B$ este $(\text{card B})^{\text{card A}}$.
 $\geq$ Funcția $g:A\rightarrow\mathbb{R},\,g(x)=f(x)\,\,\forall x\in A$ se numește *restricție* a funcției $f$ și se notează $f|_A$. Funcția $f$ se numește *prelungire* a funcției $g$.
-$\geq$ Fie *funcția numerică* $f:D\rightarrow\mathbb{R},\,D\subset\mathbb{R}$ și $A\subseteq D$: dacă $A\subset D,\,f(A)=\{f(x)\,|\,x\in A\}$ se numește *imaginea* mulțimii $A$ prin $f$; dacă $A=D,\,Im\,f=\{f(x)\,|\,x\in D\}$ se numește *imaginea* funcției $f$.
+$\geq$ Fie *funcția numerică* $f:D\rightarrow\mathbb{R},\,D\subset\mathbb{R}$ și $A\subseteq D$: dacă $A\subset D,\,f(A)=\left\{f(x)\,\middle|\,x\in A\right\}$ se numește *imaginea* mulțimii $A$ prin $f$; dacă $A=D,\,Im\,f=\left\{f(x)\,\middle|\,x\in D\right\}$ se numește *imaginea* funcției $f$.
 $\geq$ Spunem că o funcție $f:D\rightarrow\mathbb{R}$ este *mărginită* dacă $Im\,f\subset[a,b],\,a,b\in\mathbb{R}$. ***Observație:*** o funcție trebuie să aibă ambele margini pentru a fi mărginită.
 
 **FUNCȚIA DE GRADUL I**
 $\geq$ Funcția $f:\mathbb{R}\rightarrow\mathbb{R},\,f(x)=ax+b$, unde $a,b\in\mathbb{R}$ se numește *funcție  afină*. Dacă $a\neq 0$, atunci funcția $f$ se numește *funcție de gradul I*. Dacă $a=0$, atunci $f:\mathbb{R}\rightarrow\mathbb{R},\,f(x)=b\in\mathbb{R}$ se numește *funcție constantă*. ***Observație:*** graficul funcției afine (constantă sau de gradul I) este o dreaptă.
 $\geq$ O mulțime $D\subseteq\mathbb{R}$ se numește *simetrică față de origine* dacă $\forall x\in D\implies -x\in D$.
 $\geq$ Fie $D\subseteq\mathbb{R}$ o mulțime simetrică față de origine. Spunem că o funcție $f:D\rightarrow\mathbb{R}$ este funcție *pară* dacă $f(x)=f(-x),\,\forall x\in D$ sau funcție *impară* dacă $f(-x)=-f(x),\forall x\in D$.  
-$\geq$ Două puncte $A$ și $B$ sunt simetrice față de un punct $M$ dacă are loc relația $MA\equiv MB,\,M\in(AB)$. Două puncte $A$ și $B$ sunt simetrice față de o dreaptă $d$ dacă $AB\perp d,\,AB\cap d=\{M\}$ și $MA\equiv MB$.
+$\geq$ Două puncte $A$ și $B$ sunt simetrice față de un punct $M$ dacă are loc relația $MA\equiv MB,\,M\in(AB)$. Două puncte $A$ și $B$ sunt simetrice față de o dreaptă $d$ dacă $AB\perp d,\,AB\cap d=\left\{M\right\}$ și $MA\equiv MB$.
 $\geq$ Spunem că graficul funcției $f$ este *simetric* față de dreapta de ecuație $x=a$ dacă $f(a-x)=f(a+x),\,\forall x\in D$, unde dreapta $x=a$ se numește *axă de simetrie*. ***Observație:*** $f:D\rightarrow\mathbb{R}\text{ funcție pară}\Longleftrightarrow\begin{aligned}[t]&f(-x)=f(x),\,\forall x\in D\\ &f(0-x)=f(0+x),\,x\in D\\ &\text{dreapta x=0 (axa Oy) axă de simetrie.}\end{aligned}$
 $\geq$ Spunem că graficul funcției $f$ este simetric față de punctul $P(a,b)$ dacă $f(a-x)+f(a+x)=2b,\,\forall x\in D$. Punctul $P$ se numește *centru de simetrie*. ***Observație:*** $f:D\rightarrow\mathbb{R}\text{ funcție impară}\Longleftrightarrow\begin{aligned}[t]&f(-x)=-f(x),\,\forall x\in D\\ &f(-x)+f(x)=0\\ &\frac{f(0-x)+f(0+x)}{2}=0\\ &O(0,0)\text{ centru de simetrie.}\end{aligned}$
 $\geq$ Fie $f:D\rightarrow\mathbb{R},\,D\subset\mathbb{R}$ (funcție numerică). Spunem că funcția $f$ este:
@@ -189,7 +189,7 @@ $\geq$ Dacă $T\neq 0$ este o perioadă a funcției $f$ atunci numerele $kT,\,k\
 $\geq$ Fie funcțiile $f,g:D\rightarrow\mathbb{R},\,D\subset\mathbb{R}\text{ (numerice)}$. Se definesc următoarele *operații cu funcții*:
 1) adunarea: $f+g:D\rightarrow\mathbb{R},\,(f+g)(x)=f(x)+g(x),\,\forall x\in D$, unde $(f+g)(x)$ reprezintă *funcția sumă*
 2) produsul: $f\cdot g:D\rightarrow\mathbb{R},\,(f\cdot g)(x)=f(x)\cdot g(x),\,\forall x\in D$, unde $(f\cdot g)(x)$ reprezintă *funcția produs*
-3) împărțirea: ${\large\frac fg}:D_1\rightarrow\mathbb{R},\,\left({\large\frac fg}\right)(x)={\large\frac{f(x)}{g(x)}},\,\forall x\in D$, unde $\left({\large\frac fg}\right)(x)$ reprezintă *funcția cât* și $D_1=\{x\in D\,|\,g(x)\neq 0\}$
+3) împărțirea: ${\large\frac fg}:D_1\rightarrow\mathbb{R},\,\left({\large\frac fg}\right)(x)={\large\frac{f(x)}{g(x)}},\,\forall x\in D$, unde $\left({\large\frac fg}\right)(x)$ reprezintă *funcția cât* și $D_1=\left\{x\in D\,\middle|\,g(x)\neq 0\right\}$
 
 $\geq$ Dacă  $f:A\rightarrow B,\,g:B\rightarrow C$ prin *compunerea* funcțiilor $g$ și $f$ înțelegem funcția notată $g\circ f$ cu proprietățile: $\begin{aligned}[t] &g\circ f:A\rightarrow C \\ &(g\circ f)(x)=g(f(x)),\,\forall x\in A.\end{aligned}$ ***Observații:*** $g\circ f$ are sens $\Longleftrightarrow$ domeniul de definiție al lui $g$ coincide cu codomeniul lui $f$; suma a două funcții strict crescătoare/descrescătoare este o funcție strict crescătoare/descrescătoare; compunerea a două funcții de aceeași monotonie este o funcție strict crescătoare; compunerea a două funcții de monotonii diferite este o funcție strict descrescătoare. În general, compunerea funcțiilor ***nu*** este comutativă. Compunerea funcțiilor este, în schimb, asociativă: $A\overset{f}\longrightarrow B\overset{g}\longrightarrow C\overset{h}\longrightarrow D\implies\begin{aligned} &h\circ(g\circ f):A\rightarrow D \\ &(h\circ g)\circ f:A\rightarrow D.\end{aligned}$
 Altfel spus, $(h\circ g)\circ f=h\circ(g\circ f)$.
@@ -215,7 +215,7 @@ $\geq$ Fie $f:\mathbb{R}\rightarrow\mathbb{R},\,f(x)=ax^2+bx+c,\,a,b,c\in\mathbb
 $\geq$ Graficul funcției de gradul al doilea este o curbă numită *parabolă*. Punctul $V\left(-{\large\frac b{2a}},-{\large\frac \Delta{4a}}\right)$ se numește *vârful* parabolei. Graficul se intersectează ***tot timpul*** cu axa $Oy$ în punctul de coordonate $(0,f(0))$, iar intersecția cu axa $Ox$ acceptă ***trei cazuri:***
 1) $\Delta<0:$ ecuația nu are soluții în $\mathbb{R}\implies G_f\cap Ox=\varnothing$
 2) $\Delta=0:$ $x_1=x_2=-{\large\frac b{2a}}\implies G_f\cap Ox=V\left(-{\large\frac b{2a}},0\right)$, axa $Ox$ este ***tangentă*** la parabolă
-3) $\Delta>0:$ $x_{1,2}={\large\frac{-b\pm\sqrt{\Delta}}{2a}},\,x_1\neq x_2\implies G_f\cap Ox=\{A(x_1,0),\,B(x_2,0)\}$ 
+3) $\Delta>0:$ $x_{1,2}={\large\frac{-b\pm\sqrt{\Delta}}{2a}},\,x_1\neq x_2\implies G_f\cap Ox=\left\{A(x_1,0),\,B(x_2,0)\right\}$ 
 
 ***Observație:*** calculăm imaginile unor valori de o parte și de alta a vârfului pentru a desena parabola cât mai exact.
 $\geq$ Dacă $a>0$ atunci funcția $f$ este strict descrescătoare pe $\left(-\infty,-{\large\frac b{2a}}\right]$ și strict crescătoare pe $\left[-{\large\frac b{2a}},\,+\infty\right)$. Dacă $a<0$ atunci funcția $f$ este strict crescătoare pe $\left(-\infty,-{\large\frac b{2a}}\right]$ și strict descrescătoare pe $\left[-{\large\frac b{2a}},+\infty\right)$. ***Observație:*** $f$ (orice funcție de gradul II) nu este monotonă pe $\mathbb{R}$.
@@ -250,7 +250,7 @@ $\overline{AB}\sim\overline{AB}\text{ (reflexitivitate)}$
 $\overline{AB}\sim\overline{CD}\Longleftrightarrow\overline{CD}\sim\overline{AB}\text{ (simetrie)}$
 $\left.\begin{aligned}\overline{AB}\sim\overline{CD}\\ \overline{CD}\sim\overline{EF}\end{aligned}\right\} \implies\overline{AB}\sim\overline{EF}\text{ (tranzitivitate)}$
 $\geq$ Deoarece relația de echipolență este reflexivă, simetrică și tranzitivă, echipolența este și o *relație de echivalență*, ceea ce o determină să împartă mulțimea tuturor segmentelor orientate în *clase de echivalență*. ***Observație:*** pentru un segment orientat dat există o infinitate de segmente orientate echipolente cu el.
-$\geq$ Mulțimea tuturor segmentelor orientate echipolente cu un segment orientat dat se numește *vector*. Vectorul este o clasă de echivalență. ***Observație:*** oricare segment orientat este considerat *reprezentant* al vectorului: $\begin{aligned}[t]&\overline{AB}\text{ segment orientat}\\ &\overrightarrow{AB}\text{ vector (liber)}\\ &\overrightarrow{AB}=\{\overline{AB},\,\overline{CD},\,\overline{EF},\,...\}\end{aligned}$
+$\geq$ Mulțimea tuturor segmentelor orientate echipolente cu un segment orientat dat se numește *vector*. Vectorul este o clasă de echivalență. ***Observație:*** oricare segment orientat este considerat *reprezentant* al vectorului: $\begin{aligned}[t]&\overline{AB}\text{ segment orientat}\\ &\overrightarrow{AB}\text{ vector (liber)}\\ &\overrightarrow{AB}=\left\{\overline{AB},\,\overline{CD},\,\overline{EF},\,...\right\}\end{aligned}$
 $\geq$ Prin *modulul* sau *lungimea* vectorului $\overrightarrow{AB}$ înțelegem $|\overrightarrow{AB}|=AB=BA$.
 $\geq$ Prin *direcția* vectorului $\overrightarrow{AB}$ înțelegem dreapta $AB$ și $(\forall)d\parallel AB$.
 $\geq$ *Sensul* vectorului $\overrightarrow{AB}$ este de la $A$ la $B$, unde $A$ se numește *origine* și $B$ *vârf*. 
@@ -396,12 +396,12 @@ $\begin{cases}\sin 3x=3\sin x-4\sin^3x \\ \cos 3x=4\cos^3x-3\cos x\end{cases}$
 
 **FUNCȚIILE TRIGONOMETRICE TANGENTĂ ȘI COTANGENTĂ**
 $$\tan t=\frac{\sin t}{\cos t},\,t\notin\left\{(2k+1)\frac\pi2,\,k\in\mathbb{Z}\right\},\,\,\,\cot t=\frac{\cos t}{\sin t},\,t\in\left\{k\pi,\,k\in\mathbb{Z}\right\}$$
-$\geq$ Prin *tangenta* numărului $t\in\mathbb{R}\setminus\left\{(2k+1){\large\frac\pi2}\,|\,k\in\mathbb{Z}\right\}$ înțelegem $\tan t={\large\frac{\sin t}{\cos t}}$. Prin *cotangenta* numărului $t\in\mathbb{R}\setminus\left\{k\pi\,|\,k\in\mathbb{Z}\right\}$ înțelegem $\cot t={\large\frac{\cos t}{\sin t}}$. 
-$\geq$ Funcția $$\tan t:\mathbb{R}\setminus\left\{(2k+1)\frac\pi2\,|\,k\in\mathbb{Z}\right\}\rightarrow\mathbb{R},\,\tan=\frac{\sin t}{\cos t}$$ se numește *funcția tangentă*. Funcția $$\cot t:\mathbb{R}\setminus\left\{k\pi\,|\,k\in\mathbb{Z}\right\}\rightarrow\mathbb{R},\,\cot t=\frac{\cos t}{\sin t}$$ se numește *funcția cotangentă*.
+$\geq$ Prin *tangenta* numărului $t\in\mathbb{R}\setminus\left\{(2k+1){\large\frac\pi2}\,\middle|\,k\in\mathbb{Z}\right\}$ înțelegem $\tan t={\large\frac{\sin t}{\cos t}}$. Prin *cotangenta* numărului $t\in\mathbb{R}\setminus\left\{k\pi\,\middle|\,k\in\mathbb{Z}\right\}$ înțelegem $\cot t={\LARGE\frac{\cos t}{\sin t}}$. 
+$\geq$ Funcția $$\tan t:\mathbb{R}\setminus\left\{(2k+1)\frac\pi2\,\middle|\,k\in\mathbb{Z}\right\}\rightarrow\mathbb{R},\,\tan=\frac{\sin t}{\cos t}$$ se numește *funcția tangentă*. Funcția $$\cot t:\mathbb{R}\setminus\left\{k\pi\,\middle|\,k\in\mathbb{Z}\right\}\rightarrow\mathbb{R},\,\cot t=\frac{\cos t}{\sin t}$$ se numește *funcția cotangentă*.
 $\geq$ Proprietăți:
-$\begin{cases}\forall t\in\mathbb{R}\setminus\left\{(2k+1){\large\frac\pi2}\,|\,k\in\mathbb{Z}\right\}\implies\tan t\in\mathbb{R} \\ \forall t\in\mathbb{R}\setminus\left\{k\pi\,|\,k\in\mathbb{Z}\right\}\implies\cot t\in\mathbb{R}\end{cases}$
+$\begin{cases}\forall t\in\mathbb{R}\setminus\left\{(2k+1){\large\frac\pi2}\,\middle|\,k\in\mathbb{Z}\right\}\implies\tan t\in\mathbb{R} \\ \forall t\in\mathbb{R}\setminus\left\{k\pi\,\middle|\,k\in\mathbb{Z}\right\}\implies\cot t\in\mathbb{R}\end{cases}$
 
-$\begin{cases}1+\tan^2x={\large\frac1{\cos^2x}},\,\forall x\in D_1,\,D_1=\mathbb{R}\setminus\left\{(2k+1){\large\frac\pi2}\,|\,k\in\mathbb{Z}\right\} \\ 1+\cot^2x={\large\frac1{\sin^2x}},\,\forall x\in D_2,\,D_2=\mathbb{R}\setminus\left\{k\pi\,|\,k\in\mathbb{Z}\right\}\end{cases}$
+$\begin{cases}1+\tan^2x={\large\frac1{\cos^2x}},\,\forall x\in D_1,\,D_1=\mathbb{R}\setminus\left\{(2k+1){\large\frac\pi2}\,\middle|\,k\in\mathbb{Z}\right\} \\ 1+\cot^2x={\large\frac1{\sin^2x}},\,\forall x\in D_2,\,D_2=\mathbb{R}\setminus\left\{k\pi\,\middle|\,k\in\mathbb{Z}\right\}\end{cases}$
 
 $\begin{cases}\tan(x+k\pi)=\tan x,\,\forall x\in D_1,\,\forall k\in\mathbb{Z} \\ \cot(x+k\pi)=\cot x,\,\forall x\in D_2,\,\forall k\in\mathbb{Z}\end{cases}\implies$ funcțiile $\tan$ și $\cot$ au perioadă principală $\pi$
 
@@ -551,7 +551,7 @@ $\begin{cases}\Large a^{\log_ax}=x \\ \Large a^{\log_bc}=c^{\log_ba} \end{cases}
 $\Large\log_ax<\log_ay\Longleftrightarrow\left\{\begin{aligned} &x<y,\text{ dacă }a>1 \\ &x>y,\text{ dacă }a\in(0,1)\end{aligned}\right.$
 
 **NUMERE COMPLEXE**
-$\geq$ Se definește $\large\mathbb{R}\times\mathbb{R}=\{(a,b)\,|\,a,b\in\mathbb{R}\}$ cu operația de *adunare*: $\large(a_1,\,b_1)+(a_2,\,b_2)=(a_1+a_2,\,b_1+b_2)\in\mathbb{R}\times\mathbb{R}$ și operația de *înmulțire*: $\large(a_1,\,b_1)\cdot(a_2,\,b_2)=(a_1a_2-b_1b_2,\,a_1b_2+a_2b_1)\in\mathbb{R}\times\mathbb{R}$.  ***Observație:*** dacă $b_1=b_2=0$ adunarea și înmulțirea în $\large\mathbb{R}\times\mathbb{R}$ se reduce la adunarea și înmulțirea $\mathbb{R}\implies$ identificăm perechea $(a,\,0)$ cu numărul real $\large a$: $\large(a,\,0)=a\in\mathbb{R}$.
+$\geq$ Se definește $\large\mathbb{R}\times\mathbb{R}=\left\{(a,b)\,\middle|\,a,b\in\mathbb{R}\right\}$ cu operația de *adunare*: $\large(a_1,\,b_1)+(a_2,\,b_2)=(a_1+a_2,\,b_1+b_2)\in\mathbb{R}\times\mathbb{R}$ și operația de *înmulțire*: $\large(a_1,\,b_1)\cdot(a_2,\,b_2)=(a_1a_2-b_1b_2,\,a_1b_2+a_2b_1)\in\mathbb{R}\times\mathbb{R}$.  ***Observație:*** dacă $b_1=b_2=0$ adunarea și înmulțirea în $\large\mathbb{R}\times\mathbb{R}$ se reduce la adunarea și înmulțirea $\mathbb{R}\implies$ identificăm perechea $(a,\,0)$ cu numărul real $\large a$: $\large(a,\,0)=a\in\mathbb{R}$.
 $\geq$ Mulțimea $\mathbb{R}\times\mathbb{R}$ împreună cu cele două operații de adunare și înmulțire se numește mulțimea numerelor *complexe* și se notează cu $\large\mathbb{C}$. Orice element $\large z=(a,\,b)\in\mathbb{C}$ se numește *număr complex.* Notăm $\large(0,\,1)=i\in\mathbb{C}$, unde $\large i$ se numește *unitate imaginară* și are proprietatea $\large i^2=-1$. Notația $\large z=a+bi,\,a,b\in\mathbb{R},\,i^2=-1$ se numește *forma algebrică* a numărului complex $\large z$. $\large a$ se numește *parte reală* și se notează $\large\text{Re}(z)$ și $\large bi$ se numește *parte imaginară*, unde $\large b$ se numește *coeficientul* părții imaginare și se notează $\large\text{Im}(z)$. ***Observație:*** fie $\large z=a+bi\in\mathbb{C},\,a,b\in\mathbb{R},\,i^2=-1$. $\large z\in\mathbb{R}\Longleftrightarrow b=0$. Numerele reale sunt numere complexe cu coeficientul părții imaginare $\large 0\implies\mathbb{R}\subset\mathbb{C}.$ 
 $\geq$ Operațiile în $\large\mathbb{C}$ se realizează după cum urmează: 
 $\large\begin{aligned} z_1+z_2&=(a_1+a_2)+(b_1+b_2)i \\ z_1\cdot z_2&=(a_1a_2-b_1b_2)+(a_1b_2+a_2b_1)i \end{aligned}$
@@ -569,7 +569,7 @@ $\large 1=1+0\cdot i\in\mathbb{C},\,z\cdot1=1\cdot z=z,\,\forall z\in\mathbb{C}\
 $\large\forall z\in\mathbb{C},\,z\neq0\,\,\exists{\LARGE\frac1z}\longrightarrow\text{inversul lui z astfel încât }z\cdot{\LARGE\frac1z}=1$
 $\implies\text{împărțirea }{\LARGE\frac{z_1}{z_2}}=z_1\cdot{\LARGE\frac1{z_2}}$
 $\large z_1(z_2+z_3)=z_1z_2+z_1z_3,\,\forall z_1,z_2,z_3\in\mathbb{C}\text{ (distributivitatea înmulțirii față de adunare)}$
-$\geq$ Mulțimea $\large i\mathbb{R}^*=\{ib\,|\,b\in\mathbb{R}^*\}\subset\mathbb{C}$ se numește mulțimea numerelor *pur imaginare*.
+$\geq$ Mulțimea $\large i\mathbb{R}^*=\left\{ib\,\middle|\,b\in\mathbb{R}^*\right\}\subset\mathbb{C}$ se numește mulțimea numerelor *pur imaginare*.
 
 **CONJUGATUL UNUI NUMĂR COMPLEX**
 $\geq$ Fie $\large z=a+bi\in\mathbb{C}$. Prin *conjugatul* numărului complex $\large z$ înțelegem numărul complex $\large\overline z=a-bi$. ***Observație:*** $\large\overline{\overline z}=z=a+bi$. $\large z,\overline z$ numere complexe conjugate.
@@ -625,7 +625,7 @@ $\geq$ Numărul complex $\large z$ cu forma algebrică $\large a+bi$ are și o *
 $\geq$ Funcția arctangentă: $\large\arctan x=y\Longleftrightarrow x=\tan y,\,x\in\mathbb{R},\,y\in\left({\LARGE-\frac\pi2,\,\frac\pi2}\right)$.<br>$\large\arctan(-x)=-\arctan x$. $\large t=\arctan{\LARGE\frac ba}+k\pi,$ unde:<br>$\large\begin{aligned} &k=0,\text{ dacă }M(z)\in\text{CI} \\ &k=1,\text{ dacă }M(z)\in\text{CI sau CII} \\ &k=2,\text{ dacă }M(z)\in\text{CIV}\end{aligned}$
 
 **OPERAȚII CU NUMERE COMPLEXE ÎN FORMĂ TRIGONOMETRICĂ**
-1) înmulțirea:$\large\begin{aligned} &z_1=r_1(\cos t_1+i\sin t_1) \\ &z_2=r_2(\cos t_2+i\sin t_2) \\ &z_1z_2=r_1r_2\bigl[\cos(t_1+t_2)+i\sin(t_1+t_2)\bigr] \\ &|z_1\cdot z_2|=|z_1|\cdot|z_2|=r_1r_2 \\ &\text{Arg}(z_1z_2)=\left\{\text{arg}(z_1)+\text{arg}(z_2)+2k\pi\,|\,k\in\mathbb{Z}\right\}\,\,\,\text{ un argument al produsului este suma argumentelor}\end{aligned}$Generalizare: <br>$\large\begin{aligned} &z_k=r_k(\cos t_k+i\sin t_k),\,k=\overline{1,n} \\ &z_1z_2\cdot...\cdot z_n=r_1r_2\cdot...\cdot r_n\left[\cos(t_1+t_2+...+t_n)+i\sin(t_1+t_2+...+t_n)\right]\end{aligned}$<br>Caz particular:$\large\begin{aligned} &z_1=z_2=...=z_n=r(\cos t+i\sin t) \\ &z^n=r^n\bigl[\cos(nt)+i\sin(nt)\bigr],\,n\in\mathbb{N}^* \\ &|z^n|=r^n=|z|^n \\ &\text{Arg}(z^n)\begin{aligned}[t] &=\left\{nt+2k\pi\,|\,k\in\mathbb{Z}\right\} \\ &=\left\{n\text{arg}(z)+2k\pi\,|\,k\in\mathbb{Z}\right\}\end{aligned}\,\,\,\text{ un argument al puterii este egal cu produsul lui }n\text{ cu argumentul lui }z\end{aligned}$
+1) înmulțirea:$\large\begin{aligned} &z_1=r_1(\cos t_1+i\sin t_1) \\ &z_2=r_2(\cos t_2+i\sin t_2) \\ &z_1z_2=r_1r_2\bigl[\cos(t_1+t_2)+i\sin(t_1+t_2)\bigr] \\ &|z_1\cdot z_2|=|z_1|\cdot|z_2|=r_1r_2 \\ &\text{Arg}(z_1z_2)=\left\{\text{arg}(z_1)+\text{arg}(z_2)+2k\pi\,\middle|\,k\in\mathbb{Z}\right\}\,\,\,\text{ un argument al produsului este suma argumentelor}\end{aligned}$Generalizare: <br>$\large\begin{aligned} &z_k=r_k(\cos t_k+i\sin t_k),\,k=\overline{1,n} \\ &z_1z_2\cdot...\cdot z_n=r_1r_2\cdot...\cdot r_n\left[\cos(t_1+t_2+...+t_n)+i\sin(t_1+t_2+...+t_n)\right]\end{aligned}$<br>Caz particular:$\large\begin{aligned} &z_1=z_2=...=z_n=r(\cos t+i\sin t) \\ &z^n=r^n\bigl[\cos(nt)+i\sin(nt)\bigr],\,n\in\mathbb{N}^* \\ &|z^n|=r^n=|z|^n \\ &\text{Arg}(z^n)\begin{aligned}[t] &=\left\{nt+2k\pi\,\middle|\,k\in\mathbb{Z}\right\} \\ &=\left\{n\text{arg}(z)+2k\pi\,\middle|\,k\in\mathbb{Z}\right\}\end{aligned}\,\,\,\text{ un argument al puterii este egal cu produsul lui }n\text{ cu argumentul lui }z\end{aligned}$
 $\geq$ ***Observații:*** $\large\begin{aligned}[t] &z^n=r^n(\cos nt+i\sin nt) \\ &z=r(\cos t+i\sin t) \\ &\text{dacă }r=1\implies(\cos t+i\sin t)^n=\cos nt+i\sin nt\,\,\,\text{ regula lui Moivre}\end{aligned}$
 2) împărțirea:$\large\begin{aligned} &z_1=r_1(\cos t_1+i\sin t_1) \\ &z_2=r_2(\cos t_2+i\sin t_2) \\ &\frac{z_1}{z_2}=\frac{r_1}{r_2}\bigl[\cos(t_1-t_2)+i\sin(t_1-t_2)\bigr] \\ &\left|\frac{z_1}{z_2}\right|=\frac{r_1}{r_2}=\frac{|z_1|}{|z_2|} \\ &\operatorname{Arg}\left(\frac{z_1}{z_2}\right)=\left\{\arg z_1-\arg z_2+2k\pi \,\middle|\, k\in\mathbb{Z}\right\}\,\,\,\text{ un argument al câtului este diferența argumentelor reduse} \\ &\frac{1}{z}=\frac{1}{r}\biggl(\cos(-t)+i\sin(-t)\biggr)\end{aligned}$
 
